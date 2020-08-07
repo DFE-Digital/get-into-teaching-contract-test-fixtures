@@ -4,7 +4,7 @@ require "faker"
 require "fileutils"
 
 Faker::Config.locale = "en-GB"
-number_of_candidates_required = 150
+number_of_candidates_required = 426
 
 # clean
 FileUtils.rm_rf("./contracts")

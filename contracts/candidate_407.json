@@ -1,0 +1,31 @@
+{
+  "Service": "Get TTA",
+  "Persona": "Overseas Graduate",
+  "First Name": "Jeffery",
+  "Surname": "Schuster",
+  "Email": "johnathan.ritchie@example.net",
+  "Returner": "No",
+  "Degree": "I have an equivalent qualification from another country",
+  "Stage of Interest": "Primary",
+  "Desired start": "Not sure",
+  "Date of Birth": "1974-05-17T00:00:00.000+00:00",
+  "Where live": "Overseas",
+  "Country": "Germany",
+  "Telephone": "023 4790 7031",
+  "Prefered Time": "0000-00-00T00:00:00Z",
+  "Final Journey Status": "COMPLETE",
+  "apiSubmission": {
+    "countryId": "83f4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "preferredEducationPhaseId": 222750000,
+    "firstName": "Jeffery",
+    "lastName": "Schuster",
+    "email": "johnathan.ritchie@example.net",
+    "degreeStatusId": 222750000,
+    "initialTeacherTrainingYearId": 12917,
+    "dateOfBirth": "1974-05-17T00:00:00.000+00:00",
+    "telephone": "023 4790 7031",
+    "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
+    "degreeTypeId": 222750005,
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+  }
+}
