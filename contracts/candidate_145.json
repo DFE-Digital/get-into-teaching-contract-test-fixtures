@@ -1,0 +1,32 @@
+{
+  "Service": "Get TTA",
+  "Persona": "--",
+  "First Name": "Tamala",
+  "Surname": "Walter",
+  "Email": "vernia@example.com",
+  "Returner": "No",
+  "Degree": "Yes",
+  "Degree subject": "Biology",
+  "Degree class": "Pass (grade unknown)",
+  "Stage of Interest": "Primary",
+  "Grade 4 English and Maths": "No",
+  "Retake maths or english": "Yes",
+  "Grade 4 Science": "No",
+  "Retake science": "No",
+  "Telephone": "016977 8018",
+  "Final Journey Status": "INVALID",
+  "apiSubmission": {
+    "firstName": "Tamala",
+    "lastName": "Walter",
+    "email": "vernia@example.com",
+    "degreeStatusId": "Yes",
+    "degreeSubject": "Biology",
+    "ukDegreeGradeId": "Pass (grade unknown)",
+    "preferredEducationPhaseId": "Primary",
+    "hasGcseMathsAndEnglishId": "No",
+    "planningToRetakeGcseMathsAndEnglishId": "Yes",
+    "hasGcseScienceId": "No",
+    "planningToRetakeGcseScienceId": "No",
+    "telephone": "016977 8018"
+  }
+}

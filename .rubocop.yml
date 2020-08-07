@@ -1,0 +1,12 @@
+inherit_gem:
+  rubocop-govuk:
+    - config/default.yml
+    - config/rails.yml
+
+Rails/UnknownEnv:
+  Environments:
+    - development
+    - test
+    - rolling
+    - preprod
+    - production

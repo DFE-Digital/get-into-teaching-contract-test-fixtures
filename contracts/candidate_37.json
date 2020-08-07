@@ -1,0 +1,30 @@
+{
+  "Service": "Get TTA",
+  "Persona": "--",
+  "First Name": "Eliseo",
+  "Surname": "Fritsch",
+  "Email": "tammi.stoltenberg@example.org",
+  "Returner": "No",
+  "Degree": "Yes",
+  "Degree subject": "Chemistry",
+  "Degree class": "2:2",
+  "Stage of Interest": "Primary",
+  "Grade 4 English and Maths": "Yes",
+  "Grade 4 Science": "No",
+  "Retake science": "No",
+  "Telephone": "019241 23101",
+  "Final Journey Status": "INVALID",
+  "apiSubmission": {
+    "firstName": "Eliseo",
+    "lastName": "Fritsch",
+    "email": "tammi.stoltenberg@example.org",
+    "degreeStatusId": "Yes",
+    "degreeSubject": "Chemistry",
+    "ukDegreeGradeId": "2:2",
+    "preferredEducationPhaseId": "Primary",
+    "hasGcseMathsAndEnglishId": "Yes",
+    "hasGcseScienceId": "No",
+    "planningToRetakeGcseScienceId": "No",
+    "telephone": "019241 23101"
+  }
+}
