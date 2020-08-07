@@ -1,0 +1,31 @@
+{
+  "Service": "Get TTA",
+  "Persona": "--",
+  "First Name": "Wyatt",
+  "Surname": "Zemlak",
+  "Email": "josue_windler@example.com",
+  "Returner": "No",
+  "Degree": "Yes",
+  "Degree subject": "Biology",
+  "Degree class": "2:2",
+  "Stage of Interest": "Secondary",
+  "Grade 4 English and Maths": "No",
+  "Retake maths or english": "No",
+  "Telephone": "016977 4686",
+  "Final Journey Status": "INVALID",
+  "apiSubmission": {
+    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "preferredEducationPhaseId": 222750001,
+    "firstName": "Wyatt",
+    "lastName": "Zemlak",
+    "email": "josue_windler@example.com",
+    "degreeStatusId": 222750000,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
+    "hasGcseMathsAndEnglishId": 222750001,
+    "planningToRetakeGcseMathsAndEnglishId": 222750001,
+    "telephone": "016977 4686",
+    "degreeTypeId": 222750000,
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+  }
+}

@@ -4,7 +4,7 @@ require "faker"
 require "fileutils"
 
 Faker::Config.locale = "en-GB"
-number_of_candidates_required = 70
+number_of_candidates_required = 150
 
 # clean
 FileUtils.rm_rf("./contracts")
@@ -19,14 +19,24 @@ privacy_policy = {
 File.write("./contracts/privacy_policy.json", JSON.pretty_generate(privacy_policy))
 
 degree_status = [
-  { id: "222750000", value: "Graduate or postgraduate" },
-  { id: "222750001", value: "Final year" },
-  { id: "222750002", value: "Second year" },
-  { id: "222750003", value: "First year" },
-  { id: "222750004", value: "I don''t have a degree and am not studying for one" },
-  { id: "222750005", value: "Other" },
+  { id: 222_750_000, value: "Graduate or postgraduate" },
+  { id: 222_750_001, value: "Final year" },
+  { id: 222_750_002, value: "Second year" },
+  { id: 222_750_003, value: "First year" },
+  { id: 222_750_004, value: "I don''t have a degree and am not studying for one" },
+  { id: 222_750_005, value: "Other" },
 ]
 File.write("./contracts/degree_status.json", JSON.pretty_generate(degree_status))
+
+uk_degree_grades = [
+  { id: 222_750_000, value: "Not applicable" },
+  { id: 222_750_001, value: "First class" },
+  { id: 222_750_002, value: "2:1" },
+  { id: 222_750_003, value: "2:2" },
+  { id: 222_750_004, value: "Third class or below" },
+  { id: 222_750_005, value: "Pass (grade unknown)" },
+]
+File.write("./contracts/uk_degree_grades.json", JSON.pretty_generate(uk_degree_grades))
 
 teaching_subjects = [
   { id: "802655a1-2afa-e811-a981-000d3a276620", value: "Biology" },
@@ -50,59 +60,49 @@ countries = [
 ]
 File.write("./contracts/countries.json", JSON.pretty_generate(countries))
 
-uk_degree_grades = [
-  { id: "222750000", value: "Not applicable" },
-  { id: "222750001", value: "First class" },
-  { id: "222750002", value: "2:1" },
-  { id: "222750003", value: "2:2" },
-  { id: "222750004", value: "Third class or below" },
-  { id: "222750005", value: "Pass (grade unknown)" },
-]
-File.write("./contracts/uk_degree_grades.json", JSON.pretty_generate(uk_degree_grades))
-
 education_phases = [
-  { id: "222750000", value: "Primary" },
-  { id: "222750001", value: "Secondary" },
+  { id: 222_750_000, value: "Primary" },
+  { id: 222_750_001, value: "Secondary" },
 ]
 File.write("./contracts/education_phases.json", JSON.pretty_generate(education_phases))
 
 retake_gcse_status = [
-  { id: "222750000", value: "Planning on Retaking GCSE" },
-  { id: "222750001", value: "Not Answered" },
+  { id: 222_750_000, value: "Planning on Retaking GCSE" },
+  { id: 222_750_001, value: "Not Answered" },
 ]
 File.write("./contracts/retake_gcse_status.json", JSON.pretty_generate(retake_gcse_status))
 
 initial_teacher_training_years = [
-  { id: "12907", value: "2009" },
-  { id: "12908", value: "2010" },
-  { id: "12909", value: "2011" },
-  { id: "12910", value: "2012" },
-  { id: "12911", value: "2013" },
-  { id: "12912", value: "2014" },
-  { id: "12913", value: "2015" },
-  { id: "12914", value: "2016" },
-  { id: "12917", value: "Not sure" },
-  { id: "12918", value: "2017" },
-  { id: "22300", value: "2018" },
-  { id: "22301", value: "2019" },
-  { id: "22302", value: "2020" },
-  { id: "22303", value: "2021" },
-  { id: "22304", value: "2022" },
-  { id: "22305", value: "2023" },
-  { id: "22306", value: "2024" },
+  { id: 12_907, value: "2009" },
+  { id: 12_908, value: "2010" },
+  { id: 12_909, value: "2011" },
+  { id: 12_910, value: "2012" },
+  { id: 12_911, value: "2013" },
+  { id: 12_912, value: "2014" },
+  { id: 12_913, value: "2015" },
+  { id: 12_914, value: "2016" },
+  { id: 12_917, value: "Not sure" },
+  { id: 12_918, value: "2017" },
+  { id: 22_300, value: "2018" },
+  { id: 22_301, value: "2019" },
+  { id: 22_302, value: "2020" },
+  { id: 22_303, value: "2021" },
+  { id: 22_304, value: "2022" },
+  { id: 22_305, value: "2023" },
+  { id: 22_306, value: "2024" },
 ]
 File.write("./contracts/initial_teacher_training_years.json", JSON.pretty_generate(initial_teacher_training_years))
 
 qualification_types = [
-  { id: "222750000", value: "Degree" },
-  { id: "222750001", value: "Professional/vocational" },
-  { id: "222750002", value: "Teaching qualification" },
-  { id: "222750003", value: "Undergraduate" },
-  { id: "222750004", value: "Other" },
-  { id: "222750005", value: "Degree Equivalent" },
-  { id: "222750006", value: "Postgraduate" },
-  { id: "222750007", value: "A level or equivalent" },
-  { id: "222750008", value: "GCSE or equivalent" },
+  { id: 222_750_000, value: "Degree" },
+  { id: 222_750_001, value: "Professional/vocational" },
+  { id: 222_750_002, value: "Teaching qualification" },
+  { id: 222_750_003, value: "Undergraduate" },
+  { id: 222_750_004, value: "Other" },
+  { id: 222_750_005, value: "Degree Equivalent" },
+  { id: 222_750_006, value: "Postgraduate" },
+  { id: 222_750_007, value: "A level or equivalent" },
+  { id: 222_750_008, value: "GCSE or equivalent" },
 ]
 File.write("./contracts/qualification_types.json", JSON.pretty_generate(qualification_types))
 
@@ -233,9 +233,29 @@ fixtures.each_with_index do |row, row_index|
     api_fixture["countryId"] = country[:id] || api_fixture["countryId"]
   end
 
+  # CRM sees things differently from candidates for degrees
+
+  # Do you have a degree? degreeStatusId & ukDegreeGradeId
+  case api_fixture["degreeStatusId"]
+  when "Yes"
+    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == "Graduate or postgraduate" } || {})[:id]
+    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Not applicable" } || {})[:id]
+  when "No"
+    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == "I don''t have a degree and am not studying for one" } || {})[:id]
+    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Not applicable" } || {})[:id]
+  when "I'm studying for a degree"
+    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == api_fixture["studyYear"] } || {})[:id]
+    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Not applicable" } || {})[:id]
+  when "I have an equivalent qualification from another country"
+    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == "Graduate or postgraduate" } || {})[:id]
+    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Pass (grade unknown)" } || {})[:id]
+  end
+
+  api_fixture.delete "studyYear"
+
   unless api_fixture["ukDegreeGradeId"].nil?
     uk_degree_grade = uk_degree_grades.find { |entry| entry[:value] == api_fixture["ukDegreeGradeId"] } || {}
-    api_fixture["ukDegreeGradeId"] = (uk_degree_grade[:id] || api_fixture["ukDegreeGradeId"]).to_i
+    api_fixture["ukDegreeGradeId"] = uk_degree_grade[:id] || api_fixture["ukDegreeGradeId"]
   end
 
   unless api_fixture["initialTeacherTrainingYearId"].nil?
@@ -244,11 +264,6 @@ fixtures.each_with_index do |row, row_index|
   end
 
   api_fixture["acceptedPolicyId"] = privacy_policy[:id]
-
-  unless api_fixture["degreeStatusId"].nil?
-    api_fixture["degreeStatusId"] = yes_no_options api_fixture["degreeStatusId"]
-    api_fixture["degreeTypeId"] = yes_no_options api_fixture["degreeStatusId"]
-  end
 
   unless api_fixture["preferredEducationPhaseId"].nil?
     api_fixture["preferredEducationPhaseId"] = primary_secondary_options api_fixture["preferredEducationPhaseId"]

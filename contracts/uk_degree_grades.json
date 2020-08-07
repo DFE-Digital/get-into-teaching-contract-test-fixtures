@@ -1,26 +1,26 @@
 [
   {
-    "id": "222750000",
+    "id": 222750000,
     "value": "Not applicable"
   },
   {
-    "id": "222750001",
+    "id": 222750001,
     "value": "First class"
   },
   {
-    "id": "222750002",
+    "id": 222750002,
     "value": "2:1"
   },
   {
-    "id": "222750003",
+    "id": 222750003,
     "value": "2:2"
   },
   {
-    "id": "222750004",
+    "id": 222750004,
     "value": "Third class or below"
   },
   {
-    "id": "222750005",
+    "id": 222750005,
     "value": "Pass (grade unknown)"
   }
 ]

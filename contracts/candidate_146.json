@@ -1,0 +1,31 @@
+{
+  "Service": "Get TTA",
+  "Persona": "--",
+  "First Name": "Carlos",
+  "Surname": "McLaughlin",
+  "Email": "alverta.stokes@example.org",
+  "Returner": "No",
+  "Degree": "Yes",
+  "Degree subject": "Maths",
+  "Degree class": "Pass (grade unknown)",
+  "Stage of Interest": "Secondary",
+  "Grade 4 English and Maths": "No",
+  "Retake maths or english": "No",
+  "Telephone": "0813 061 6013",
+  "Final Journey Status": "INVALID",
+  "apiSubmission": {
+    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "preferredEducationPhaseId": 222750001,
+    "firstName": "Carlos",
+    "lastName": "McLaughlin",
+    "email": "alverta.stokes@example.org",
+    "degreeStatusId": 222750000,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750005,
+    "hasGcseMathsAndEnglishId": 222750001,
+    "planningToRetakeGcseMathsAndEnglishId": 222750001,
+    "telephone": "0813 061 6013",
+    "degreeTypeId": 222750000,
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+  }
+}
