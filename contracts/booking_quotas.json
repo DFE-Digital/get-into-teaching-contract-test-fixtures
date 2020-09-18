@@ -1,0 +1,32 @@
+[
+  {
+    "timeSlot": "10am - 10:30am",
+    "day": "Tuesday 21 July",
+    "startAt": "2020-07-21T09:00:00Z",
+    "endAt": "2020-07-21T09:30:00Z",
+    "numberOfBookings": 0,
+    "quota": 12,
+    "isAvailable": true,
+    "id": "d828803b-1c83-ea11-a811-000d3a44a94a"
+  },
+  {
+    "timeSlot": "10:30am - 11am",
+    "day": "Tuesday 21 July",
+    "startAt": "2020-07-21T09:30:00Z",
+    "endAt": "2020-07-21T10:00:00Z",
+    "numberOfBookings": 0,
+    "quota": 12,
+    "isAvailable": true,
+    "id": "da28803b-1c83-ea11-a811-000d3a44a94a"
+  },
+  {
+    "timeSlot": "11am - 11:30am",
+    "day": "Tuesday 21 July",
+    "startAt": "2020-07-21T10:00:00Z",
+    "endAt": "2020-07-21T10:30:00Z",
+    "numberOfBookings": 0,
+    "quota": 12,
+    "isAvailable": true,
+    "id": "dc28803b-1c83-ea11-a811-000d3a44a94a"
+  }
+]

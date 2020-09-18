@@ -8,4 +8,4 @@ Once the exported XLSX file has been placed over the existing repository file yo
 $ ruby ./generate.rb
 ```
 
-this will update the candidate data files in the contract folder. The generated files will need to be included in all the component test suites so that they all run against the same set of contract scenarios.
+This process will update the candidate data files in the contract folder. The generated files will need to be included in all the component test suites so that they all run against the same set of contract scenarios.

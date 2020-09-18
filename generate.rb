@@ -18,6 +18,40 @@ privacy_policy = {
 }
 File.write("./contracts/privacy_policy.json", JSON.pretty_generate(privacy_policy))
 
+booking_quotas = [
+  {
+    timeSlot: "10am - 10:30am",
+    day: "Tuesday 21 July",
+    startAt: "2020-07-21T09:00:00Z",
+    endAt: "2020-07-21T09:30:00Z",
+    numberOfBookings: 0,
+    quota: 12,
+    isAvailable: true,
+    id: "d828803b-1c83-ea11-a811-000d3a44a94a",
+  },
+  {
+    timeSlot: "10:30am - 11am",
+    day: "Tuesday 21 July",
+    startAt: "2020-07-21T09:30:00Z",
+    endAt: "2020-07-21T10:00:00Z",
+    numberOfBookings: 0,
+    quota: 12,
+    isAvailable: true,
+    id: "da28803b-1c83-ea11-a811-000d3a44a94a",
+  },
+  {
+    timeSlot: "11am - 11:30am",
+    day: "Tuesday 21 July",
+    startAt: "2020-07-21T10:00:00Z",
+    endAt: "2020-07-21T10:30:00Z",
+    numberOfBookings: 0,
+    quota: 12,
+    isAvailable: true,
+    id: "dc28803b-1c83-ea11-a811-000d3a44a94a",
+  },
+]
+File.write("./contracts/booking_quotas.json", JSON.pretty_generate(booking_quotas))
+
 degree_status = [
   { id: 222_750_000, value: "Graduate or postgraduate" },
   { id: 222_750_001, value: "Final year" },
@@ -134,7 +168,7 @@ multi_choice_fields = %w[subjectTaughtId preferredTeachingSubjectId degreeSubjec
 
 workbook = Creek::Book.new "./Candidate Personna Data Profiles.xlsx"
 worksheet = workbook.sheets.first
-fixtures = worksheet.simple_rows.first(number_of_candidates_required)
+fixtures = worksheet.simple_rows.first(number_of_candidates_required + 5)
 
 field_labels = []
 api_parameters = []
@@ -285,7 +319,9 @@ fixtures.each_with_index do |row, row_index|
     api_fixture["planningToRetakeGcseScienceId"] = yes_no_options api_fixture["planningToRetakeGcseScienceId"]
   end
 
-  html_fixture["apiSubmission"] = api_fixture
-
-  File.write("./contracts/candidate_#{row_index}.json", JSON.pretty_generate(html_fixture))
+  File.write("./contracts/candidate_#{row_index}.json", JSON.pretty_generate({
+    uiSignUp: html_fixture,
+    apiSubmission: api_fixture,
+    dynamicsEntities: [],
+  }))
 end
