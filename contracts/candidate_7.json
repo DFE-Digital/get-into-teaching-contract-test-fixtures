@@ -1,38 +1,271 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Returner",
-  "First Name": "Jennell",
-  "Surname": "Rodriguez",
-  "Email": "viviana_raynor@example.net",
-  "Returner": "Yes",
-  "Has previous teacher reference number": "Yes",
-  "Teacher Ref Number (TRN)": "123456",
-  "Qualified Teaching Status (QTS)": "Yes",
-  "Previous main subject": "Biology",
-  "Return to subject": "Physics",
-  "Date of Birth": "1987-06-03T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "5959 Roger Courts",
-  "Address line 2": "Apt. 434",
-  "Town or city": "Kutchshire",
-  "Postcode": "SH9 9JB",
-  "Telephone": "055 4806 8812",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Returner",
+    "First Name": "Larry",
+    "Surname": "Oberbrunner",
+    "Email": "wilson.gutmann@example.com",
+    "Returner": "Yes",
+    "Has previous teacher reference number": "Yes",
+    "Teacher Ref Number (TRN)": "123456",
+    "Qualified Teaching Status (QTS)": "Yes",
+    "Previous main subject": "Chemistry",
+    "Return to subject": "Physics",
+    "Date of Birth": "1984-06-19T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "2541 Caitlyn Stream",
+    "Address line 2": "Apt. 807",
+    "Town or city": "South Cornell",
+    "Postcode": "UD7 4BN",
+    "Telephone": "055 1894 0793",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Jennell",
-    "lastName": "Rodriguez",
-    "email": "viviana_raynor@example.net",
+    "firstName": "Larry",
+    "lastName": "Oberbrunner",
+    "email": "wilson.gutmann@example.com",
     "teacherId": "123456",
-    "subjectTaughtId": "802655a1-2afa-e811-a981-000d3a276620",
+    "subjectTaughtId": "842655a1-2afa-e811-a981-000d3a276620",
     "preferredTeachingSubjectId": "ac2655a1-2afa-e811-a981-000d3a276620",
-    "dateOfBirth": "1987-06-03T00:00:00.000+00:00",
-    "addressLine1": "5959 Roger Courts",
-    "addressLine2": "Apt. 434",
-    "addressCity": "Kutchshire",
-    "addressPostcode": "SH9 9JB",
-    "telephone": "055 4806 8812",
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "dateOfBirth": "1984-06-19T00:00:00.000+00:00",
+    "addressLine1": "2541 Caitlyn Stream",
+    "addressLine2": "Apt. 807",
+    "addressCity": "South Cornell",
+    "addressPostcode": "UD7 4BN",
+    "telephone": "055 1894 0793",
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
+    "planningToRetakeGcseMathsAndEnglishId": null,
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": true
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": true
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": true
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": true
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "firstname",
+        "Value": "Larry"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Oberbrunner"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "wilson.gutmann@example.com"
+      },
+      {
+        "Key": "dfe_dfesnumber",
+        "Value": "123456"
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1984-06-19T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "2541 Caitlyn Stream"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 807"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "South Cornell"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "UD7 4BN"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "055 1894 0793"
+      },
+      {
+        "Key": "dfe_preferredteachingsubject01",
+        "Value": {
+          "Id": "ac2655a1-2afa-e811-a981-000d3a276620",
+          "LogicalName": "dfe_teachingsubjectlist"
+        }
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750001
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatepastteachingposition_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatepastteachingposition",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_subjecttaught",
+                  "Value": {
+                    "Id": "842655a1-2afa-e811-a981-000d3a276620",
+                    "LogicalName": "dfe_teachingsubjectlist"
+                  }
+                },
+                {
+                  "Key": "dfe_educationphase",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatepastteachingposition"
+        }
+      }
+    ]
   }
 }

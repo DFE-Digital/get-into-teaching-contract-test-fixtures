@@ -1,27 +1,16 @@
 {
-  "Service": "Get TTA",
-  "Persona": "--",
-  "First Name": "Blair",
-  "Surname": "Pfeffer",
-  "Email": "elsy_satterfield@example.com",
-  "Returner": "No",
-  "Degree": "Yes",
-  "Degree subject": "English",
-  "Degree class": "Third class or below",
-  "Stage of Interest": "EXIT",
-  "Telephone": "0800 872710",
-  "Final Journey Status": "INVALID",
-  "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
-    "preferredEducationPhaseId": "EXIT",
-    "firstName": "Blair",
-    "lastName": "Pfeffer",
-    "email": "elsy_satterfield@example.com",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750004,
-    "telephone": "0800 872710",
-    "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "--",
+    "First Name": "Helen",
+    "Surname": "Pfannerstill",
+    "Email": "conrad@example.com",
+    "Returner": "No",
+    "Degree": "Yes",
+    "Degree subject": "Biology",
+    "Degree class": "Third class or below",
+    "Stage of Interest": "EXIT",
+    "Telephone": "019292 15503",
+    "Final Journey Status": "INVALID"
   }
 }

@@ -1,38 +1,289 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Graduate with equivalent qualification",
-  "First Name": "Ivory",
-  "Surname": "Herzog",
-  "Email": "tammara@example.com",
-  "Returner": "No",
-  "Degree": "I have an equivalent qualification from another country",
-  "Stage of Interest": "Primary",
-  "Desired start": "Not sure",
-  "Date of Birth": "2000-09-27T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "307 Shane Passage",
-  "Address line 2": "Suite 536",
-  "Town or city": "McGlynnshire",
-  "Postcode": "EA1 7TN",
-  "Telephone": "0500 125714",
-  "Prefered Time": "0000-00-00T00:00:00Z",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Graduate with equivalent qualification",
+    "First Name": "Katelynn",
+    "Surname": "Lind",
+    "Email": "keli_green@example.net",
+    "Returner": "No",
+    "Degree": "I have an equivalent qualification from another country",
+    "Stage of Interest": "Primary",
+    "Desired start": "Not sure",
+    "Date of Birth": "1990-09-15T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "364 Venetta Hills",
+    "Address line 2": "Suite 317",
+    "Town or city": "North Rubyemouth",
+    "Postcode": "Z2A 8NN",
+    "Telephone": "056 9497 2534",
+    "Prefered Time": "0000-00-00T00:00:00Z",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Ivory",
-    "lastName": "Herzog",
-    "email": "tammara@example.com",
+    "firstName": "Katelynn",
+    "lastName": "Lind",
+    "email": "keli_green@example.net",
     "degreeStatusId": 222750000,
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "2000-09-27T00:00:00.000+00:00",
-    "addressLine1": "307 Shane Passage",
-    "addressLine2": "Suite 536",
-    "addressCity": "McGlynnshire",
-    "addressPostcode": "EA1 7TN",
-    "telephone": "0500 125714",
+    "dateOfBirth": "1990-09-15T00:00:00.000+00:00",
+    "addressLine1": "364 Venetta Hills",
+    "addressLine2": "Suite 317",
+    "addressCity": "North Rubyemouth",
+    "addressPostcode": "Z2A 8NN",
+    "telephone": "056 9497 2534",
     "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
     "degreeTypeId": 222750005,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
+    "planningToRetakeGcseMathsAndEnglishId": null,
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "true"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "firstname",
+        "Value": "Katelynn"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Lind"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "keli_green@example.net"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 12917
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1990-09-15T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "364 Venetta Hills"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Suite 317"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "North Rubyemouth"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "Z2A 8NN"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "056 9497 2534"
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750000
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "056 9497 2534"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Katelynn Lind"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
+        }
+      }
+    ]
   }
 }

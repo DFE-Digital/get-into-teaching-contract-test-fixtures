@@ -1,46 +1,320 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Graduate",
-  "First Name": "Beaulah",
-  "Surname": "Maggio",
-  "Email": "jeffrey.reichel@example.org",
-  "Returner": "No",
-  "Degree": "Yes",
-  "Degree subject": "Chemistry",
-  "Degree class": "Pass (grade unknown)",
-  "Stage of Interest": "Primary",
-  "Grade 4 English and Maths": "Yes",
-  "Grade 4 Science": "No",
-  "Retake science": "Yes",
-  "Desired start": "2020",
-  "Date of Birth": "1992-09-24T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "67896 Chantel Mountain",
-  "Address line 2": "Suite 958",
-  "Town or city": "New Ronnie",
-  "Postcode": "W5 8HN",
-  "Telephone": "0960 326 5908",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Graduate",
+    "First Name": "Vincenzo",
+    "Surname": "Adams",
+    "Email": "lucille_jacobs@example.org",
+    "Returner": "No",
+    "Degree": "Yes",
+    "Degree subject": "Biology",
+    "Degree class": "Pass (grade unknown)",
+    "Stage of Interest": "Primary",
+    "Grade 4 English and Maths": "Yes",
+    "Grade 4 Science": "No",
+    "Retake science": "Yes",
+    "Desired start": "2020",
+    "Date of Birth": "1981-03-29T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "18641 Filiberto Spur",
+    "Address line 2": "Apt. 464",
+    "Town or city": "East Donnieville",
+    "Postcode": "W7K 7ZL",
+    "Telephone": "0500 782819",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Beaulah",
-    "lastName": "Maggio",
-    "email": "jeffrey.reichel@example.org",
+    "firstName": "Vincenzo",
+    "lastName": "Adams",
+    "email": "lucille_jacobs@example.org",
     "degreeStatusId": 222750000,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750005,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1992-09-24T00:00:00.000+00:00",
-    "addressLine1": "67896 Chantel Mountain",
-    "addressLine2": "Suite 958",
-    "addressCity": "New Ronnie",
-    "addressPostcode": "W5 8HN",
-    "telephone": "0960 326 5908",
+    "dateOfBirth": "1981-03-29T00:00:00.000+00:00",
+    "addressLine1": "18641 Filiberto Spur",
+    "addressLine2": "Apt. 464",
+    "addressCity": "East Donnieville",
+    "addressPostcode": "W7K 7ZL",
+    "telephone": "0500 782819",
     "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "planningToRetakeGcseMathsAndEnglishId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "dfe_candidatestatus",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_iscandidateeligibleforadviser",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_isadvisorrequiredos",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_waitingtobeassigneddate",
+        "Value": "0000-00-00T00:00:00.0000000Z"
+      },
+      {
+        "Key": "firstname",
+        "Value": "Vincenzo"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Adams"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "lucille_jacobs@example.org"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 22302
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1981-03-29T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "18641 Filiberto Spur"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 464"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "East Donnieville"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "W7K 7ZL"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "0500 782819"
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcseenglish",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsemaths",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsescience",
+        "Value": {
+          "Value": 222750001
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatequalification",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_type",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_ukdegreegrade",
+                  "Value": {
+                    "Value": 222750005
+                  }
+                },
+                {
+                  "Key": "dfe_degreestatus",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_subject",
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatequalification"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      }
+    ]
   }
 }

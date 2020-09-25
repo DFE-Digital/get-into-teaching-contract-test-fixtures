@@ -1,45 +1,322 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Student",
-  "First Name": "Shirlene",
-  "Surname": "Gislason",
-  "Email": "adelle_huels@example.com",
-  "Returner": "No",
-  "Degree": "I'm studying for a degree",
-  "Study year": "Second year",
-  "Degree subject": "Maths",
-  "Degree class": "First class",
-  "Stage of Interest": "Secondary",
-  "Grade 4 English and Maths": "Yes",
-  "Interested subject": "Biology",
-  "Desired start": "2023",
-  "Date of Birth": "1973-01-31T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "9536 Morissette Roads",
-  "Address line 2": "Apt. 838",
-  "Town or city": "Wilkinsonside",
-  "Postcode": "UC8 4DA",
-  "Telephone": "0800 778 7443",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Student",
+    "First Name": "Roderick",
+    "Surname": "Predovic",
+    "Email": "freddy@example.com",
+    "Returner": "No",
+    "Degree": "I'm studying for a degree",
+    "Study year": "First year",
+    "Degree subject": "English",
+    "Degree class": "Not applicable",
+    "Stage of Interest": "Secondary",
+    "Grade 4 English and Maths": "Yes",
+    "Interested subject": "English",
+    "Desired start": "2023",
+    "Date of Birth": "1998-08-31T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "4679 Lemke Expressway",
+    "Address line 2": "Suite 351",
+    "Town or city": "Port Tomi",
+    "Postcode": "TF1R 0XB",
+    "Telephone": "0911 091 2696",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Shirlene",
-    "lastName": "Gislason",
-    "email": "adelle_huels@example.com",
-    "degreeStatusId": 222750002,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750001,
+    "firstName": "Roderick",
+    "lastName": "Predovic",
+    "email": "freddy@example.com",
+    "degreeStatusId": 222750003,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "802655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "942655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1973-01-31T00:00:00.000+00:00",
-    "addressLine1": "9536 Morissette Roads",
-    "addressLine2": "Apt. 838",
-    "addressCity": "Wilkinsonside",
-    "addressPostcode": "UC8 4DA",
-    "telephone": "0800 778 7443",
+    "dateOfBirth": "1998-08-31T00:00:00.000+00:00",
+    "addressLine1": "4679 Lemke Expressway",
+    "addressLine2": "Suite 351",
+    "addressCity": "Port Tomi",
+    "addressPostcode": "TF1R 0XB",
+    "telephone": "0911 091 2696",
     "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseScienceId": null,
+    "planningToRetakeGcseMathsAndEnglishId": null,
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "dfe_candidatestatus",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_iscandidateeligibleforadviser",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_isadvisorrequiredos",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_waitingtobeassigneddate",
+        "Value": "0000-00-00T00:00:00.0000000Z"
+      },
+      {
+        "Key": "firstname",
+        "Value": "Roderick"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Predovic"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "freddy@example.com"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 22305
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1998-08-31T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "4679 Lemke Expressway"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Suite 351"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Port Tomi"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "TF1R 0XB"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "0911 091 2696"
+      },
+      {
+        "Key": "dfe_preferredteachingsubject01",
+        "Value": {
+          "Id": "942655a1-2afa-e811-a981-000d3a276620",
+          "LogicalName": "dfe_teachingsubjectlist"
+        }
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcseenglish",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsemaths",
+        "Value": {
+          "Value": 222750000
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatequalification",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_type",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_ukdegreegrade",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_degreestatus",
+                  "Value": {
+                    "Value": 222750003
+                  }
+                },
+                {
+                  "Key": "dfe_subject",
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatequalification"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      }
+    ]
   }
 }

@@ -1,22 +1,13 @@
 {
-  "Service": "Get TTA",
-  "Persona": "--",
-  "First Name": "Milan",
-  "Surname": "Roberts",
-  "Email": "bettina@example.com",
-  "Returner": "No",
-  "Degree": "No",
-  "Telephone": "0370 465 2864",
-  "Final Journey Status": "INVALID",
-  "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
-    "preferredEducationPhaseId": 222750001,
-    "firstName": "Milan",
-    "lastName": "Roberts",
-    "email": "bettina@example.com",
-    "degreeStatusId": 222750004,
-    "degreeTypeId": 222750000,
-    "telephone": "0370 465 2864",
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "--",
+    "First Name": "Lamont",
+    "Surname": "Swaniawski",
+    "Email": "hershel_waelchi@example.com",
+    "Returner": "No",
+    "Degree": "No",
+    "Telephone": "026 3145 1317",
+    "Final Journey Status": "INVALID"
   }
 }

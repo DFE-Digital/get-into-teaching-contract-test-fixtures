@@ -1,31 +1,266 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Overseas Graduate with equivalent qualification",
-  "First Name": "Benita",
-  "Surname": "Block",
-  "Email": "riley@example.com",
-  "Returner": "No",
-  "Degree": "I have an equivalent qualification from another country",
-  "Stage of Interest": "Primary",
-  "Desired start": "Not sure",
-  "Date of Birth": "1975-08-01T00:00:00.000+00:00",
-  "Where live": "Overseas",
-  "Country": "Ghana",
-  "Telephone": "0913 473 3378",
-  "Prefered Time": "0000-00-00T00:00:00Z",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Overseas Graduate with equivalent qualification",
+    "First Name": "Sarina",
+    "Surname": "Schamberger",
+    "Email": "octavio@example.org",
+    "Returner": "No",
+    "Degree": "I have an equivalent qualification from another country",
+    "Stage of Interest": "Primary",
+    "Desired start": "Not sure",
+    "Date of Birth": "1983-11-24T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Ghana",
+    "Telephone": "0847 891 3525",
+    "Prefered Time": "0000-00-00T00:00:00Z",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Benita",
-    "lastName": "Block",
-    "email": "riley@example.com",
+    "firstName": "Sarina",
+    "lastName": "Schamberger",
+    "email": "octavio@example.org",
     "degreeStatusId": 222750000,
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1975-08-01T00:00:00.000+00:00",
-    "telephone": "0913 473 3378",
+    "dateOfBirth": "1983-11-24T00:00:00.000+00:00",
+    "telephone": "0847 891 3525",
     "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
     "degreeTypeId": 222750005,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
+    "planningToRetakeGcseMathsAndEnglishId": null,
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "true"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "firstname",
+        "Value": "Sarina"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Schamberger"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "octavio@example.org"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 12917
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1983-11-24T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "0847 891 3525"
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750000
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "0847 891 3525"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Sarina Schamberger"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
+        }
+      }
+    ]
   }
 }

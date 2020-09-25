@@ -1,47 +1,321 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Student",
-  "First Name": "Darrick",
-  "Surname": "Kub",
-  "Email": "chana.ruecker@example.com",
-  "Returner": "No",
-  "Degree": "I'm studying for a degree",
-  "Study year": "Final year",
-  "Degree subject": "Maths",
-  "Degree class": "Pass (grade unknown)",
-  "Stage of Interest": "Primary",
-  "Grade 4 English and Maths": "No",
-  "Retake maths or english": "Yes",
-  "Grade 4 Science": "Yes",
-  "Desired start": "Not sure",
-  "Date of Birth": "1996-03-24T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "56632 Jackie Bypass",
-  "Address line 2": "Suite 231",
-  "Town or city": "Scotmouth",
-  "Postcode": "T7 8BL",
-  "Telephone": "01167 396587",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Final year student",
+    "First Name": "Heather",
+    "Surname": "Swift",
+    "Email": "russell@example.com",
+    "Returner": "No",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Final year",
+    "Degree subject": "English",
+    "Degree class": "Pass (grade unknown)",
+    "Stage of Interest": "Primary",
+    "Grade 4 English and Maths": "No",
+    "Retake maths or english": "Yes",
+    "Grade 4 Science": "Yes",
+    "Desired start": "Not sure",
+    "Date of Birth": "1977-03-30T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "83592 Donnie Creek",
+    "Address line 2": "Apt. 139",
+    "Town or city": "Port Roxanestad",
+    "Postcode": "Y8 3UB",
+    "Telephone": "055 1609 6358",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Darrick",
-    "lastName": "Kub",
-    "email": "chana.ruecker@example.com",
+    "firstName": "Heather",
+    "lastName": "Swift",
+    "email": "russell@example.com",
     "degreeStatusId": 222750001,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750005,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1996-03-24T00:00:00.000+00:00",
-    "addressLine1": "56632 Jackie Bypass",
-    "addressLine2": "Suite 231",
-    "addressCity": "Scotmouth",
-    "addressPostcode": "T7 8BL",
-    "telephone": "01167 396587",
+    "dateOfBirth": "1977-03-30T00:00:00.000+00:00",
+    "addressLine1": "83592 Donnie Creek",
+    "addressLine2": "Apt. 139",
+    "addressCity": "Port Roxanestad",
+    "addressPostcode": "Y8 3UB",
+    "telephone": "055 1609 6358",
     "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "dfe_candidatestatus",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_iscandidateeligibleforadviser",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_isadvisorrequiredos",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_waitingtobeassigneddate",
+        "Value": "0000-00-00T00:00:00.0000000Z"
+      },
+      {
+        "Key": "firstname",
+        "Value": "Heather"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Swift"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "russell@example.com"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 12917
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1977-03-30T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "83592 Donnie Creek"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 139"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Port Roxanestad"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "Y8 3UB"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "055 1609 6358"
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcseenglish",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsemaths",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsescience",
+        "Value": {
+          "Value": 222750000
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatequalification",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_type",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_ukdegreegrade",
+                  "Value": {
+                    "Value": 222750005
+                  }
+                },
+                {
+                  "Key": "dfe_degreestatus",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_subject",
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatequalification"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      }
+    ]
   }
 }

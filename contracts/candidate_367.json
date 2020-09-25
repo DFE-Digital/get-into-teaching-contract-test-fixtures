@@ -1,33 +1,35 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Student",
-  "First Name": "Keshia",
-  "Surname": "Schroeder",
-  "Email": "cris@example.net",
-  "Returner": "No",
-  "Degree": "I'm studying for a degree",
-  "Study year": "Final year",
-  "Degree subject": "Biology",
-  "Degree class": "Pass (grade unknown)",
-  "Stage of Interest": "Primary",
-  "Grade 4 English and Maths": "No",
-  "Retake maths or english": "Yes",
-  "Grade 4 Science": "Yes",
-  "Desired start": "2021",
-  "Date of Birth": "1973-10-28T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "44729 Hyatt Brook",
-  "Address line 2": "Suite 371",
-  "Town or city": "West Kayce",
-  "Postcode": "YK5 1QB",
-  "Telephone": "0353 974 8303",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Final year student",
+    "First Name": "Erica",
+    "Surname": "Kunde",
+    "Email": "alex_rogahn@example.org",
+    "Returner": "No",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Final year",
+    "Degree subject": "Biology",
+    "Degree class": "Pass (grade unknown)",
+    "Stage of Interest": "Primary",
+    "Grade 4 English and Maths": "No",
+    "Retake maths or english": "Yes",
+    "Grade 4 Science": "Yes",
+    "Desired start": "2021",
+    "Date of Birth": "1974-08-01T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "548 Stanton Burgs",
+    "Address line 2": "Apt. 268",
+    "Town or city": "New Lorainefurt",
+    "Postcode": "D6A 2FB",
+    "Telephone": "056 5255 3739",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Keshia",
-    "lastName": "Schroeder",
-    "email": "cris@example.net",
+    "firstName": "Erica",
+    "lastName": "Kunde",
+    "email": "alex_rogahn@example.org",
     "degreeStatusId": 222750001,
     "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750005,
@@ -35,13 +37,285 @@
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1973-10-28T00:00:00.000+00:00",
-    "addressLine1": "44729 Hyatt Brook",
-    "addressLine2": "Suite 371",
-    "addressCity": "West Kayce",
-    "addressPostcode": "YK5 1QB",
-    "telephone": "0353 974 8303",
+    "dateOfBirth": "1974-08-01T00:00:00.000+00:00",
+    "addressLine1": "548 Stanton Burgs",
+    "addressLine2": "Apt. 268",
+    "addressCity": "New Lorainefurt",
+    "addressPostcode": "D6A 2FB",
+    "telephone": "056 5255 3739",
     "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "dfe_candidatestatus",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_iscandidateeligibleforadviser",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_isadvisorrequiredos",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_waitingtobeassigneddate",
+        "Value": "0000-00-00T00:00:00.0000000Z"
+      },
+      {
+        "Key": "firstname",
+        "Value": "Erica"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Kunde"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "alex_rogahn@example.org"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 22303
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1974-08-01T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "548 Stanton Burgs"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 268"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "New Lorainefurt"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "D6A 2FB"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "056 5255 3739"
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcseenglish",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsemaths",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsescience",
+        "Value": {
+          "Value": 222750000
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatequalification",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_type",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_ukdegreegrade",
+                  "Value": {
+                    "Value": 222750005
+                  }
+                },
+                {
+                  "Key": "dfe_degreestatus",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_subject",
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatequalification"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      }
+    ]
   }
 }

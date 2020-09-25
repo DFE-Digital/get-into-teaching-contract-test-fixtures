@@ -1,38 +1,271 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Returner",
-  "First Name": "Lino",
-  "Surname": "Hayes",
-  "Email": "scottie.towne@example.net",
-  "Returner": "Yes",
-  "Has previous teacher reference number": "Yes",
-  "Teacher Ref Number (TRN)": "123456",
-  "Qualified Teaching Status (QTS)": "Yes",
-  "Previous main subject": "English",
-  "Return to subject": "Physics",
-  "Date of Birth": "1990-03-26T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "3702 Stephaine Roads",
-  "Address line 2": "Suite 141",
-  "Town or city": "Reichelmouth",
-  "Postcode": "YN0 1BP",
-  "Telephone": "0119 608 9170",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Returner",
+    "First Name": "Reynaldo",
+    "Surname": "Strosin",
+    "Email": "lynetta@example.org",
+    "Returner": "Yes",
+    "Has previous teacher reference number": "Yes",
+    "Teacher Ref Number (TRN)": "123456",
+    "Qualified Teaching Status (QTS)": "Yes",
+    "Previous main subject": "Maths",
+    "Return to subject": "Maths",
+    "Date of Birth": "2002-01-12T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "2531 Warner Station",
+    "Address line 2": "Apt. 726",
+    "Town or city": "New Vergieton",
+    "Postcode": "ZS7 7EL",
+    "Telephone": "0114 738 9753",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Lino",
-    "lastName": "Hayes",
-    "email": "scottie.towne@example.net",
+    "firstName": "Reynaldo",
+    "lastName": "Strosin",
+    "email": "lynetta@example.org",
     "teacherId": "123456",
-    "subjectTaughtId": "942655a1-2afa-e811-a981-000d3a276620",
-    "preferredTeachingSubjectId": "ac2655a1-2afa-e811-a981-000d3a276620",
-    "dateOfBirth": "1990-03-26T00:00:00.000+00:00",
-    "addressLine1": "3702 Stephaine Roads",
-    "addressLine2": "Suite 141",
-    "addressCity": "Reichelmouth",
-    "addressPostcode": "YN0 1BP",
-    "telephone": "0119 608 9170",
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "subjectTaughtId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "dateOfBirth": "2002-01-12T00:00:00.000+00:00",
+    "addressLine1": "2531 Warner Station",
+    "addressLine2": "Apt. 726",
+    "addressCity": "New Vergieton",
+    "addressPostcode": "ZS7 7EL",
+    "telephone": "0114 738 9753",
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
+    "planningToRetakeGcseMathsAndEnglishId": null,
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": true
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": true
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": true
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": true
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "firstname",
+        "Value": "Reynaldo"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Strosin"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "lynetta@example.org"
+      },
+      {
+        "Key": "dfe_dfesnumber",
+        "Value": "123456"
+      },
+      {
+        "Key": "birthdate",
+        "Value": "2002-01-12T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "2531 Warner Station"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 726"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "New Vergieton"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "ZS7 7EL"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "0114 738 9753"
+      },
+      {
+        "Key": "dfe_preferredteachingsubject01",
+        "Value": {
+          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+          "LogicalName": "dfe_teachingsubjectlist"
+        }
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750001
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatepastteachingposition_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatepastteachingposition",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_subjecttaught",
+                  "Value": {
+                    "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+                    "LogicalName": "dfe_teachingsubjectlist"
+                  }
+                },
+                {
+                  "Key": "dfe_educationphase",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatepastteachingposition"
+        }
+      }
+    ]
   }
 }

@@ -1,44 +1,321 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Graduate",
-  "First Name": "Carl",
-  "Surname": "Schaefer",
-  "Email": "latia.mosciski@example.com",
-  "Returner": "No",
-  "Degree": "Yes",
-  "Degree subject": "Biology",
-  "Degree class": "First class",
-  "Stage of Interest": "Secondary",
-  "Grade 4 English and Maths": "Yes",
-  "Interested subject": "Chemistry",
-  "Desired start": "2022",
-  "Date of Birth": "1989-08-21T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "31398 Valentin Harbors",
-  "Address line 2": "Suite 205",
-  "Town or city": "Adellmouth",
-  "Postcode": "Z1 5NB",
-  "Telephone": "01157 00243",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Graduate",
+    "First Name": "Alverta",
+    "Surname": "Nolan",
+    "Email": "chauncey@example.org",
+    "Returner": "No",
+    "Degree": "Yes",
+    "Degree subject": "English",
+    "Degree class": "First class",
+    "Stage of Interest": "Secondary",
+    "Grade 4 English and Maths": "Yes",
+    "Interested subject": "Biology",
+    "Desired start": "2022",
+    "Date of Birth": "1987-12-07T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "1167 Daryl Pines",
+    "Address line 2": "Apt. 863",
+    "Town or city": "Williamsonland",
+    "Postcode": "YY0 1AN",
+    "Telephone": "055 8656 5362",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Carl",
-    "lastName": "Schaefer",
-    "email": "latia.mosciski@example.com",
+    "firstName": "Alverta",
+    "lastName": "Nolan",
+    "email": "chauncey@example.org",
     "degreeStatusId": 222750000,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "842655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "802655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1989-08-21T00:00:00.000+00:00",
-    "addressLine1": "31398 Valentin Harbors",
-    "addressLine2": "Suite 205",
-    "addressCity": "Adellmouth",
-    "addressPostcode": "Z1 5NB",
-    "telephone": "01157 00243",
+    "dateOfBirth": "1987-12-07T00:00:00.000+00:00",
+    "addressLine1": "1167 Daryl Pines",
+    "addressLine2": "Apt. 863",
+    "addressCity": "Williamsonland",
+    "addressPostcode": "YY0 1AN",
+    "telephone": "055 8656 5362",
     "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseScienceId": null,
+    "planningToRetakeGcseMathsAndEnglishId": null,
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "dfe_candidatestatus",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_iscandidateeligibleforadviser",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_isadvisorrequiredos",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_waitingtobeassigneddate",
+        "Value": "0000-00-00T00:00:00.0000000Z"
+      },
+      {
+        "Key": "firstname",
+        "Value": "Alverta"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Nolan"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "chauncey@example.org"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 22304
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1987-12-07T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "1167 Daryl Pines"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 863"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Williamsonland"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "YY0 1AN"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "055 8656 5362"
+      },
+      {
+        "Key": "dfe_preferredteachingsubject01",
+        "Value": {
+          "Id": "802655a1-2afa-e811-a981-000d3a276620",
+          "LogicalName": "dfe_teachingsubjectlist"
+        }
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcseenglish",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsemaths",
+        "Value": {
+          "Value": 222750000
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatequalification",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_type",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_ukdegreegrade",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_degreestatus",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_subject",
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatequalification"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      }
+    ]
   }
 }

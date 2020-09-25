@@ -4,7 +4,7 @@ require "faker"
 require "fileutils"
 
 Faker::Config.locale = "en-GB"
-number_of_candidates_required = 426
+number_of_candidates_required = 421
 
 # clean
 FileUtils.rm_rf("./contracts")
@@ -162,6 +162,544 @@ def primary_secondary_options(option)
   end
 end
 
+def api_submission_from(api_fixture, teaching_subjects, countries, privacy_policy, degree_status, uk_degree_grades, initial_teacher_training_years)
+  # map values to ids for API
+  unless api_fixture["subjectTaughtId"].nil?
+    subject_taught = teaching_subjects.find { |entry| entry[:value] == api_fixture["subjectTaughtId"] } || {}
+    api_fixture["subjectTaughtId"] = subject_taught[:id] || api_fixture["subjectTaughtId"]
+  end
+
+  unless api_fixture["preferredTeachingSubjectId"].nil?
+    preferred_teaching_subject = teaching_subjects.find { |entry| entry[:value] == api_fixture["preferredTeachingSubjectId"] } || {}
+    api_fixture["preferredTeachingSubjectId"] = preferred_teaching_subject[:id] || api_fixture["preferredTeachingSubjectId"]
+  end
+
+  unless api_fixture["degreeSubject"].nil?
+    degree_subject = teaching_subjects.find { |entry| entry[:value] == api_fixture["degreeSubject"] } || {}
+    api_fixture["degreeSubject"] = degree_subject[:id] || api_fixture["degreeSubject"]
+  end
+
+  unless api_fixture["countryId"].nil?
+    country = countries.find { |entry| entry[:value] == api_fixture["countryId"] } || {}
+    api_fixture["countryId"] = country[:id] || api_fixture["countryId"]
+  end
+
+  # CRM sees things differently from candidates for degrees
+
+  # Do you have a degree? degreeStatusId & ukDegreeGradeId
+  case api_fixture["degreeStatusId"]
+  when "Yes"
+    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == "Graduate or postgraduate" } || {})[:id]
+    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Not applicable" } || {})[:id]
+  when "No"
+    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == "I don''t have a degree and am not studying for one" } || {})[:id]
+    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Not applicable" } || {})[:id]
+  when "I'm studying for a degree"
+    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == api_fixture["studyYear"] } || {})[:id]
+    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Not applicable" } || {})[:id]
+  when "I have an equivalent qualification from another country"
+    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == "Graduate or postgraduate" } || {})[:id]
+    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Pass (grade unknown)" } || {})[:id]
+  end
+
+  api_fixture.delete "studyYear"
+
+  unless api_fixture["ukDegreeGradeId"].nil?
+    uk_degree_grade = uk_degree_grades.find { |entry| entry[:value] == api_fixture["ukDegreeGradeId"] } || {}
+    api_fixture["ukDegreeGradeId"] = uk_degree_grade[:id] || api_fixture["ukDegreeGradeId"]
+  end
+
+  unless api_fixture["initialTeacherTrainingYearId"].nil?
+    initial_teacher_training_year = initial_teacher_training_years.find { |entry| entry[:value] == api_fixture["initialTeacherTrainingYearId"] } || {}
+    api_fixture["initialTeacherTrainingYearId"] = (initial_teacher_training_year[:id] || api_fixture["initialTeacherTrainingYearId"]).to_i
+  end
+
+  api_fixture["acceptedPolicyId"] = privacy_policy[:id]
+
+  api_fixture["preferredEducationPhaseId"] = primary_secondary_options api_fixture["preferredEducationPhaseId"]
+  api_fixture["hasGcseMathsAndEnglishId"] = yes_no_options api_fixture["hasGcseMathsAndEnglishId"]
+  api_fixture["hasGcseScienceId"] = yes_no_options api_fixture["hasGcseScienceId"]
+  api_fixture["planningToRetakeGcseMathsAndEnglishId"] = yes_no_options api_fixture["planningToRetakeGcseMathsAndEnglishId"]
+  api_fixture["planningToRetakeGcseScienceId"] = yes_no_options api_fixture["planningToRetakeGcseScienceId"]
+
+  api_fixture
+end
+
+def dynamics_privacy_policy_from(policy_id)
+  dynamics_privacy_policy = {
+    "LogicalName": "dfe_candidateprivacypolicy",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_privacypolicynumber",
+        "Value": {
+          "Id": policy_id,
+          "LogicalName": "dfe_privacypolicy",
+        },
+      },
+      {
+        "Key": "dfe_consentreceivedby",
+        "Value": {
+          "Value": 222_750_001,
+        },
+      },
+      {
+        "Key": "dfe_meanofconsent",
+        "Value": {
+          "Value": 222_750_001,
+        },
+      },
+      {
+        "Key": "dfe_name",
+        "Value": "Online consent as part of web registration",
+      },
+      {
+        "Key": "dfe_timeofconsent",
+        "Value": "0000-00-00T00:00:00.0000000Z",
+      },
+    ],
+    "EntityState": 1,
+  }
+
+  entity_relationship_from(
+    "dfe_contact_dfe_candidateprivacypolicy_Candidate",
+    dynamics_privacy_policy,
+    "dfe_candidateprivacypolicy",
+  )
+end
+
+def dynamics_past_teaching_position_from(subject_taught_id, education_phase_id)
+  dynamics_past_teaching_position = {
+    "LogicalName": "dfe_candidatepastteachingposition",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_subjecttaught",
+        "Value": {
+          "Id": subject_taught_id,
+          "LogicalName": "dfe_teachingsubjectlist",
+        },
+      },
+      {
+        "Key": "dfe_educationphase",
+        "Value": {
+          "Value": education_phase_id,
+        },
+      },
+    ],
+    "EntityState": 1,
+  }
+
+  entity_relationship_from(
+    "dfe_contact_dfe_candidatepastteachingposition_ContactId",
+    dynamics_past_teaching_position,
+    "dfe_candidatepastteachingposition",
+  )
+end
+
+def dynamics_candidate_qualification_from(degree_type, degree_status, degree_subject, degree_grade)
+  dynamics_candidate_qualification = {
+    "LogicalName": "dfe_candidatequalification",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_type",
+        "Value": {
+          "Value": degree_type,
+        },
+      },
+      {
+        "Key": "dfe_ukdegreegrade",
+        "Value": {
+          "Value": degree_grade,
+        },
+      },
+      {
+        "Key": "dfe_degreestatus",
+        "Value": {
+          "Value": degree_status,
+        },
+      },
+      {
+        "Key": "dfe_subject",
+        "Value": degree_subject,
+      },
+    ],
+    "EntityState": 1,
+  }
+
+  entity_relationship_from(
+    "dfe_contact_dfe_candidatequalification_ContactId",
+    dynamics_candidate_qualification,
+    "dfe_candidatequalification",
+  )
+end
+
+def dynamics_phonecall_from(firstname, lastname, phone_number, scheduled_start)
+  dynamics_phonecall = {
+    "LogicalName": "phonecall",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222_750_000,
+        },
+      },
+      {
+        "Key": "dfe_destination",
+        "Value": {
+          "Value": 222_750_000,
+        },
+      },
+      {
+        "Key": "scheduledstart",
+        "Value": scheduled_start,
+      },
+      {
+        "Key": "phonenumber",
+        "Value": phone_number,
+      },
+      {
+        "Key": "subject",
+        "Value": "Scheduled phone call requested by #{firstname} #{lastname}",
+      },
+      {
+        "Key": "dfe_appointmentflag",
+        "Value": false,
+      },
+      {
+        "Key": "dfe_appointmentrequired",
+        "Value": false,
+      },
+      {
+        "Key": "directioncode",
+        "Value": true,
+      },
+    ],
+    "EntityState": 1,
+  }
+
+  entity_relationship_from(
+    "dfe_contact_phonecall_contactid",
+    dynamics_phonecall,
+    "phonecall",
+  )
+end
+
+def entity_relationship_from(schema_name, entity, entity_name)
+  {
+    Key: {
+      SchemaName: schema_name,
+    },
+    Value: {
+      Entities: [entity],
+      EntityName: entity_name,
+    },
+  }
+end
+
+def dynamics_contact_from(api_submission, retake_gcse_status)
+  attributes = [
+    {
+      "Key": "dfe_channelcreation",
+      "Value": {
+        "Value": 222_750_027,
+      },
+    },
+
+    # These have defaults if not sent by API
+    {
+      "Key": "dfe_websiteplanningretakeenglishgcse",
+      "Value": {
+        "Value": api_submission["planningToRetakeGcseMathsAndEnglishId"] || retake_gcse_status[1][:id],
+      },
+    },
+    {
+      "Key": "dfe_websiteplanningretakemathsgcse",
+      "Value": {
+        "Value": api_submission["planningToRetakeGcseMathsAndEnglishId"] || retake_gcse_status[1][:id],
+      },
+    },
+    {
+      "Key": "dfe_websiteplanningretakesciencegcse",
+      "Value": {
+        "Value": api_submission["planningToRetakeGcseScienceId"] || retake_gcse_status[1][:id],
+      },
+    },
+
+    {
+      "Key": "dfe_typeofcandidate",
+      "Value": {
+        "Value": api_submission["initialTeacherTrainingYearId"] ? 222_750_000 : 222_750_001,
+      },
+    },
+    {
+      "Key": "dfe_preferredphonenumbertype",
+      "Value": {
+        "Value": 222_750_001,
+      },
+    },
+    {
+      "Key": "preferredcontactmethodcode",
+      "Value": {
+        "Value": 1,
+      },
+    },
+    {
+      "Key": "msgdpr_gdprconsent",
+      "Value": {
+        "Value": 587_030_001,
+      },
+    },
+    {
+      "Key": "dfe_eligibilityrulespassed",
+      "Value": api_submission["phoneCallScheduledAt"] ? "true" : "false",
+    },
+    {
+      "Key": "donotbulkemail",
+      "Value": api_submission["initialTeacherTrainingYearId"] ? false : true,
+    },
+    {
+      "Key": "donotbulkpostalmail",
+      "Value": api_submission["initialTeacherTrainingYearId"] ? false : true,
+    },
+    {
+      "Key": "donotemail",
+      "Value": false,
+    },
+    {
+      "Key": "donotpostalmail",
+      "Value": api_submission["initialTeacherTrainingYearId"] ? false : true,
+    },
+    {
+      "Key": "donotsendmm",
+      "Value": api_submission["initialTeacherTrainingYearId"] ? false : true,
+    },
+    {
+      "Key": "dfe_optoutsms",
+      "Value": false,
+    },
+    {
+      "Key": "msdyn_gdproptout",
+      "Value": false,
+    },
+    {
+      "Key": "dfe_newregistrant",
+      "Value": true,
+    },
+  ]
+
+  if api_submission["degreeTypeId"] == 222_750_000
+    attributes.push({
+      Key: "dfe_candidatestatus",
+      Value: {
+        Value: 222_750_001,
+      },
+    })
+    attributes.push({
+      Key: "dfe_iscandidateeligibleforadviser",
+      Value: {
+        Value: 222_750_000,
+      },
+    })
+    attributes.push({
+      Key: "dfe_isadvisorrequiredos",
+      Value: {
+        Value: 222_750_000,
+      },
+    })
+    attributes.push({
+      Key: "dfe_waitingtobeassigneddate",
+      Value: "0000-00-00T00:00:00.0000000Z",
+    })
+  end
+
+  if api_submission["firstName"]
+    attributes.push({
+      "Key": "firstname",
+      "Value": api_submission["firstName"],
+    })
+  end
+
+  if api_submission["lastName"]
+    attributes.push({
+      "Key": "lastname",
+      "Value": api_submission["lastName"],
+    })
+  end
+
+  if api_submission["email"]
+    attributes.push({
+      "Key": "emailaddress1",
+      "Value": api_submission["email"],
+    })
+  end
+
+  if api_submission["teacherId"]
+    attributes.push({
+      "Key": "dfe_dfesnumber",
+      "Value": api_submission["teacherId"],
+    })
+  end
+
+  if api_submission["studyYear"]
+    attributes.push({
+      "Key": "studyYear",
+      "Value": api_submission["studyYear"],
+    })
+  end
+
+  if api_submission["initialTeacherTrainingYearId"]
+    attributes.push({
+      Key: "dfe_ittyear",
+      Value: {
+        Value: api_submission["initialTeacherTrainingYearId"],
+      },
+    })
+  end
+
+  if api_submission["dateOfBirth"]
+    attributes.push({
+      "Key": "birthdate",
+      "Value": api_submission["dateOfBirth"],
+    })
+  end
+
+  if api_submission["addressLine1"]
+    attributes.push({
+      "Key": "address1_line1",
+      "Value": api_submission["addressLine1"],
+    })
+  end
+
+  if api_submission["addressLine2"]
+    attributes.push({
+      "Key": "address1_line2",
+      "Value": api_submission["addressLine2"],
+    })
+  end
+
+  if api_submission["addressCity"]
+    attributes.push({
+      "Key": "address1_city",
+      "Value": api_submission["addressCity"],
+    })
+  end
+
+  if api_submission["addressPostcode"]
+    attributes.push({
+      "Key": "address1_postalcode",
+      "Value": api_submission["addressPostcode"],
+    })
+  end
+
+  if api_submission["telephone"]
+    attributes.push({
+      "Key": "address1_telephone1",
+      "Value": api_submission["telephone"],
+    })
+  end
+
+  if api_submission["preferredTeachingSubjectId"]
+    attributes.push({
+      "Key": "dfe_preferredteachingsubject01",
+      "Value": {
+        "Id": api_submission["preferredTeachingSubjectId"],
+        "LogicalName": "dfe_teachingsubjectlist",
+      },
+    })
+  end
+
+  if api_submission["countryId"]
+    attributes.push({
+      "Key": "dfe_country",
+      "Value": {
+        "Id": api_submission["countryId"],
+        "LogicalName": "dfe_country",
+      },
+    })
+  end
+
+  if api_submission["preferredEducationPhaseId"]
+    attributes.push({
+      "Key": "dfe_preferrededucationphase01",
+      "Value": {
+        "Value": api_submission["preferredEducationPhaseId"],
+      },
+    })
+  end
+
+  if api_submission["hasGcseMathsAndEnglishId"]
+    attributes.push({
+      "Key": "dfe_websitehasgcseenglish",
+      "Value": {
+        "Value": api_submission["hasGcseMathsAndEnglishId"],
+      },
+    })
+    attributes.push({
+      "Key": "dfe_websitehasgcsemaths",
+      "Value": {
+        "Value": api_submission["hasGcseMathsAndEnglishId"],
+      },
+    })
+  end
+
+  if api_submission["hasGcseScienceId"]
+    attributes.push({
+      "Key": "dfe_websitehasgcsescience",
+      "Value": {
+        "Value": api_submission["hasGcseScienceId"],
+      },
+    })
+  end
+
+  related_entities = []
+
+  if api_submission["degreeSubject"]
+    related_entities.push(
+      dynamics_candidate_qualification_from(
+        api_submission["degreeTypeId"],
+        api_submission["degreeStatusId"],
+        api_submission["degreeSubject"],
+        api_submission["ukDegreeGradeId"],
+      ),
+    )
+  end
+
+  related_entities.push(
+    dynamics_privacy_policy_from(api_submission["acceptedPolicyId"]),
+  )
+
+  if api_submission["subjectTaughtId"]
+    related_entities.push(
+      dynamics_past_teaching_position_from(
+        api_submission["subjectTaughtId"],
+        api_submission["preferredEducationPhaseId"],
+      ),
+    )
+  end
+
+  if api_submission["phoneCallScheduledAt"]
+    related_entities.push(
+      dynamics_phonecall_from(
+        api_submission["firstName"],
+        api_submission["lastName"],
+        api_submission["telephone"],
+        api_submission["phoneCallScheduledAt"],
+      ),
+    )
+  end
+
+  {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": attributes,
+    "EntityState": 1,
+    "RelatedEntities": related_entities,
+  }
+end
+
 # create contract test fixture files
 
 multi_choice_fields = %w[subjectTaughtId preferredTeachingSubjectId degreeSubject ukDegreeGradeId countryId]
@@ -245,83 +783,25 @@ fixtures.each_with_index do |row, row_index|
     api_fixture[api_param] = value      unless api_param.nil? || %w[Service Persona].include?(api_param)
   end
 
-  # map values to ids for API
+  out = {}
+  out["uiSignUp"] = html_fixture
 
-  unless api_fixture["subjectTaughtId"].nil?
-    subject_taught = teaching_subjects.find { |entry| entry[:value] == api_fixture["subjectTaughtId"] } || {}
-    api_fixture["subjectTaughtId"] = subject_taught[:id] || api_fixture["subjectTaughtId"]
+  if html_fixture["Final Journey Status"] == "COMPLETE"
+    out["apiSubmission"] = api_submission_from(
+      api_fixture,
+      teaching_subjects,
+      countries,
+      privacy_policy,
+      degree_status,
+      uk_degree_grades,
+      initial_teacher_training_years,
+    )
+
+    out["dynamicsContactEntity"] = dynamics_contact_from(
+      out["apiSubmission"],
+      retake_gcse_status,
+    )
   end
 
-  unless api_fixture["preferredTeachingSubjectId"].nil?
-    preferred_teaching_subject = teaching_subjects.find { |entry| entry[:value] == api_fixture["preferredTeachingSubjectId"] } || {}
-    api_fixture["preferredTeachingSubjectId"] = preferred_teaching_subject[:id] || api_fixture["preferredTeachingSubjectId"]
-  end
-
-  unless api_fixture["degreeSubject"].nil?
-    degree_subject = teaching_subjects.find { |entry| entry[:value] == api_fixture["degreeSubject"] } || {}
-    api_fixture["degreeSubject"] = degree_subject[:id] || api_fixture["degreeSubject"]
-  end
-
-  unless api_fixture["countryId"].nil?
-    country = countries.find { |entry| entry[:value] == api_fixture["countryId"] } || {}
-    api_fixture["countryId"] = country[:id] || api_fixture["countryId"]
-  end
-
-  # CRM sees things differently from candidates for degrees
-
-  # Do you have a degree? degreeStatusId & ukDegreeGradeId
-  case api_fixture["degreeStatusId"]
-  when "Yes"
-    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == "Graduate or postgraduate" } || {})[:id]
-    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Not applicable" } || {})[:id]
-  when "No"
-    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == "I don''t have a degree and am not studying for one" } || {})[:id]
-    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Not applicable" } || {})[:id]
-  when "I'm studying for a degree"
-    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == api_fixture["studyYear"] } || {})[:id]
-    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Not applicable" } || {})[:id]
-  when "I have an equivalent qualification from another country"
-    api_fixture["degreeStatusId"] = (degree_status.find { |x| x[:value] == "Graduate or postgraduate" } || {})[:id]
-    api_fixture["degreeTypeId"] = (uk_degree_grades.find { |x| x[:value] == "Pass (grade unknown)" } || {})[:id]
-  end
-
-  api_fixture.delete "studyYear"
-
-  unless api_fixture["ukDegreeGradeId"].nil?
-    uk_degree_grade = uk_degree_grades.find { |entry| entry[:value] == api_fixture["ukDegreeGradeId"] } || {}
-    api_fixture["ukDegreeGradeId"] = uk_degree_grade[:id] || api_fixture["ukDegreeGradeId"]
-  end
-
-  unless api_fixture["initialTeacherTrainingYearId"].nil?
-    initial_teacher_training_year = initial_teacher_training_years.find { |entry| entry[:value] == api_fixture["initialTeacherTrainingYearId"] } || {}
-    api_fixture["initialTeacherTrainingYearId"] = (initial_teacher_training_year[:id] || api_fixture["initialTeacherTrainingYearId"]).to_i
-  end
-
-  api_fixture["acceptedPolicyId"] = privacy_policy[:id]
-
-  unless api_fixture["preferredEducationPhaseId"].nil?
-    api_fixture["preferredEducationPhaseId"] = primary_secondary_options api_fixture["preferredEducationPhaseId"]
-  end
-
-  unless api_fixture["hasGcseMathsAndEnglishId"].nil?
-    api_fixture["hasGcseMathsAndEnglishId"] = yes_no_options api_fixture["hasGcseMathsAndEnglishId"]
-  end
-
-  unless api_fixture["hasGcseScienceId"].nil?
-    api_fixture["hasGcseScienceId"] = yes_no_options api_fixture["hasGcseScienceId"]
-  end
-
-  unless api_fixture["planningToRetakeGcseMathsAndEnglishId"].nil?
-    api_fixture["planningToRetakeGcseMathsAndEnglishId"] = yes_no_options api_fixture["planningToRetakeGcseMathsAndEnglishId"]
-  end
-
-  unless api_fixture["planningToRetakeGcseScienceId"].nil?
-    api_fixture["planningToRetakeGcseScienceId"] = yes_no_options api_fixture["planningToRetakeGcseScienceId"]
-  end
-
-  File.write("./contracts/candidate_#{row_index}.json", JSON.pretty_generate({
-    uiSignUp: html_fixture,
-    apiSubmission: api_fixture,
-    dynamicsEntities: [],
-  }))
+  File.write("./contracts/candidate_#{row_index}.json", JSON.pretty_generate(out))
 end

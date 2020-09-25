@@ -1,47 +1,321 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Student",
-  "First Name": "Gennie",
-  "Surname": "Kunze",
-  "Email": "keeley.schroeder@example.com",
-  "Returner": "No",
-  "Degree": "I'm studying for a degree",
-  "Study year": "Final year",
-  "Degree subject": "English",
-  "Degree class": "First class",
-  "Stage of Interest": "Primary",
-  "Grade 4 English and Maths": "Yes",
-  "Grade 4 Science": "No",
-  "Retake science": "Yes",
-  "Desired start": "2021",
-  "Date of Birth": "1999-04-20T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "932 Ehtel Park",
-  "Address line 2": "Suite 304",
-  "Town or city": "Lake Roscoehaven",
-  "Postcode": "W1E 9AT",
-  "Telephone": "055 7609 6650",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Final year student",
+    "First Name": "Galina",
+    "Surname": "Becker",
+    "Email": "emerson@example.org",
+    "Returner": "No",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Final year",
+    "Degree subject": "Chemistry",
+    "Degree class": "First class",
+    "Stage of Interest": "Primary",
+    "Grade 4 English and Maths": "Yes",
+    "Grade 4 Science": "No",
+    "Retake science": "Yes",
+    "Desired start": "2021",
+    "Date of Birth": "1989-11-28T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "7072 Jamal Trace",
+    "Address line 2": "Suite 317",
+    "Town or city": "East Elroy",
+    "Postcode": "YC4 6DA",
+    "Telephone": "0873 884 9105",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Gennie",
-    "lastName": "Kunze",
-    "email": "keeley.schroeder@example.com",
+    "firstName": "Galina",
+    "lastName": "Becker",
+    "email": "emerson@example.org",
     "degreeStatusId": 222750001,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1999-04-20T00:00:00.000+00:00",
-    "addressLine1": "932 Ehtel Park",
-    "addressLine2": "Suite 304",
-    "addressCity": "Lake Roscoehaven",
-    "addressPostcode": "W1E 9AT",
-    "telephone": "055 7609 6650",
+    "dateOfBirth": "1989-11-28T00:00:00.000+00:00",
+    "addressLine1": "7072 Jamal Trace",
+    "addressLine2": "Suite 317",
+    "addressCity": "East Elroy",
+    "addressPostcode": "YC4 6DA",
+    "telephone": "0873 884 9105",
     "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "planningToRetakeGcseMathsAndEnglishId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "dfe_candidatestatus",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_iscandidateeligibleforadviser",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_isadvisorrequiredos",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_waitingtobeassigneddate",
+        "Value": "0000-00-00T00:00:00.0000000Z"
+      },
+      {
+        "Key": "firstname",
+        "Value": "Galina"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Becker"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "emerson@example.org"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 22303
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1989-11-28T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "7072 Jamal Trace"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Suite 317"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "East Elroy"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "YC4 6DA"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "0873 884 9105"
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcseenglish",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsemaths",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsescience",
+        "Value": {
+          "Value": 222750001
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatequalification",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_type",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_ukdegreegrade",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_degreestatus",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_subject",
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatequalification"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      }
+    ]
   }
 }

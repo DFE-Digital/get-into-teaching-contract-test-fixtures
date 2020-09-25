@@ -1,49 +1,322 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Student",
-  "First Name": "Hyman",
-  "Surname": "Veum",
-  "Email": "isabel_hirthe@example.net",
-  "Returner": "No",
-  "Degree": "I'm studying for a degree",
-  "Study year": "Other",
-  "Degree subject": "Biology",
-  "Degree class": "2:1",
-  "Stage of Interest": "Primary",
-  "Grade 4 English and Maths": "No",
-  "Retake maths or english": "Yes",
-  "Grade 4 Science": "No",
-  "Retake science": "Yes",
-  "Desired start": "2023",
-  "Date of Birth": "1999-10-06T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "63398 Ratke Bridge",
-  "Address line 2": "Apt. 194",
-  "Town or city": "Darlaburgh",
-  "Postcode": "SO0R 4EN",
-  "Telephone": "0113 583 3620",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Student",
+    "First Name": "Clora",
+    "Surname": "Connelly",
+    "Email": "lenny.monahan@example.com",
+    "Returner": "No",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
+    "Degree subject": "Chemistry",
+    "Degree class": "2:2",
+    "Stage of Interest": "Primary",
+    "Grade 4 English and Maths": "No",
+    "Retake maths or english": "Yes",
+    "Grade 4 Science": "No",
+    "Retake science": "Yes",
+    "Desired start": "2023",
+    "Date of Birth": "1978-12-03T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "7919 Jerry Bypass",
+    "Address line 2": "Suite 507",
+    "Town or city": "Fadelview",
+    "Postcode": "WT4V 8AW",
+    "Telephone": "056 6913 0663",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Hyman",
-    "lastName": "Veum",
-    "email": "isabel_hirthe@example.net",
-    "degreeStatusId": 222750005,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750002,
+    "firstName": "Clora",
+    "lastName": "Connelly",
+    "email": "lenny.monahan@example.com",
+    "degreeStatusId": 222750002,
+    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1999-10-06T00:00:00.000+00:00",
-    "addressLine1": "63398 Ratke Bridge",
-    "addressLine2": "Apt. 194",
-    "addressCity": "Darlaburgh",
-    "addressPostcode": "SO0R 4EN",
-    "telephone": "0113 583 3620",
+    "dateOfBirth": "1978-12-03T00:00:00.000+00:00",
+    "addressLine1": "7919 Jerry Bypass",
+    "addressLine2": "Suite 507",
+    "addressCity": "Fadelview",
+    "addressPostcode": "WT4V 8AW",
+    "telephone": "056 6913 0663",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "dfe_candidatestatus",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_iscandidateeligibleforadviser",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_isadvisorrequiredos",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_waitingtobeassigneddate",
+        "Value": "0000-00-00T00:00:00.0000000Z"
+      },
+      {
+        "Key": "firstname",
+        "Value": "Clora"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Connelly"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "lenny.monahan@example.com"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 22305
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1978-12-03T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "7919 Jerry Bypass"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Suite 507"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Fadelview"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "WT4V 8AW"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "056 6913 0663"
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcseenglish",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsemaths",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsescience",
+        "Value": {
+          "Value": 222750001
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatequalification",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_type",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_ukdegreegrade",
+                  "Value": {
+                    "Value": 222750003
+                  }
+                },
+                {
+                  "Key": "dfe_degreestatus",
+                  "Value": {
+                    "Value": 222750002
+                  }
+                },
+                {
+                  "Key": "dfe_subject",
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatequalification"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      }
+    ]
   }
 }

@@ -1,28 +1,17 @@
 {
-  "Service": "Get TTA",
-  "Persona": "--",
-  "First Name": "Alton",
-  "Surname": "Lang",
-  "Email": "kimbery@example.com",
-  "Returner": "No",
-  "Degree": "I'm studying for a degree",
-  "Study year": "Final year",
-  "Degree subject": "English",
-  "Degree class": "Third class or below",
-  "Stage of Interest": "EXIT",
-  "Telephone": "016977 6768",
-  "Final Journey Status": "INVALID",
-  "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
-    "preferredEducationPhaseId": "EXIT",
-    "firstName": "Alton",
-    "lastName": "Lang",
-    "email": "kimbery@example.com",
-    "degreeStatusId": 222750001,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750004,
-    "telephone": "016977 6768",
-    "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "--",
+    "First Name": "Melvina",
+    "Surname": "Parker",
+    "Email": "rhona@example.org",
+    "Returner": "No",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Final year",
+    "Degree subject": "Maths",
+    "Degree class": "Third class or below",
+    "Stage of Interest": "EXIT",
+    "Telephone": "016977 9422",
+    "Final Journey Status": "INVALID"
   }
 }

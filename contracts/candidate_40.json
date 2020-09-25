@@ -1,46 +1,320 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Graduate",
-  "First Name": "Stanford",
-  "Surname": "Rau",
-  "Email": "melinda@example.org",
-  "Returner": "No",
-  "Degree": "Yes",
-  "Degree subject": "Chemistry",
-  "Degree class": "2:1",
-  "Stage of Interest": "Primary",
-  "Grade 4 English and Maths": "No",
-  "Retake maths or english": "Yes",
-  "Grade 4 Science": "Yes",
-  "Desired start": "2020",
-  "Date of Birth": "1997-05-06T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "82057 Konopelski Tunnel",
-  "Address line 2": "Suite 642",
-  "Town or city": "New Jeanton",
-  "Postcode": "BV7 4AT",
-  "Telephone": "0500 354149",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Graduate",
+    "First Name": "Cordelia",
+    "Surname": "Robel",
+    "Email": "melonie.jacobson@example.net",
+    "Returner": "No",
+    "Degree": "Yes",
+    "Degree subject": "Chemistry",
+    "Degree class": "2:2",
+    "Stage of Interest": "Primary",
+    "Grade 4 English and Maths": "No",
+    "Retake maths or english": "Yes",
+    "Grade 4 Science": "Yes",
+    "Desired start": "2020",
+    "Date of Birth": "1979-05-10T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "30935 McGlynn Key",
+    "Address line 2": "Apt. 643",
+    "Town or city": "Kutchville",
+    "Postcode": "Y24 2PQ",
+    "Telephone": "0500 917503",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Stanford",
-    "lastName": "Rau",
-    "email": "melinda@example.org",
+    "firstName": "Cordelia",
+    "lastName": "Robel",
+    "email": "melonie.jacobson@example.net",
     "degreeStatusId": 222750000,
     "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750002,
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1997-05-06T00:00:00.000+00:00",
-    "addressLine1": "82057 Konopelski Tunnel",
-    "addressLine2": "Suite 642",
-    "addressCity": "New Jeanton",
-    "addressPostcode": "BV7 4AT",
-    "telephone": "0500 354149",
+    "dateOfBirth": "1979-05-10T00:00:00.000+00:00",
+    "addressLine1": "30935 McGlynn Key",
+    "addressLine2": "Apt. 643",
+    "addressCity": "Kutchville",
+    "addressPostcode": "Y24 2PQ",
+    "telephone": "0500 917503",
     "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "dfe_candidatestatus",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_iscandidateeligibleforadviser",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_isadvisorrequiredos",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_waitingtobeassigneddate",
+        "Value": "0000-00-00T00:00:00.0000000Z"
+      },
+      {
+        "Key": "firstname",
+        "Value": "Cordelia"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Robel"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "melonie.jacobson@example.net"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 22302
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1979-05-10T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "30935 McGlynn Key"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 643"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Kutchville"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "Y24 2PQ"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "0500 917503"
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcseenglish",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsemaths",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsescience",
+        "Value": {
+          "Value": 222750000
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatequalification",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_type",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_ukdegreegrade",
+                  "Value": {
+                    "Value": 222750003
+                  }
+                },
+                {
+                  "Key": "dfe_degreestatus",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_subject",
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatequalification"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      }
+    ]
   }
 }

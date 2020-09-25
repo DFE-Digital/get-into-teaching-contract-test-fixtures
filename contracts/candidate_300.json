@@ -1,47 +1,321 @@
 {
-  "Service": "Get TTA",
-  "Persona": "Student",
-  "First Name": "Danica",
-  "Surname": "Harvey",
-  "Email": "palmer@example.com",
-  "Returner": "No",
-  "Degree": "I'm studying for a degree",
-  "Study year": "Final year",
-  "Degree subject": "Biology",
-  "Degree class": "2:2",
-  "Stage of Interest": "Primary",
-  "Grade 4 English and Maths": "No",
-  "Retake maths or english": "Yes",
-  "Grade 4 Science": "Yes",
-  "Desired start": "2020",
-  "Date of Birth": "1982-07-23T00:00:00.000+00:00",
-  "Where live": "UK",
-  "Address line 1": "81904 Onita Club",
-  "Address line 2": "Apt. 610",
-  "Town or city": "Rosietown",
-  "Postcode": "H9W 8YA",
-  "Telephone": "01360 77615",
-  "Final Journey Status": "COMPLETE",
+  "uiSignUp": {
+    "Service": "Get TTA",
+    "Persona": "Final year student",
+    "First Name": "Bernard",
+    "Surname": "Schimmel",
+    "Email": "tom@example.org",
+    "Returner": "No",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Final year",
+    "Degree subject": "Biology",
+    "Degree class": "First class",
+    "Stage of Interest": "Primary",
+    "Grade 4 English and Maths": "No",
+    "Retake maths or english": "Yes",
+    "Grade 4 Science": "Yes",
+    "Desired start": "2020",
+    "Date of Birth": "1986-07-02T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "762 Marks Summit",
+    "Address line 2": "Apt. 211",
+    "Town or city": "Port Mohammed",
+    "Postcode": "ZB6 3HA",
+    "Telephone": "01347 04182",
+    "Final Journey Status": "COMPLETE"
+  },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Danica",
-    "lastName": "Harvey",
-    "email": "palmer@example.com",
+    "firstName": "Bernard",
+    "lastName": "Schimmel",
+    "email": "tom@example.org",
     "degreeStatusId": 222750001,
     "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750003,
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1982-07-23T00:00:00.000+00:00",
-    "addressLine1": "81904 Onita Club",
-    "addressLine2": "Apt. 610",
-    "addressCity": "Rosietown",
-    "addressPostcode": "H9W 8YA",
-    "telephone": "01360 77615",
+    "dateOfBirth": "1986-07-02T00:00:00.000+00:00",
+    "addressLine1": "762 Marks Summit",
+    "addressLine2": "Apt. 211",
+    "addressCity": "Port Mohammed",
+    "addressPostcode": "ZB6 3HA",
+    "telephone": "01347 04182",
     "degreeTypeId": 222750000,
-    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
+    "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "planningToRetakeGcseScienceId": null
+  },
+  "dynamicsContactEntity": {
+    "LogicalName": "contact",
+    "Id": "00000000-0000-0000-0000-000000000000",
+    "Attributes": [
+      {
+        "Key": "dfe_channelcreation",
+        "Value": {
+          "Value": 222750027
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakeenglishgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakemathsgcse",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websiteplanningretakesciencegcse",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_typeofcandidate",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_preferredphonenumbertype",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "preferredcontactmethodcode",
+        "Value": {
+          "Value": 1
+        }
+      },
+      {
+        "Key": "msgdpr_gdprconsent",
+        "Value": {
+          "Value": 587030001
+        }
+      },
+      {
+        "Key": "dfe_eligibilityrulespassed",
+        "Value": "false"
+      },
+      {
+        "Key": "donotbulkemail",
+        "Value": false
+      },
+      {
+        "Key": "donotbulkpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotemail",
+        "Value": false
+      },
+      {
+        "Key": "donotpostalmail",
+        "Value": false
+      },
+      {
+        "Key": "donotsendmm",
+        "Value": false
+      },
+      {
+        "Key": "dfe_optoutsms",
+        "Value": false
+      },
+      {
+        "Key": "msdyn_gdproptout",
+        "Value": false
+      },
+      {
+        "Key": "dfe_newregistrant",
+        "Value": true
+      },
+      {
+        "Key": "dfe_candidatestatus",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_iscandidateeligibleforadviser",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_isadvisorrequiredos",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_waitingtobeassigneddate",
+        "Value": "0000-00-00T00:00:00.0000000Z"
+      },
+      {
+        "Key": "firstname",
+        "Value": "Bernard"
+      },
+      {
+        "Key": "lastname",
+        "Value": "Schimmel"
+      },
+      {
+        "Key": "emailaddress1",
+        "Value": "tom@example.org"
+      },
+      {
+        "Key": "dfe_ittyear",
+        "Value": {
+          "Value": 22302
+        }
+      },
+      {
+        "Key": "birthdate",
+        "Value": "1986-07-02T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "762 Marks Summit"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 211"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Port Mohammed"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "ZB6 3HA"
+      },
+      {
+        "Key": "address1_telephone1",
+        "Value": "01347 04182"
+      },
+      {
+        "Key": "dfe_country",
+        "Value": {
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "LogicalName": "dfe_country"
+        }
+      },
+      {
+        "Key": "dfe_preferrededucationphase01",
+        "Value": {
+          "Value": 222750000
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcseenglish",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsemaths",
+        "Value": {
+          "Value": 222750001
+        }
+      },
+      {
+        "Key": "dfe_websitehasgcsescience",
+        "Value": {
+          "Value": 222750000
+        }
+      }
+    ],
+    "EntityState": 1,
+    "RelatedEntities": [
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidatequalification",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_type",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_ukdegreegrade",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_degreestatus",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_subject",
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidatequalification"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "dfe_candidateprivacypolicy",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_privacypolicynumber",
+                  "Value": {
+                    "Id": "0a203956-e935-ea11-a813-000d3a44a8e9",
+                    "LogicalName": "dfe_privacypolicy"
+                  }
+                },
+                {
+                  "Key": "dfe_consentreceivedby",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_meanofconsent",
+                  "Value": {
+                    "Value": 222750001
+                  }
+                },
+                {
+                  "Key": "dfe_name",
+                  "Value": "Online consent as part of web registration"
+                },
+                {
+                  "Key": "dfe_timeofconsent",
+                  "Value": "0000-00-00T00:00:00.0000000Z"
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "dfe_candidateprivacypolicy"
+        }
+      }
+    ]
   }
 }
