@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Chad",
-    "Surname": "Emmerich",
-    "Email": "lakendra.jenkins@example.com",
+    "Persona": "Student",
+    "First Name": "Rupert",
+    "Surname": "Bechtelar",
+    "Email": "kareen_cole@example.net",
     "Returner": "No",
-    "Degree": "Yes",
+    "Degree": "I'm studying for a degree",
+    "Study year": "First year",
     "Degree subject": "Maths",
-    "Degree class": "Pass (grade unknown)",
+    "Degree class": "First class",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Interested subject": "English",
     "Desired start": "2020",
-    "Date of Birth": "1999-07-28T00:00:00.000+00:00",
+    "Date of Birth": "1986-01-18T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "63972 Hamill Way",
-    "Address line 2": "Apt. 945",
-    "Town or city": "Kailamouth",
-    "Postcode": "S9 1NJ",
-    "Telephone": "0924 369 2383",
+    "Address line 1": "674 Reynolds Isle",
+    "Address line 2": "Suite 434",
+    "Town or city": "Spinkaton",
+    "Postcode": "Y2H 9AG",
+    "Telephone": "0800 523 3355",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Chad",
-    "lastName": "Emmerich",
-    "email": "lakendra.jenkins@example.com",
-    "degreeStatusId": 222750000,
+    "firstName": "Rupert",
+    "lastName": "Bechtelar",
+    "email": "kareen_cole@example.net",
+    "degreeStatusId": 222750003,
     "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "preferredTeachingSubjectId": "942655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1999-07-28T00:00:00.000+00:00",
-    "addressLine1": "63972 Hamill Way",
-    "addressLine2": "Apt. 945",
-    "addressCity": "Kailamouth",
-    "addressPostcode": "S9 1NJ",
-    "telephone": "0924 369 2383",
+    "dateOfBirth": "1986-01-18T00:00:00.000+00:00",
+    "addressLine1": "674 Reynolds Isle",
+    "addressLine2": "Suite 434",
+    "addressCity": "Spinkaton",
+    "addressPostcode": "Y2H 9AG",
+    "telephone": "0800 523 3355",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -159,15 +160,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Chad"
+        "Value": "Rupert"
       },
       {
         "Key": "lastname",
-        "Value": "Emmerich"
+        "Value": "Bechtelar"
       },
       {
         "Key": "emailaddress1",
-        "Value": "lakendra.jenkins@example.com"
+        "Value": "kareen_cole@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,27 +178,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1999-07-28T00:00:00.000+00:00"
+        "Value": "1986-01-18T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "63972 Hamill Way"
+        "Value": "674 Reynolds Isle"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 945"
+        "Value": "Suite 434"
       },
       {
         "Key": "address1_city",
-        "Value": "Kailamouth"
+        "Value": "Spinkaton"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "S9 1NJ"
+        "Value": "Y2H 9AG"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0924 369 2383"
+        "Value": "0800 523 3355"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
@@ -253,13 +254,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {

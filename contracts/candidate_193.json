@@ -1,46 +1,39 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "William",
-    "Surname": "Mosciski",
-    "Email": "huey@example.org",
+    "Persona": "Overseas Final year student",
+    "First Name": "Juliane",
+    "Surname": "Gutmann",
+    "Email": "abraham@example.org",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Other",
-    "Degree subject": "Maths",
-    "Degree class": "Not applicable",
+    "Study year": "Final year",
+    "Degree subject": "Chemistry",
+    "Degree class": "2:2",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "Yes",
-    "Interested subject": "Maths",
+    "Interested subject": "Physics",
     "Desired start": "2020",
-    "Date of Birth": "1997-07-17T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "52787 Zieme Plaza",
-    "Address line 2": "Apt. 113",
-    "Town or city": "Lake Donnyborough",
-    "Postcode": "WE2 5JL",
-    "Telephone": "01686 62150",
+    "Date of Birth": "1977-01-07T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Ghana",
+    "Telephone": "01935 58763",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "William",
-    "lastName": "Mosciski",
-    "email": "huey@example.org",
-    "degreeStatusId": 222750005,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "firstName": "Juliane",
+    "lastName": "Gutmann",
+    "email": "abraham@example.org",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "ac2655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1997-07-17T00:00:00.000+00:00",
-    "addressLine1": "52787 Zieme Plaza",
-    "addressLine2": "Apt. 113",
-    "addressCity": "Lake Donnyborough",
-    "addressPostcode": "WE2 5JL",
-    "telephone": "01686 62150",
+    "dateOfBirth": "1977-01-07T00:00:00.000+00:00",
+    "telephone": "01935 58763",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -159,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "William"
+        "Value": "Juliane"
       },
       {
         "Key": "lastname",
-        "Value": "Mosciski"
+        "Value": "Gutmann"
       },
       {
         "Key": "emailaddress1",
-        "Value": "huey@example.org"
+        "Value": "abraham@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,39 +170,23 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1997-07-17T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "52787 Zieme Plaza"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Apt. 113"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Lake Donnyborough"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "WE2 5JL"
+        "Value": "1977-01-07T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01686 62150"
+        "Value": "01935 58763"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+          "Id": "ac2655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -253,18 +230,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

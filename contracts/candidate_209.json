@@ -1,48 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Basil",
-    "Surname": "Considine",
-    "Email": "adan.huel@example.org",
+    "Persona": "Overseas Final year student",
+    "First Name": "Aurelio",
+    "Surname": "Huels",
+    "Email": "nathan@example.com",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "English",
-    "Degree class": "First class",
+    "Study year": "Final year",
+    "Degree subject": "Chemistry",
+    "Degree class": "Not applicable",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
-    "Interested subject": "English",
+    "Interested subject": "Physics",
     "Desired start": "2023",
-    "Date of Birth": "2001-05-17T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "6046 Wilbert Street",
-    "Address line 2": "Suite 793",
-    "Town or city": "Lake Sandystad",
-    "Postcode": "WR3E 3LJ",
-    "Telephone": "0953 773 6596",
+    "Date of Birth": "1972-08-19T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Denmark",
+    "Telephone": "0500 903186",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Basil",
-    "lastName": "Considine",
-    "email": "adan.huel@example.org",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750001,
+    "firstName": "Aurelio",
+    "lastName": "Huels",
+    "email": "nathan@example.com",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "942655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "ac2655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "2001-05-17T00:00:00.000+00:00",
-    "addressLine1": "6046 Wilbert Street",
-    "addressLine2": "Suite 793",
-    "addressCity": "Lake Sandystad",
-    "addressPostcode": "WR3E 3LJ",
-    "telephone": "0953 773 6596",
+    "dateOfBirth": "1972-08-19T00:00:00.000+00:00",
+    "telephone": "0500 903186",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -160,15 +153,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Basil"
+        "Value": "Aurelio"
       },
       {
         "Key": "lastname",
-        "Value": "Considine"
+        "Value": "Huels"
       },
       {
         "Key": "emailaddress1",
-        "Value": "adan.huel@example.org"
+        "Value": "nathan@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -178,39 +171,23 @@
       },
       {
         "Key": "birthdate",
-        "Value": "2001-05-17T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "6046 Wilbert Street"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Suite 793"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Lake Sandystad"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "WR3E 3LJ"
+        "Value": "1972-08-19T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0953 773 6596"
+        "Value": "0500 903186"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "942655a1-2afa-e811-a981-000d3a276620",
+          "Id": "ac2655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -254,18 +231,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750001
+                    "Value": 222750000
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

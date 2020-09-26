@@ -1,43 +1,50 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Daysi",
-    "Surname": "McLaughlin",
-    "Email": "daniell.bartoletti@example.com",
+    "Persona": "Final year student",
+    "First Name": "Mora",
+    "Surname": "Becker",
+    "Email": "angelyn.braun@example.net",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
-    "Degree subject": "Maths",
-    "Degree class": "2:1",
+    "Study year": "Final year",
+    "Degree subject": "English",
+    "Degree class": "First class",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
-    "Desired start": "2021",
-    "Date of Birth": "1978-07-31T00:00:00.000+00:00",
-    "Where live": "Overseas",
-    "Country": "Australia",
-    "Telephone": "024 4620 4313",
+    "Desired start": "2022",
+    "Date of Birth": "1991-11-04T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "882 Hodkiewicz Inlet",
+    "Address line 2": "Apt. 376",
+    "Town or city": "North Agathabury",
+    "Postcode": "W2 5BA",
+    "Telephone": "017423 41714",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Daysi",
-    "lastName": "McLaughlin",
-    "email": "daniell.bartoletti@example.com",
-    "degreeStatusId": 222750002,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750002,
+    "firstName": "Mora",
+    "lastName": "Becker",
+    "email": "angelyn.braun@example.net",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1978-07-31T00:00:00.000+00:00",
-    "telephone": "024 4620 4313",
+    "initialTeacherTrainingYearId": 22304,
+    "dateOfBirth": "1991-11-04T00:00:00.000+00:00",
+    "addressLine1": "882 Hodkiewicz Inlet",
+    "addressLine2": "Apt. 376",
+    "addressCity": "North Agathabury",
+    "addressPostcode": "W2 5BA",
+    "telephone": "017423 41714",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -153,29 +160,45 @@
       },
       {
         "Key": "firstname",
-        "Value": "Daysi"
+        "Value": "Mora"
       },
       {
         "Key": "lastname",
-        "Value": "McLaughlin"
+        "Value": "Becker"
       },
       {
         "Key": "emailaddress1",
-        "Value": "daniell.bartoletti@example.com"
+        "Value": "angelyn.braun@example.net"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22303
+          "Value": 22304
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1978-07-31T00:00:00.000+00:00"
+        "Value": "1991-11-04T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "882 Hodkiewicz Inlet"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 376"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "North Agathabury"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "W2 5BA"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "024 4620 4313"
+        "Value": "017423 41714"
       },
       {
         "Key": "dfe_country",
@@ -230,18 +253,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

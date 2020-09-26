@@ -1,48 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Graham",
-    "Surname": "Larson",
-    "Email": "caron.schaden@example.org",
+    "Persona": "Overseas Final year student",
+    "First Name": "Leif",
+    "Surname": "Beahan",
+    "Email": "delphine_nolan@example.org",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "Chemistry",
-    "Degree class": "2:2",
+    "Study year": "Final year",
+    "Degree subject": "English",
+    "Degree class": "Not applicable",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "Not sure",
-    "Date of Birth": "1978-02-25T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "54753 Harvey Inlet",
-    "Address line 2": "Suite 619",
-    "Town or city": "Narcisaland",
-    "Postcode": "Z42 1YJ",
-    "Telephone": "016977 6739",
+    "Date of Birth": "1990-10-13T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "China",
+    "Telephone": "0800 544 3640",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "47f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Graham",
-    "lastName": "Larson",
-    "email": "caron.schaden@example.org",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750003,
+    "firstName": "Leif",
+    "lastName": "Beahan",
+    "email": "delphine_nolan@example.org",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1978-02-25T00:00:00.000+00:00",
-    "addressLine1": "54753 Harvey Inlet",
-    "addressLine2": "Suite 619",
-    "addressCity": "Narcisaland",
-    "addressPostcode": "Z42 1YJ",
-    "telephone": "016977 6739",
+    "dateOfBirth": "1990-10-13T00:00:00.000+00:00",
+    "telephone": "0800 544 3640",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -159,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Graham"
+        "Value": "Leif"
       },
       {
         "Key": "lastname",
-        "Value": "Larson"
+        "Value": "Beahan"
       },
       {
         "Key": "emailaddress1",
-        "Value": "caron.schaden@example.org"
+        "Value": "delphine_nolan@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,32 +170,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1978-02-25T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "54753 Harvey Inlet"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Suite 619"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Narcisaland"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "Z42 1YJ"
+        "Value": "1990-10-13T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "016977 6739"
+        "Value": "0800 544 3640"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "47f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -252,18 +229,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750000
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

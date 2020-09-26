@@ -2,44 +2,44 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Graduate",
-    "First Name": "Kandis",
-    "Surname": "Cronin",
-    "Email": "catrina_murray@example.com",
+    "First Name": "Josephina",
+    "Surname": "Kozey",
+    "Email": "lucas.konopelski@example.com",
     "Returner": "No",
     "Degree": "Yes",
-    "Degree subject": "Chemistry",
-    "Degree class": "First class",
+    "Degree subject": "English",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "Not sure",
-    "Date of Birth": "1987-04-14T00:00:00.000+00:00",
+    "Date of Birth": "1973-04-04T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "817 Considine Rapids",
-    "Address line 2": "Apt. 889",
-    "Town or city": "Stammfurt",
-    "Postcode": "AB5 9JX",
-    "Telephone": "0112 470 8515",
+    "Address line 1": "9822 Jesse Fields",
+    "Address line 2": "Suite 157",
+    "Town or city": "Philomenaberg",
+    "Postcode": "LX9M 6BL",
+    "Telephone": "0312 962 0610",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Kandis",
-    "lastName": "Cronin",
-    "email": "catrina_murray@example.com",
+    "firstName": "Josephina",
+    "lastName": "Kozey",
+    "email": "lucas.konopelski@example.com",
     "degreeStatusId": 222750000,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750001,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1987-04-14T00:00:00.000+00:00",
-    "addressLine1": "817 Considine Rapids",
-    "addressLine2": "Apt. 889",
-    "addressCity": "Stammfurt",
-    "addressPostcode": "AB5 9JX",
-    "telephone": "0112 470 8515",
+    "dateOfBirth": "1973-04-04T00:00:00.000+00:00",
+    "addressLine1": "9822 Jesse Fields",
+    "addressLine2": "Suite 157",
+    "addressCity": "Philomenaberg",
+    "addressPostcode": "LX9M 6BL",
+    "telephone": "0312 962 0610",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null,
@@ -157,15 +157,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Kandis"
+        "Value": "Josephina"
       },
       {
         "Key": "lastname",
-        "Value": "Cronin"
+        "Value": "Kozey"
       },
       {
         "Key": "emailaddress1",
-        "Value": "catrina_murray@example.com"
+        "Value": "lucas.konopelski@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -175,27 +175,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1987-04-14T00:00:00.000+00:00"
+        "Value": "1973-04-04T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "817 Considine Rapids"
+        "Value": "9822 Jesse Fields"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 889"
+        "Value": "Suite 157"
       },
       {
         "Key": "address1_city",
-        "Value": "Stammfurt"
+        "Value": "Philomenaberg"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "AB5 9JX"
+        "Value": "LX9M 6BL"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0112 470 8515"
+        "Value": "0312 962 0610"
       },
       {
         "Key": "dfe_country",
@@ -250,7 +250,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750001
+                    "Value": 222750003
                   }
                 },
                 {
@@ -261,7 +261,7 @@
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

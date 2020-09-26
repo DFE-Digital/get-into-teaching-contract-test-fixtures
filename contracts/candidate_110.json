@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Samual",
-    "Surname": "Farrell",
-    "Email": "dudley.lesch@example.com",
+    "Persona": "Student",
+    "First Name": "Serena",
+    "Surname": "Stamm",
+    "Email": "brandon_weissnat@example.org",
     "Returner": "No",
-    "Degree": "Yes",
+    "Degree": "I'm studying for a degree",
+    "Study year": "First year",
     "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1991-09-16T00:00:00.000+00:00",
+    "Date of Birth": "1991-03-29T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "74900 Jung Plains",
-    "Address line 2": "Apt. 750",
-    "Town or city": "West Alexanderport",
-    "Postcode": "Y8H 1AL",
-    "Telephone": "016977 3062",
+    "Address line 1": "151 Erlene Cliffs",
+    "Address line 2": "Suite 968",
+    "Town or city": "McGlynnville",
+    "Postcode": "Y8 3JJ",
+    "Telephone": "0895 519 1704",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Samual",
-    "lastName": "Farrell",
-    "email": "dudley.lesch@example.com",
-    "degreeStatusId": 222750000,
+    "firstName": "Serena",
+    "lastName": "Stamm",
+    "email": "brandon_weissnat@example.org",
+    "degreeStatusId": 222750003,
     "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1991-09-16T00:00:00.000+00:00",
-    "addressLine1": "74900 Jung Plains",
-    "addressLine2": "Apt. 750",
-    "addressCity": "West Alexanderport",
-    "addressPostcode": "Y8H 1AL",
-    "telephone": "016977 3062",
+    "dateOfBirth": "1991-03-29T00:00:00.000+00:00",
+    "addressLine1": "151 Erlene Cliffs",
+    "addressLine2": "Suite 968",
+    "addressCity": "McGlynnville",
+    "addressPostcode": "Y8 3JJ",
+    "telephone": "0895 519 1704",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Samual"
+        "Value": "Serena"
       },
       {
         "Key": "lastname",
-        "Value": "Farrell"
+        "Value": "Stamm"
       },
       {
         "Key": "emailaddress1",
-        "Value": "dudley.lesch@example.com"
+        "Value": "brandon_weissnat@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1991-09-16T00:00:00.000+00:00"
+        "Value": "1991-03-29T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "74900 Jung Plains"
+        "Value": "151 Erlene Cliffs"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 750"
+        "Value": "Suite 968"
       },
       {
         "Key": "address1_city",
-        "Value": "West Alexanderport"
+        "Value": "McGlynnville"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Y8H 1AL"
+        "Value": "Y8 3JJ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "016977 3062"
+        "Value": "0895 519 1704"
       },
       {
         "Key": "dfe_country",
@@ -251,13 +252,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {

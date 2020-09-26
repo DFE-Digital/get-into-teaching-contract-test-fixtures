@@ -1,48 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Forest",
-    "Surname": "Walsh",
-    "Email": "annice_pagac@example.com",
+    "Persona": "Overseas Final year student",
+    "First Name": "Magan",
+    "Surname": "Strosin",
+    "Email": "tom.ziemann@example.com",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "English",
-    "Degree class": "2:2",
+    "Study year": "Final year",
+    "Degree subject": "Maths",
+    "Degree class": "First class",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2021",
-    "Date of Birth": "1971-10-26T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "39549 Marks Circles",
-    "Address line 2": "Suite 422",
-    "Town or city": "Morarhaven",
-    "Postcode": "YN48 1SN",
-    "Telephone": "025 6333 5255",
+    "Date of Birth": "1976-04-29T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Germany",
+    "Telephone": "016977 4802",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "83f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Forest",
-    "lastName": "Walsh",
-    "email": "annice_pagac@example.com",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750003,
+    "firstName": "Magan",
+    "lastName": "Strosin",
+    "email": "tom.ziemann@example.com",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1971-10-26T00:00:00.000+00:00",
-    "addressLine1": "39549 Marks Circles",
-    "addressLine2": "Suite 422",
-    "addressCity": "Morarhaven",
-    "addressPostcode": "YN48 1SN",
-    "telephone": "025 6333 5255",
+    "dateOfBirth": "1976-04-29T00:00:00.000+00:00",
+    "telephone": "016977 4802",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -159,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Forest"
+        "Value": "Magan"
       },
       {
         "Key": "lastname",
-        "Value": "Walsh"
+        "Value": "Strosin"
       },
       {
         "Key": "emailaddress1",
-        "Value": "annice_pagac@example.com"
+        "Value": "tom.ziemann@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,32 +170,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1971-10-26T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "39549 Marks Circles"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Suite 422"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Morarhaven"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "YN48 1SN"
+        "Value": "1976-04-29T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "025 6333 5255"
+        "Value": "016977 4802"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "83f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -252,18 +229,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

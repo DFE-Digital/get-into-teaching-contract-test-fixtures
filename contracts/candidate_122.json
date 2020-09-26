@@ -1,49 +1,50 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Sun",
-    "Surname": "Cassin",
-    "Email": "lacey_mills@example.com",
+    "Persona": "Student",
+    "First Name": "Elisabeth",
+    "Surname": "Hauck",
+    "Email": "chas@example.org",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Chemistry",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
+    "Degree subject": "Biology",
+    "Degree class": "First class",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2023",
-    "Date of Birth": "1982-07-01T00:00:00.000+00:00",
+    "Date of Birth": "1996-03-25T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "21817 Edwardo Drive",
-    "Address line 2": "Suite 722",
-    "Town or city": "Legrosside",
-    "Postcode": "Y2 5NA",
-    "Telephone": "016977 5511",
+    "Address line 1": "642 Athena Stravenue",
+    "Address line 2": "Apt. 152",
+    "Town or city": "Ondrickamouth",
+    "Postcode": "ST3V 4BJ",
+    "Telephone": "016977 5417",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Sun",
-    "lastName": "Cassin",
-    "email": "lacey_mills@example.com",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Elisabeth",
+    "lastName": "Hauck",
+    "email": "chas@example.org",
+    "degreeStatusId": 222750005,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1982-07-01T00:00:00.000+00:00",
-    "addressLine1": "21817 Edwardo Drive",
-    "addressLine2": "Suite 722",
-    "addressCity": "Legrosside",
-    "addressPostcode": "Y2 5NA",
-    "telephone": "016977 5511",
+    "dateOfBirth": "1996-03-25T00:00:00.000+00:00",
+    "addressLine1": "642 Athena Stravenue",
+    "addressLine2": "Apt. 152",
+    "addressCity": "Ondrickamouth",
+    "addressPostcode": "ST3V 4BJ",
+    "telephone": "016977 5417",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -159,15 +160,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Sun"
+        "Value": "Elisabeth"
       },
       {
         "Key": "lastname",
-        "Value": "Cassin"
+        "Value": "Hauck"
       },
       {
         "Key": "emailaddress1",
-        "Value": "lacey_mills@example.com"
+        "Value": "chas@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,27 +178,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1982-07-01T00:00:00.000+00:00"
+        "Value": "1996-03-25T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "21817 Edwardo Drive"
+        "Value": "642 Athena Stravenue"
       },
       {
         "Key": "address1_line2",
-        "Value": "Suite 722"
+        "Value": "Apt. 152"
       },
       {
         "Key": "address1_city",
-        "Value": "Legrosside"
+        "Value": "Ondrickamouth"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Y2 5NA"
+        "Value": "ST3V 4BJ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "016977 5511"
+        "Value": "016977 5417"
       },
       {
         "Key": "dfe_country",
@@ -252,18 +253,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

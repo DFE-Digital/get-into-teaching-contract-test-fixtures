@@ -1,48 +1,45 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Earl",
-    "Surname": "Goyette",
-    "Email": "sau_hermiston@example.org",
+    "Persona": "Graduate with equivalent qualification",
+    "First Name": "Yessenia",
+    "Surname": "Harvey",
+    "Email": "elaina@example.org",
     "Returner": "No",
-    "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "Biology",
-    "Degree class": "Pass (grade unknown)",
-    "Stage of Interest": "Primary",
-    "Grade 4 English and Maths": "Yes",
-    "Grade 4 Science": "Yes",
-    "Desired start": "2023",
-    "Date of Birth": "1978-03-27T00:00:00.000+00:00",
+    "Degree": "I have an equivalent qualification from another country",
+    "Stage of Interest": "Secondary",
+    "Interested subject": "Maths",
+    "Desired start": "Not sure",
+    "Date of Birth": "2000-08-29T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "45145 Price Station",
-    "Address line 2": "Suite 543",
-    "Town or city": "Rettaburgh",
-    "Postcode": "Y3C 4AE",
-    "Telephone": "0828 568 1632",
+    "Address line 1": "181 Stracke Lodge",
+    "Address line 2": "Suite 897",
+    "Town or city": "Port Reinaldofurt",
+    "Postcode": "SY9A 6LJ",
+    "Telephone": "01873 762614",
+    "Prefered Time": "0000-00-00T00:00:00Z",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
-    "preferredEducationPhaseId": 222750000,
-    "firstName": "Earl",
-    "lastName": "Goyette",
-    "email": "sau_hermiston@example.org",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
-    "hasGcseMathsAndEnglishId": 222750000,
-    "hasGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1978-03-27T00:00:00.000+00:00",
-    "addressLine1": "45145 Price Station",
-    "addressLine2": "Suite 543",
-    "addressCity": "Rettaburgh",
-    "addressPostcode": "Y3C 4AE",
-    "telephone": "0828 568 1632",
-    "degreeTypeId": 222750000,
+    "preferredEducationPhaseId": 222750001,
+    "firstName": "Yessenia",
+    "lastName": "Harvey",
+    "email": "elaina@example.org",
+    "degreeStatusId": 222750000,
+    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "initialTeacherTrainingYearId": 12917,
+    "dateOfBirth": "2000-08-29T00:00:00.000+00:00",
+    "addressLine1": "181 Stracke Lodge",
+    "addressLine2": "Suite 897",
+    "addressCity": "Port Reinaldofurt",
+    "addressPostcode": "SY9A 6LJ",
+    "telephone": "01873 762614",
+    "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
+    "degreeTypeId": 222750005,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
     "planningToRetakeGcseMathsAndEnglishId": null,
     "planningToRetakeGcseScienceId": null
   },
@@ -100,7 +97,7 @@
       },
       {
         "Key": "dfe_eligibilityrulespassed",
-        "Value": "false"
+        "Value": "true"
       },
       {
         "Key": "donotbulkemail",
@@ -135,68 +132,53 @@
         "Value": true
       },
       {
-        "Key": "dfe_candidatestatus",
-        "Value": {
-          "Value": 222750001
-        }
-      },
-      {
-        "Key": "dfe_iscandidateeligibleforadviser",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_isadvisorrequiredos",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_waitingtobeassigneddate",
-        "Value": "0000-00-00T00:00:00.0000000Z"
-      },
-      {
         "Key": "firstname",
-        "Value": "Earl"
+        "Value": "Yessenia"
       },
       {
         "Key": "lastname",
-        "Value": "Goyette"
+        "Value": "Harvey"
       },
       {
         "Key": "emailaddress1",
-        "Value": "sau_hermiston@example.org"
+        "Value": "elaina@example.org"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22305
+          "Value": 12917
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1978-03-27T00:00:00.000+00:00"
+        "Value": "2000-08-29T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "45145 Price Station"
+        "Value": "181 Stracke Lodge"
       },
       {
         "Key": "address1_line2",
-        "Value": "Suite 543"
+        "Value": "Suite 897"
       },
       {
         "Key": "address1_city",
-        "Value": "Rettaburgh"
+        "Value": "Port Reinaldofurt"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Y3C 4AE"
+        "Value": "SY9A 6LJ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0828 568 1632"
+        "Value": "01873 762614"
+      },
+      {
+        "Key": "dfe_preferredteachingsubject01",
+        "Value": {
+          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+          "LogicalName": "dfe_teachingsubjectlist"
+        }
       },
       {
         "Key": "dfe_country",
@@ -208,69 +190,12 @@
       {
         "Key": "dfe_preferrededucationphase01",
         "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcseenglish",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsemaths",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsescience",
-        "Value": {
-          "Value": 222750000
+          "Value": 222750001
         }
       }
     ],
     "EntityState": 1,
     "RelatedEntities": [
-      {
-        "Key": {
-          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
-        },
-        "Value": {
-          "Entities": [
-            {
-              "LogicalName": "dfe_candidatequalification",
-              "Id": "00000000-0000-0000-0000-000000000000",
-              "Attributes": [
-                {
-                  "Key": "dfe_type",
-                  "Value": {
-                    "Value": 222750000
-                  }
-                },
-                {
-                  "Key": "dfe_ukdegreegrade",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_degreestatus",
-                  "Value": {
-                    "Value": 222750003
-                  }
-                },
-                {
-                  "Key": "dfe_subject",
-                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
-                }
-              ],
-              "EntityState": 1
-            }
-          ],
-          "EntityName": "dfe_candidatequalification"
-        }
-      },
       {
         "Key": {
           "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
@@ -313,6 +238,59 @@
             }
           ],
           "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "01873 762614"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Yessenia Harvey"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
         }
       }
     ]

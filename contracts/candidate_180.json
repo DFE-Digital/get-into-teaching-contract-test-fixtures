@@ -1,13 +1,13 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Dwight",
-    "Surname": "Tromp",
-    "Email": "brandon_schumm@example.org",
+    "Persona": "Final year student",
+    "First Name": "Edison",
+    "Surname": "Fritsch",
+    "Email": "anette@example.net",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "First year",
+    "Study year": "Final year",
     "Degree subject": "Biology",
     "Degree class": "2:2",
     "Stage of Interest": "Primary",
@@ -15,29 +15,36 @@
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
-    "Desired start": "Not sure",
-    "Date of Birth": "1985-01-03T00:00:00.000+00:00",
-    "Where live": "Overseas",
-    "Country": "Australia",
-    "Telephone": "055 5247 1278",
+    "Desired start": "2020",
+    "Date of Birth": "1976-09-17T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "75209 Delicia Rue",
+    "Address line 2": "Suite 968",
+    "Town or city": "Lebsackville",
+    "Postcode": "Z8D 7WR",
+    "Telephone": "0111 213 2743",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Dwight",
-    "lastName": "Tromp",
-    "email": "brandon_schumm@example.org",
-    "degreeStatusId": 222750003,
+    "firstName": "Edison",
+    "lastName": "Fritsch",
+    "email": "anette@example.net",
+    "degreeStatusId": 222750001,
     "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1985-01-03T00:00:00.000+00:00",
-    "telephone": "055 5247 1278",
+    "initialTeacherTrainingYearId": 22302,
+    "dateOfBirth": "1976-09-17T00:00:00.000+00:00",
+    "addressLine1": "75209 Delicia Rue",
+    "addressLine2": "Suite 968",
+    "addressCity": "Lebsackville",
+    "addressPostcode": "Z8D 7WR",
+    "telephone": "0111 213 2743",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -153,29 +160,45 @@
       },
       {
         "Key": "firstname",
-        "Value": "Dwight"
+        "Value": "Edison"
       },
       {
         "Key": "lastname",
-        "Value": "Tromp"
+        "Value": "Fritsch"
       },
       {
         "Key": "emailaddress1",
-        "Value": "brandon_schumm@example.org"
+        "Value": "anette@example.net"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 12917
+          "Value": 22302
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1985-01-03T00:00:00.000+00:00"
+        "Value": "1976-09-17T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "75209 Delicia Rue"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Suite 968"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Lebsackville"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "Z8D 7WR"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "055 5247 1278"
+        "Value": "0111 213 2743"
       },
       {
         "Key": "dfe_country",
@@ -236,7 +259,7 @@
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {

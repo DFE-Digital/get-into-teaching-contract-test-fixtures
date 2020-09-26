@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Riley",
-    "Surname": "Schaden",
-    "Email": "rocco_ritchie@example.com",
+    "Persona": "Student",
+    "First Name": "Stephen",
+    "Surname": "Bergnaum",
+    "Email": "malissa@example.org",
     "Returner": "No",
-    "Degree": "Yes",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
     "Degree subject": "Biology",
-    "Degree class": "Pass (grade unknown)",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2020",
-    "Date of Birth": "1972-11-07T00:00:00.000+00:00",
+    "Date of Birth": "1980-03-22T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "71565 Bart Circle",
-    "Address line 2": "Apt. 814",
-    "Town or city": "Deckowville",
-    "Postcode": "I3 5ZA",
-    "Telephone": "0851 768 4997",
+    "Address line 1": "875 Glynis Square",
+    "Address line 2": "Suite 630",
+    "Town or city": "Johnsontown",
+    "Postcode": "KC1V 7QX",
+    "Telephone": "01575 41075",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Riley",
-    "lastName": "Schaden",
-    "email": "rocco_ritchie@example.com",
-    "degreeStatusId": 222750000,
+    "firstName": "Stephen",
+    "lastName": "Bergnaum",
+    "email": "malissa@example.org",
+    "degreeStatusId": 222750005,
     "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1972-11-07T00:00:00.000+00:00",
-    "addressLine1": "71565 Bart Circle",
-    "addressLine2": "Apt. 814",
-    "addressCity": "Deckowville",
-    "addressPostcode": "I3 5ZA",
-    "telephone": "0851 768 4997",
+    "dateOfBirth": "1980-03-22T00:00:00.000+00:00",
+    "addressLine1": "875 Glynis Square",
+    "addressLine2": "Suite 630",
+    "addressCity": "Johnsontown",
+    "addressPostcode": "KC1V 7QX",
+    "telephone": "01575 41075",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Riley"
+        "Value": "Stephen"
       },
       {
         "Key": "lastname",
-        "Value": "Schaden"
+        "Value": "Bergnaum"
       },
       {
         "Key": "emailaddress1",
-        "Value": "rocco_ritchie@example.com"
+        "Value": "malissa@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1972-11-07T00:00:00.000+00:00"
+        "Value": "1980-03-22T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "71565 Bart Circle"
+        "Value": "875 Glynis Square"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 814"
+        "Value": "Suite 630"
       },
       {
         "Key": "address1_city",
-        "Value": "Deckowville"
+        "Value": "Johnsontown"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "I3 5ZA"
+        "Value": "KC1V 7QX"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0851 768 4997"
+        "Value": "01575 41075"
       },
       {
         "Key": "dfe_country",
@@ -251,13 +252,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {

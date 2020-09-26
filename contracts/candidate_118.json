@@ -1,49 +1,50 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Stephen",
-    "Surname": "Spencer",
-    "Email": "sarita.kreiger@example.org",
+    "Persona": "Student",
+    "First Name": "Refugio",
+    "Surname": "Keeling",
+    "Email": "reiko.williamson@example.com",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Maths",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
+    "Degree subject": "Biology",
+    "Degree class": "First class",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2021",
-    "Date of Birth": "1984-01-22T00:00:00.000+00:00",
+    "Date of Birth": "1974-04-12T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "64254 Marion Points",
-    "Address line 2": "Suite 172",
-    "Town or city": "New Michaelville",
-    "Postcode": "Z4E 6XY",
-    "Telephone": "0500 633194",
+    "Address line 1": "8443 Angele Garden",
+    "Address line 2": "Apt. 925",
+    "Town or city": "North Lisandramouth",
+    "Postcode": "ZR1 4LR",
+    "Telephone": "056 9486 9448",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Stephen",
-    "lastName": "Spencer",
-    "email": "sarita.kreiger@example.org",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Refugio",
+    "lastName": "Keeling",
+    "email": "reiko.williamson@example.com",
+    "degreeStatusId": 222750005,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1984-01-22T00:00:00.000+00:00",
-    "addressLine1": "64254 Marion Points",
-    "addressLine2": "Suite 172",
-    "addressCity": "New Michaelville",
-    "addressPostcode": "Z4E 6XY",
-    "telephone": "0500 633194",
+    "dateOfBirth": "1974-04-12T00:00:00.000+00:00",
+    "addressLine1": "8443 Angele Garden",
+    "addressLine2": "Apt. 925",
+    "addressCity": "North Lisandramouth",
+    "addressPostcode": "ZR1 4LR",
+    "telephone": "056 9486 9448",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -159,15 +160,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Stephen"
+        "Value": "Refugio"
       },
       {
         "Key": "lastname",
-        "Value": "Spencer"
+        "Value": "Keeling"
       },
       {
         "Key": "emailaddress1",
-        "Value": "sarita.kreiger@example.org"
+        "Value": "reiko.williamson@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,27 +178,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1984-01-22T00:00:00.000+00:00"
+        "Value": "1974-04-12T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "64254 Marion Points"
+        "Value": "8443 Angele Garden"
       },
       {
         "Key": "address1_line2",
-        "Value": "Suite 172"
+        "Value": "Apt. 925"
       },
       {
         "Key": "address1_city",
-        "Value": "New Michaelville"
+        "Value": "North Lisandramouth"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Z4E 6XY"
+        "Value": "ZR1 4LR"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0500 633194"
+        "Value": "056 9486 9448"
       },
       {
         "Key": "dfe_country",
@@ -252,18 +253,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

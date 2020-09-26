@@ -1,48 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Alfred",
-    "Surname": "Haag",
-    "Email": "edwin@example.com",
+    "Persona": "Overseas Final year student",
+    "First Name": "Shemeka",
+    "Surname": "Davis",
+    "Email": "jeannette.sawayn@example.org",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "English",
-    "Degree class": "2:1",
+    "Study year": "Final year",
+    "Degree subject": "Maths",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2020",
-    "Date of Birth": "1989-01-03T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "68938 Shawn Mews",
-    "Address line 2": "Apt. 836",
-    "Town or city": "Sarahberg",
-    "Postcode": "Z8H 1ZL",
-    "Telephone": "0388 479 7433",
+    "Date of Birth": "1978-02-18T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Australia",
+    "Telephone": "016977 7277",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Alfred",
-    "lastName": "Haag",
-    "email": "edwin@example.com",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750002,
+    "firstName": "Shemeka",
+    "lastName": "Davis",
+    "email": "jeannette.sawayn@example.org",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1989-01-03T00:00:00.000+00:00",
-    "addressLine1": "68938 Shawn Mews",
-    "addressLine2": "Apt. 836",
-    "addressCity": "Sarahberg",
-    "addressPostcode": "Z8H 1ZL",
-    "telephone": "0388 479 7433",
+    "dateOfBirth": "1978-02-18T00:00:00.000+00:00",
+    "telephone": "016977 7277",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -159,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Alfred"
+        "Value": "Shemeka"
       },
       {
         "Key": "lastname",
-        "Value": "Haag"
+        "Value": "Davis"
       },
       {
         "Key": "emailaddress1",
-        "Value": "edwin@example.com"
+        "Value": "jeannette.sawayn@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,27 +170,11 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1989-01-03T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "68938 Shawn Mews"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Apt. 836"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Sarahberg"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "Z8H 1ZL"
+        "Value": "1978-02-18T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0388 479 7433"
+        "Value": "016977 7277"
       },
       {
         "Key": "dfe_country",
@@ -252,18 +229,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

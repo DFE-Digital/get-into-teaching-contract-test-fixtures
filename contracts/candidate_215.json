@@ -1,48 +1,43 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Jacki",
-    "Surname": "Christiansen",
-    "Email": "ruthanne@example.com",
+    "Persona": "Graduate with equivalent qualification",
+    "First Name": "Chad",
+    "Surname": "Jacobs",
+    "Email": "tyrone_ernser@example.net",
     "Returner": "No",
-    "Degree": "I'm studying for a degree",
-    "Study year": "Other",
-    "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I have an equivalent qualification from another country",
     "Stage of Interest": "Primary",
-    "Grade 4 English and Maths": "Yes",
-    "Grade 4 Science": "Yes",
-    "Desired start": "2020",
-    "Date of Birth": "1973-06-14T00:00:00.000+00:00",
+    "Desired start": "2021",
+    "Date of Birth": "1990-05-04T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "26392 O'Reilly Roads",
-    "Address line 2": "Apt. 910",
-    "Town or city": "Sondrastad",
-    "Postcode": "Y9C 6JJ",
-    "Telephone": "0800 268755",
+    "Address line 1": "2611 Schiller Heights",
+    "Address line 2": "Apt. 523",
+    "Town or city": "Port Ivan",
+    "Postcode": "R5 4BS",
+    "Telephone": "0800 854051",
+    "Prefered Time": "0000-00-00T00:00:00Z",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Jacki",
-    "lastName": "Christiansen",
-    "email": "ruthanne@example.com",
-    "degreeStatusId": 222750005,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
-    "hasGcseMathsAndEnglishId": 222750000,
-    "hasGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1973-06-14T00:00:00.000+00:00",
-    "addressLine1": "26392 O'Reilly Roads",
-    "addressLine2": "Apt. 910",
-    "addressCity": "Sondrastad",
-    "addressPostcode": "Y9C 6JJ",
-    "telephone": "0800 268755",
-    "degreeTypeId": 222750000,
+    "firstName": "Chad",
+    "lastName": "Jacobs",
+    "email": "tyrone_ernser@example.net",
+    "degreeStatusId": 222750000,
+    "initialTeacherTrainingYearId": 22303,
+    "dateOfBirth": "1990-05-04T00:00:00.000+00:00",
+    "addressLine1": "2611 Schiller Heights",
+    "addressLine2": "Apt. 523",
+    "addressCity": "Port Ivan",
+    "addressPostcode": "R5 4BS",
+    "telephone": "0800 854051",
+    "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
+    "degreeTypeId": 222750005,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
     "planningToRetakeGcseMathsAndEnglishId": null,
     "planningToRetakeGcseScienceId": null
   },
@@ -100,7 +95,7 @@
       },
       {
         "Key": "dfe_eligibilityrulespassed",
-        "Value": "false"
+        "Value": "true"
       },
       {
         "Key": "donotbulkemail",
@@ -135,68 +130,46 @@
         "Value": true
       },
       {
-        "Key": "dfe_candidatestatus",
-        "Value": {
-          "Value": 222750001
-        }
-      },
-      {
-        "Key": "dfe_iscandidateeligibleforadviser",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_isadvisorrequiredos",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_waitingtobeassigneddate",
-        "Value": "0000-00-00T00:00:00.0000000Z"
-      },
-      {
         "Key": "firstname",
-        "Value": "Jacki"
+        "Value": "Chad"
       },
       {
         "Key": "lastname",
-        "Value": "Christiansen"
+        "Value": "Jacobs"
       },
       {
         "Key": "emailaddress1",
-        "Value": "ruthanne@example.com"
+        "Value": "tyrone_ernser@example.net"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22302
+          "Value": 22303
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1973-06-14T00:00:00.000+00:00"
+        "Value": "1990-05-04T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "26392 O'Reilly Roads"
+        "Value": "2611 Schiller Heights"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 910"
+        "Value": "Apt. 523"
       },
       {
         "Key": "address1_city",
-        "Value": "Sondrastad"
+        "Value": "Port Ivan"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Y9C 6JJ"
+        "Value": "R5 4BS"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 268755"
+        "Value": "0800 854051"
       },
       {
         "Key": "dfe_country",
@@ -210,67 +183,10 @@
         "Value": {
           "Value": 222750000
         }
-      },
-      {
-        "Key": "dfe_websitehasgcseenglish",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsemaths",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsescience",
-        "Value": {
-          "Value": 222750000
-        }
       }
     ],
     "EntityState": 1,
     "RelatedEntities": [
-      {
-        "Key": {
-          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
-        },
-        "Value": {
-          "Entities": [
-            {
-              "LogicalName": "dfe_candidatequalification",
-              "Id": "00000000-0000-0000-0000-000000000000",
-              "Attributes": [
-                {
-                  "Key": "dfe_type",
-                  "Value": {
-                    "Value": 222750000
-                  }
-                },
-                {
-                  "Key": "dfe_ukdegreegrade",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_degreestatus",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
-                }
-              ],
-              "EntityState": 1
-            }
-          ],
-          "EntityName": "dfe_candidatequalification"
-        }
-      },
       {
         "Key": {
           "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
@@ -313,6 +229,59 @@
             }
           ],
           "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "0800 854051"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Chad Jacobs"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
         }
       }
     ]

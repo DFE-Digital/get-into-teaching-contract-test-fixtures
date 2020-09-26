@@ -2,46 +2,46 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Graduate",
-    "First Name": "Thelma",
-    "Surname": "Blick",
-    "Email": "cherilyn.mcclure@example.net",
+    "First Name": "Marina",
+    "Surname": "Johnson",
+    "Email": "adan.jerde@example.com",
     "Returner": "No",
     "Degree": "Yes",
     "Degree subject": "English",
-    "Degree class": "Not applicable",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1995-03-05T00:00:00.000+00:00",
+    "Date of Birth": "1978-10-01T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "92812 Casper Underpass",
-    "Address line 2": "Apt. 361",
-    "Town or city": "Pfefferland",
-    "Postcode": "Z50 3HP",
-    "Telephone": "01232 81814",
+    "Address line 1": "92612 Olga Centers",
+    "Address line 2": "Apt. 442",
+    "Town or city": "North Fermin",
+    "Postcode": "M0K 5UA",
+    "Telephone": "0316 862 4051",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Thelma",
-    "lastName": "Blick",
-    "email": "cherilyn.mcclure@example.net",
+    "firstName": "Marina",
+    "lastName": "Johnson",
+    "email": "adan.jerde@example.com",
     "degreeStatusId": 222750000,
     "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1995-03-05T00:00:00.000+00:00",
-    "addressLine1": "92812 Casper Underpass",
-    "addressLine2": "Apt. 361",
-    "addressCity": "Pfefferland",
-    "addressPostcode": "Z50 3HP",
-    "telephone": "01232 81814",
+    "dateOfBirth": "1978-10-01T00:00:00.000+00:00",
+    "addressLine1": "92612 Olga Centers",
+    "addressLine2": "Apt. 442",
+    "addressCity": "North Fermin",
+    "addressPostcode": "M0K 5UA",
+    "telephone": "0316 862 4051",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -158,15 +158,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Thelma"
+        "Value": "Marina"
       },
       {
         "Key": "lastname",
-        "Value": "Blick"
+        "Value": "Johnson"
       },
       {
         "Key": "emailaddress1",
-        "Value": "cherilyn.mcclure@example.net"
+        "Value": "adan.jerde@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +176,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1995-03-05T00:00:00.000+00:00"
+        "Value": "1978-10-01T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "92812 Casper Underpass"
+        "Value": "92612 Olga Centers"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 361"
+        "Value": "Apt. 442"
       },
       {
         "Key": "address1_city",
-        "Value": "Pfefferland"
+        "Value": "North Fermin"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Z50 3HP"
+        "Value": "M0K 5UA"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01232 81814"
+        "Value": "0316 862 4051"
       },
       {
         "Key": "dfe_country",
@@ -251,7 +251,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {

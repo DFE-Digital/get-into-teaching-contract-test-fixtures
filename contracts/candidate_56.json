@@ -2,48 +2,48 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Graduate",
-    "First Name": "Danita",
-    "Surname": "Christiansen",
-    "Email": "broderick.friesen@example.com",
+    "First Name": "Micheal",
+    "Surname": "Rolfson",
+    "Email": "mayra.klein@example.net",
     "Returner": "No",
     "Degree": "Yes",
-    "Degree subject": "English",
-    "Degree class": "2:1",
+    "Degree subject": "Chemistry",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2023",
-    "Date of Birth": "1980-08-24T00:00:00.000+00:00",
+    "Date of Birth": "1980-10-16T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "402 Bryant Mountains",
-    "Address line 2": "Apt. 132",
-    "Town or city": "Lilliemouth",
-    "Postcode": "Y91 9BW",
-    "Telephone": "0500 267038",
+    "Address line 1": "481 Bins Extension",
+    "Address line 2": "Suite 634",
+    "Town or city": "West Denny",
+    "Postcode": "W3K 0AN",
+    "Telephone": "0800 823 0028",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Danita",
-    "lastName": "Christiansen",
-    "email": "broderick.friesen@example.com",
+    "firstName": "Micheal",
+    "lastName": "Rolfson",
+    "email": "mayra.klein@example.net",
     "degreeStatusId": 222750000,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750002,
+    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1980-08-24T00:00:00.000+00:00",
-    "addressLine1": "402 Bryant Mountains",
-    "addressLine2": "Apt. 132",
-    "addressCity": "Lilliemouth",
-    "addressPostcode": "Y91 9BW",
-    "telephone": "0500 267038",
+    "dateOfBirth": "1980-10-16T00:00:00.000+00:00",
+    "addressLine1": "481 Bins Extension",
+    "addressLine2": "Suite 634",
+    "addressCity": "West Denny",
+    "addressPostcode": "W3K 0AN",
+    "telephone": "0800 823 0028",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -159,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Danita"
+        "Value": "Micheal"
       },
       {
         "Key": "lastname",
-        "Value": "Christiansen"
+        "Value": "Rolfson"
       },
       {
         "Key": "emailaddress1",
-        "Value": "broderick.friesen@example.com"
+        "Value": "mayra.klein@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1980-08-24T00:00:00.000+00:00"
+        "Value": "1980-10-16T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "402 Bryant Mountains"
+        "Value": "481 Bins Extension"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 132"
+        "Value": "Suite 634"
       },
       {
         "Key": "address1_city",
-        "Value": "Lilliemouth"
+        "Value": "West Denny"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Y91 9BW"
+        "Value": "W3K 0AN"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0500 267038"
+        "Value": "0800 823 0028"
       },
       {
         "Key": "dfe_country",
@@ -252,7 +252,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750003
                   }
                 },
                 {
@@ -263,7 +263,7 @@
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

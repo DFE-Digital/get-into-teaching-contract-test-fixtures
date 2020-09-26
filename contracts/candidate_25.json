@@ -2,44 +2,44 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Graduate",
-    "First Name": "Luanna",
-    "Surname": "Jacobson",
-    "Email": "val@example.com",
+    "First Name": "Shemika",
+    "Surname": "Kerluke",
+    "Email": "barbara@example.com",
     "Returner": "No",
     "Degree": "Yes",
-    "Degree subject": "Maths",
-    "Degree class": "2:1",
+    "Degree subject": "Biology",
+    "Degree class": "Not applicable",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2023",
-    "Date of Birth": "1975-12-06T00:00:00.000+00:00",
+    "Date of Birth": "1985-09-01T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "144 Crist Rapids",
-    "Address line 2": "Apt. 589",
-    "Town or city": "West Pat",
-    "Postcode": "M0A 4LA",
-    "Telephone": "019822 38252",
+    "Address line 1": "821 Tifany Station",
+    "Address line 2": "Apt. 921",
+    "Town or city": "Rosamondburgh",
+    "Postcode": "W3U 4ZG",
+    "Telephone": "0860 189 6429",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Luanna",
-    "lastName": "Jacobson",
-    "email": "val@example.com",
+    "firstName": "Shemika",
+    "lastName": "Kerluke",
+    "email": "barbara@example.com",
     "degreeStatusId": 222750000,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750002,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1975-12-06T00:00:00.000+00:00",
-    "addressLine1": "144 Crist Rapids",
-    "addressLine2": "Apt. 589",
-    "addressCity": "West Pat",
-    "addressPostcode": "M0A 4LA",
-    "telephone": "019822 38252",
+    "dateOfBirth": "1985-09-01T00:00:00.000+00:00",
+    "addressLine1": "821 Tifany Station",
+    "addressLine2": "Apt. 921",
+    "addressCity": "Rosamondburgh",
+    "addressPostcode": "W3U 4ZG",
+    "telephone": "0860 189 6429",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null,
@@ -157,15 +157,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Luanna"
+        "Value": "Shemika"
       },
       {
         "Key": "lastname",
-        "Value": "Jacobson"
+        "Value": "Kerluke"
       },
       {
         "Key": "emailaddress1",
-        "Value": "val@example.com"
+        "Value": "barbara@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -175,27 +175,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1975-12-06T00:00:00.000+00:00"
+        "Value": "1985-09-01T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "144 Crist Rapids"
+        "Value": "821 Tifany Station"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 589"
+        "Value": "Apt. 921"
       },
       {
         "Key": "address1_city",
-        "Value": "West Pat"
+        "Value": "Rosamondburgh"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "M0A 4LA"
+        "Value": "W3U 4ZG"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "019822 38252"
+        "Value": "0860 189 6429"
       },
       {
         "Key": "dfe_country",
@@ -250,7 +250,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750000
                   }
                 },
                 {
@@ -261,7 +261,7 @@
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

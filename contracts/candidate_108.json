@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Elroy",
-    "Surname": "Jacobson",
-    "Email": "karlyn@example.com",
+    "Persona": "Student",
+    "First Name": "Stella",
+    "Surname": "Trantow",
+    "Email": "granville_beer@example.org",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
+    "Degree subject": "Maths",
+    "Degree class": "Not applicable",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2021",
-    "Date of Birth": "2001-12-04T00:00:00.000+00:00",
+    "Date of Birth": "1974-06-16T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "701 Doyle Tunnel",
-    "Address line 2": "Apt. 139",
-    "Town or city": "Cheyenneville",
-    "Postcode": "Y6K 3FN",
-    "Telephone": "013923 65491",
+    "Address line 1": "8886 Nitzsche Plaza",
+    "Address line 2": "Suite 976",
+    "Town or city": "Smithamtown",
+    "Postcode": "W2C 1LQ",
+    "Telephone": "0800 436 9186",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Elroy",
-    "lastName": "Jacobson",
-    "email": "karlyn@example.com",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Stella",
+    "lastName": "Trantow",
+    "email": "granville_beer@example.org",
+    "degreeStatusId": 222750005,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "2001-12-04T00:00:00.000+00:00",
-    "addressLine1": "701 Doyle Tunnel",
-    "addressLine2": "Apt. 139",
-    "addressCity": "Cheyenneville",
-    "addressPostcode": "Y6K 3FN",
-    "telephone": "013923 65491",
+    "dateOfBirth": "1974-06-16T00:00:00.000+00:00",
+    "addressLine1": "8886 Nitzsche Plaza",
+    "addressLine2": "Suite 976",
+    "addressCity": "Smithamtown",
+    "addressPostcode": "W2C 1LQ",
+    "telephone": "0800 436 9186",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Elroy"
+        "Value": "Stella"
       },
       {
         "Key": "lastname",
-        "Value": "Jacobson"
+        "Value": "Trantow"
       },
       {
         "Key": "emailaddress1",
-        "Value": "karlyn@example.com"
+        "Value": "granville_beer@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "2001-12-04T00:00:00.000+00:00"
+        "Value": "1974-06-16T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "701 Doyle Tunnel"
+        "Value": "8886 Nitzsche Plaza"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 139"
+        "Value": "Suite 976"
       },
       {
         "Key": "address1_city",
-        "Value": "Cheyenneville"
+        "Value": "Smithamtown"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Y6K 3FN"
+        "Value": "W2C 1LQ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "013923 65491"
+        "Value": "0800 436 9186"
       },
       {
         "Key": "dfe_country",
@@ -251,18 +252,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750000
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

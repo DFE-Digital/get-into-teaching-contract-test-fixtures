@@ -1,49 +1,50 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Warren",
-    "Surname": "Torp",
-    "Email": "bud.legros@example.org",
+    "Persona": "Student",
+    "First Name": "Booker",
+    "Surname": "Langworth",
+    "Email": "merrill_davis@example.org",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Chemistry",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
+    "Degree subject": "English",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1992-09-28T00:00:00.000+00:00",
+    "Date of Birth": "1989-12-18T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "176 Jere Prairie",
-    "Address line 2": "Apt. 236",
-    "Town or city": "North Janland",
-    "Postcode": "Y8S 2GP",
-    "Telephone": "0800 354826",
+    "Address line 1": "6314 Lang Ports",
+    "Address line 2": "Apt. 482",
+    "Town or city": "Collinsview",
+    "Postcode": "IY4 6NB",
+    "Telephone": "01671 24747",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Warren",
-    "lastName": "Torp",
-    "email": "bud.legros@example.org",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Booker",
+    "lastName": "Langworth",
+    "email": "merrill_davis@example.org",
+    "degreeStatusId": 222750005,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1992-09-28T00:00:00.000+00:00",
-    "addressLine1": "176 Jere Prairie",
-    "addressLine2": "Apt. 236",
-    "addressCity": "North Janland",
-    "addressPostcode": "Y8S 2GP",
-    "telephone": "0800 354826",
+    "dateOfBirth": "1989-12-18T00:00:00.000+00:00",
+    "addressLine1": "6314 Lang Ports",
+    "addressLine2": "Apt. 482",
+    "addressCity": "Collinsview",
+    "addressPostcode": "IY4 6NB",
+    "telephone": "01671 24747",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -159,15 +160,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Warren"
+        "Value": "Booker"
       },
       {
         "Key": "lastname",
-        "Value": "Torp"
+        "Value": "Langworth"
       },
       {
         "Key": "emailaddress1",
-        "Value": "bud.legros@example.org"
+        "Value": "merrill_davis@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,27 +178,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1992-09-28T00:00:00.000+00:00"
+        "Value": "1989-12-18T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "176 Jere Prairie"
+        "Value": "6314 Lang Ports"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 236"
+        "Value": "Apt. 482"
       },
       {
         "Key": "address1_city",
-        "Value": "North Janland"
+        "Value": "Collinsview"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Y8S 2GP"
+        "Value": "IY4 6NB"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 354826"
+        "Value": "01671 24747"
       },
       {
         "Key": "dfe_country",
@@ -252,18 +253,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

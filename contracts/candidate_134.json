@@ -1,45 +1,46 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Rosalia",
-    "Surname": "Kub",
-    "Email": "mai_quigley@example.net",
+    "Persona": "Student",
+    "First Name": "Dolly",
+    "Surname": "Douglas",
+    "Email": "floyd@example.org",
     "Returner": "No",
-    "Degree": "Yes",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
     "Degree subject": "Chemistry",
-    "Degree class": "Pass (grade unknown)",
+    "Degree class": "Not applicable",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "Yes",
     "Interested subject": "Maths",
     "Desired start": "2023",
-    "Date of Birth": "1976-02-04T00:00:00.000+00:00",
+    "Date of Birth": "1989-05-21T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "6818 Samuel Station",
-    "Address line 2": "Apt. 263",
-    "Town or city": "Ettaville",
-    "Postcode": "MK2V 0LG",
-    "Telephone": "0920 891 8413",
+    "Address line 1": "627 Erdman Mission",
+    "Address line 2": "Apt. 582",
+    "Town or city": "North Bokberg",
+    "Postcode": "WC9P 0BJ",
+    "Telephone": "01241 642434",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Rosalia",
-    "lastName": "Kub",
-    "email": "mai_quigley@example.net",
-    "degreeStatusId": 222750000,
+    "firstName": "Dolly",
+    "lastName": "Douglas",
+    "email": "floyd@example.org",
+    "degreeStatusId": 222750002,
     "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750000,
     "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1976-02-04T00:00:00.000+00:00",
-    "addressLine1": "6818 Samuel Station",
-    "addressLine2": "Apt. 263",
-    "addressCity": "Ettaville",
-    "addressPostcode": "MK2V 0LG",
-    "telephone": "0920 891 8413",
+    "dateOfBirth": "1989-05-21T00:00:00.000+00:00",
+    "addressLine1": "627 Erdman Mission",
+    "addressLine2": "Apt. 582",
+    "addressCity": "North Bokberg",
+    "addressPostcode": "WC9P 0BJ",
+    "telephone": "01241 642434",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Rosalia"
+        "Value": "Dolly"
       },
       {
         "Key": "lastname",
-        "Value": "Kub"
+        "Value": "Douglas"
       },
       {
         "Key": "emailaddress1",
-        "Value": "mai_quigley@example.net"
+        "Value": "floyd@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1976-02-04T00:00:00.000+00:00"
+        "Value": "1989-05-21T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "6818 Samuel Station"
+        "Value": "627 Erdman Mission"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 263"
+        "Value": "Apt. 582"
       },
       {
         "Key": "address1_city",
-        "Value": "Ettaville"
+        "Value": "North Bokberg"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "MK2V 0LG"
+        "Value": "WC9P 0BJ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0920 891 8413"
+        "Value": "01241 642434"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
@@ -252,13 +253,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750000
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {

@@ -1,21 +1,4 @@
 {
   "uiSignUp": {
-    "Service": "Get TTA",
-    "Persona": "--",
-    "First Name": "Shandi",
-    "Surname": "Johnston",
-    "Email": "william@example.org",
-    "Returner": "No",
-    "Degree": "I'm studying for a degree",
-    "Study year": "Final year",
-    "Degree subject": "Maths",
-    "Degree class": "First class",
-    "Stage of Interest": "Primary",
-    "Grade 4 English and Maths": "Yes",
-    "Grade 4 Science": "No",
-    "Retake science": "No",
-    "Interested subject": "EXIT",
-    "Telephone": "028 2246 4033",
-    "Final Journey Status": "INVALID"
   }
 }

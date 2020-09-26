@@ -1,45 +1,46 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Elina",
-    "Surname": "Rath",
-    "Email": "sandy_cummerata@example.com",
+    "Persona": "Student",
+    "First Name": "Taylor",
+    "Surname": "Crona",
+    "Email": "suzanna@example.org",
     "Returner": "No",
-    "Degree": "Yes",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
     "Degree subject": "Maths",
-    "Degree class": "Pass (grade unknown)",
+    "Degree class": "First class",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2021",
-    "Date of Birth": "1989-09-15T00:00:00.000+00:00",
+    "Date of Birth": "1975-06-06T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "577 Maggio Lights",
-    "Address line 2": "Apt. 768",
-    "Town or city": "South Teofila",
-    "Postcode": "Z8 3NB",
-    "Telephone": "0800 450100",
+    "Address line 1": "34907 Simonis Point",
+    "Address line 2": "Apt. 862",
+    "Town or city": "Bechtelarshire",
+    "Postcode": "W3P 5AZ",
+    "Telephone": "01843 52981",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Elina",
-    "lastName": "Rath",
-    "email": "sandy_cummerata@example.com",
-    "degreeStatusId": 222750000,
+    "firstName": "Taylor",
+    "lastName": "Crona",
+    "email": "suzanna@example.org",
+    "degreeStatusId": 222750005,
     "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1989-09-15T00:00:00.000+00:00",
-    "addressLine1": "577 Maggio Lights",
-    "addressLine2": "Apt. 768",
-    "addressCity": "South Teofila",
-    "addressPostcode": "Z8 3NB",
-    "telephone": "0800 450100",
+    "dateOfBirth": "1975-06-06T00:00:00.000+00:00",
+    "addressLine1": "34907 Simonis Point",
+    "addressLine2": "Apt. 862",
+    "addressCity": "Bechtelarshire",
+    "addressPostcode": "W3P 5AZ",
+    "telephone": "01843 52981",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null,
@@ -157,15 +158,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Elina"
+        "Value": "Taylor"
       },
       {
         "Key": "lastname",
-        "Value": "Rath"
+        "Value": "Crona"
       },
       {
         "Key": "emailaddress1",
-        "Value": "sandy_cummerata@example.com"
+        "Value": "suzanna@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -175,27 +176,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1989-09-15T00:00:00.000+00:00"
+        "Value": "1975-06-06T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "577 Maggio Lights"
+        "Value": "34907 Simonis Point"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 768"
+        "Value": "Apt. 862"
       },
       {
         "Key": "address1_city",
-        "Value": "South Teofila"
+        "Value": "Bechtelarshire"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Z8 3NB"
+        "Value": "W3P 5AZ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 450100"
+        "Value": "01843 52981"
       },
       {
         "Key": "dfe_country",
@@ -250,13 +251,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {

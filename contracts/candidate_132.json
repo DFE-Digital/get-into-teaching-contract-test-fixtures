@@ -1,45 +1,46 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Kimberely",
-    "Surname": "Balistreri",
-    "Email": "emilio.ankunding@example.net",
+    "Persona": "Student",
+    "First Name": "Ellsworth",
+    "Surname": "Howell",
+    "Email": "calandra_ratke@example.org",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Biology",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "First year",
+    "Degree subject": "Maths",
+    "Degree class": "2:1",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "Yes",
-    "Interested subject": "Maths",
+    "Interested subject": "Chemistry",
     "Desired start": "2022",
-    "Date of Birth": "1974-07-18T00:00:00.000+00:00",
+    "Date of Birth": "1993-12-22T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "79934 McKenzie Avenue",
-    "Address line 2": "Suite 260",
-    "Town or city": "Toymouth",
-    "Postcode": "Y7 4WL",
-    "Telephone": "0800 343816",
+    "Address line 1": "4012 Stark Extensions",
+    "Address line 2": "Apt. 424",
+    "Town or city": "South Lloyd",
+    "Postcode": "KE0 6WG",
+    "Telephone": "0322 762 5680",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Kimberely",
-    "lastName": "Balistreri",
-    "email": "emilio.ankunding@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Ellsworth",
+    "lastName": "Howell",
+    "email": "calandra_ratke@example.org",
+    "degreeStatusId": 222750003,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "842655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1974-07-18T00:00:00.000+00:00",
-    "addressLine1": "79934 McKenzie Avenue",
-    "addressLine2": "Suite 260",
-    "addressCity": "Toymouth",
-    "addressPostcode": "Y7 4WL",
-    "telephone": "0800 343816",
+    "dateOfBirth": "1993-12-22T00:00:00.000+00:00",
+    "addressLine1": "4012 Stark Extensions",
+    "addressLine2": "Apt. 424",
+    "addressCity": "South Lloyd",
+    "addressPostcode": "KE0 6WG",
+    "telephone": "0322 762 5680",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Kimberely"
+        "Value": "Ellsworth"
       },
       {
         "Key": "lastname",
-        "Value": "Balistreri"
+        "Value": "Howell"
       },
       {
         "Key": "emailaddress1",
-        "Value": "emilio.ankunding@example.net"
+        "Value": "calandra_ratke@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,32 +177,32 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1974-07-18T00:00:00.000+00:00"
+        "Value": "1993-12-22T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "79934 McKenzie Avenue"
+        "Value": "4012 Stark Extensions"
       },
       {
         "Key": "address1_line2",
-        "Value": "Suite 260"
+        "Value": "Apt. 424"
       },
       {
         "Key": "address1_city",
-        "Value": "Toymouth"
+        "Value": "South Lloyd"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "Y7 4WL"
+        "Value": "KE0 6WG"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 343816"
+        "Value": "0322 762 5680"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+          "Id": "842655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
@@ -252,18 +253,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

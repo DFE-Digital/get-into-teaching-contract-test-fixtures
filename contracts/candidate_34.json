@@ -2,39 +2,39 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Overseas Graduate",
-    "First Name": "Alene",
-    "Surname": "Turcotte",
-    "Email": "aurora_rice@example.com",
+    "First Name": "Ewa",
+    "Surname": "Gleichner",
+    "Email": "dexter@example.org",
     "Returner": "No",
     "Degree": "Yes",
     "Degree subject": "Chemistry",
-    "Degree class": "2:2",
+    "Degree class": "First class",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1989-09-01T00:00:00.000+00:00",
+    "Date of Birth": "1995-03-18T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "Ghana",
-    "Telephone": "0111 904 0515",
+    "Country": "China",
+    "Telephone": "016977 4314",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "47f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Alene",
-    "lastName": "Turcotte",
-    "email": "aurora_rice@example.com",
+    "firstName": "Ewa",
+    "lastName": "Gleichner",
+    "email": "dexter@example.org",
     "degreeStatusId": 222750000,
     "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750003,
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1989-09-01T00:00:00.000+00:00",
-    "telephone": "0111 904 0515",
+    "dateOfBirth": "1995-03-18T00:00:00.000+00:00",
+    "telephone": "016977 4314",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -151,15 +151,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Alene"
+        "Value": "Ewa"
       },
       {
         "Key": "lastname",
-        "Value": "Turcotte"
+        "Value": "Gleichner"
       },
       {
         "Key": "emailaddress1",
-        "Value": "aurora_rice@example.com"
+        "Value": "dexter@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -169,16 +169,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1989-09-01T00:00:00.000+00:00"
+        "Value": "1995-03-18T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0111 904 0515"
+        "Value": "016977 4314"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "47f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -228,7 +228,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {

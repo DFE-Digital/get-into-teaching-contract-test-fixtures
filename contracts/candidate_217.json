@@ -1,48 +1,43 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Archie",
-    "Surname": "Volkman",
-    "Email": "warren_leannon@example.com",
+    "Persona": "Graduate with equivalent qualification",
+    "First Name": "Vance",
+    "Surname": "Baumbach",
+    "Email": "carroll_schuppe@example.net",
     "Returner": "No",
-    "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "Maths",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I have an equivalent qualification from another country",
     "Stage of Interest": "Primary",
-    "Grade 4 English and Maths": "Yes",
-    "Grade 4 Science": "Yes",
-    "Desired start": "2021",
-    "Date of Birth": "1977-07-28T00:00:00.000+00:00",
+    "Desired start": "2022",
+    "Date of Birth": "1986-06-01T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "7392 Jerde Parks",
-    "Address line 2": "Apt. 108",
-    "Town or city": "Linseyton",
-    "Postcode": "SG2 0BJ",
-    "Telephone": "01397 983460",
+    "Address line 1": "7981 Chantal Divide",
+    "Address line 2": "Apt. 750",
+    "Town or city": "North Toniland",
+    "Postcode": "YQ7 5LJ",
+    "Telephone": "0946 179 2804",
+    "Prefered Time": "0000-00-00T00:00:00Z",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Archie",
-    "lastName": "Volkman",
-    "email": "warren_leannon@example.com",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
-    "hasGcseMathsAndEnglishId": 222750000,
-    "hasGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1977-07-28T00:00:00.000+00:00",
-    "addressLine1": "7392 Jerde Parks",
-    "addressLine2": "Apt. 108",
-    "addressCity": "Linseyton",
-    "addressPostcode": "SG2 0BJ",
-    "telephone": "01397 983460",
-    "degreeTypeId": 222750000,
+    "firstName": "Vance",
+    "lastName": "Baumbach",
+    "email": "carroll_schuppe@example.net",
+    "degreeStatusId": 222750000,
+    "initialTeacherTrainingYearId": 22304,
+    "dateOfBirth": "1986-06-01T00:00:00.000+00:00",
+    "addressLine1": "7981 Chantal Divide",
+    "addressLine2": "Apt. 750",
+    "addressCity": "North Toniland",
+    "addressPostcode": "YQ7 5LJ",
+    "telephone": "0946 179 2804",
+    "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
+    "degreeTypeId": 222750005,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
     "planningToRetakeGcseMathsAndEnglishId": null,
     "planningToRetakeGcseScienceId": null
   },
@@ -100,7 +95,7 @@
       },
       {
         "Key": "dfe_eligibilityrulespassed",
-        "Value": "false"
+        "Value": "true"
       },
       {
         "Key": "donotbulkemail",
@@ -135,68 +130,46 @@
         "Value": true
       },
       {
-        "Key": "dfe_candidatestatus",
-        "Value": {
-          "Value": 222750001
-        }
-      },
-      {
-        "Key": "dfe_iscandidateeligibleforadviser",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_isadvisorrequiredos",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_waitingtobeassigneddate",
-        "Value": "0000-00-00T00:00:00.0000000Z"
-      },
-      {
         "Key": "firstname",
-        "Value": "Archie"
+        "Value": "Vance"
       },
       {
         "Key": "lastname",
-        "Value": "Volkman"
+        "Value": "Baumbach"
       },
       {
         "Key": "emailaddress1",
-        "Value": "warren_leannon@example.com"
+        "Value": "carroll_schuppe@example.net"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22303
+          "Value": 22304
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1977-07-28T00:00:00.000+00:00"
+        "Value": "1986-06-01T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "7392 Jerde Parks"
+        "Value": "7981 Chantal Divide"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 108"
+        "Value": "Apt. 750"
       },
       {
         "Key": "address1_city",
-        "Value": "Linseyton"
+        "Value": "North Toniland"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "SG2 0BJ"
+        "Value": "YQ7 5LJ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01397 983460"
+        "Value": "0946 179 2804"
       },
       {
         "Key": "dfe_country",
@@ -210,67 +183,10 @@
         "Value": {
           "Value": 222750000
         }
-      },
-      {
-        "Key": "dfe_websitehasgcseenglish",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsemaths",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsescience",
-        "Value": {
-          "Value": 222750000
-        }
       }
     ],
     "EntityState": 1,
     "RelatedEntities": [
-      {
-        "Key": {
-          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
-        },
-        "Value": {
-          "Entities": [
-            {
-              "LogicalName": "dfe_candidatequalification",
-              "Id": "00000000-0000-0000-0000-000000000000",
-              "Attributes": [
-                {
-                  "Key": "dfe_type",
-                  "Value": {
-                    "Value": 222750000
-                  }
-                },
-                {
-                  "Key": "dfe_ukdegreegrade",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_degreestatus",
-                  "Value": {
-                    "Value": 222750003
-                  }
-                },
-                {
-                  "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
-                }
-              ],
-              "EntityState": 1
-            }
-          ],
-          "EntityName": "dfe_candidatequalification"
-        }
-      },
       {
         "Key": {
           "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
@@ -313,6 +229,59 @@
             }
           ],
           "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "0946 179 2804"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Vance Baumbach"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
         }
       }
     ]

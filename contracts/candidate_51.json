@@ -2,41 +2,41 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Overseas Graduate",
-    "First Name": "Cristobal",
-    "Surname": "Kirlin",
-    "Email": "emmanuel@example.org",
+    "First Name": "Danny",
+    "Surname": "Mosciski",
+    "Email": "alexia_dickens@example.net",
     "Returner": "No",
     "Degree": "Yes",
-    "Degree subject": "Chemistry",
-    "Degree class": "First class",
+    "Degree subject": "Maths",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2020",
-    "Date of Birth": "1988-12-22T00:00:00.000+00:00",
+    "Date of Birth": "1998-08-03T00:00:00.000+00:00",
     "Where live": "Overseas",
     "Country": "Denmark",
-    "Telephone": "055 8777 1461",
+    "Telephone": "0500 242833",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Cristobal",
-    "lastName": "Kirlin",
-    "email": "emmanuel@example.org",
+    "firstName": "Danny",
+    "lastName": "Mosciski",
+    "email": "alexia_dickens@example.net",
     "degreeStatusId": 222750000,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750001,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1988-12-22T00:00:00.000+00:00",
-    "telephone": "055 8777 1461",
+    "dateOfBirth": "1998-08-03T00:00:00.000+00:00",
+    "telephone": "0500 242833",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -152,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Cristobal"
+        "Value": "Danny"
       },
       {
         "Key": "lastname",
-        "Value": "Kirlin"
+        "Value": "Mosciski"
       },
       {
         "Key": "emailaddress1",
-        "Value": "emmanuel@example.org"
+        "Value": "alexia_dickens@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -170,11 +170,11 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1988-12-22T00:00:00.000+00:00"
+        "Value": "1998-08-03T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "055 8777 1461"
+        "Value": "0500 242833"
       },
       {
         "Key": "dfe_country",
@@ -229,7 +229,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750001
+                    "Value": 222750002
                   }
                 },
                 {
@@ -240,7 +240,7 @@
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

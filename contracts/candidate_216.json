@@ -1,41 +1,36 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Adrienne",
-    "Surname": "Huels",
-    "Email": "dewey@example.net",
+    "Persona": "Overseas Graduate with equivalent qualification",
+    "First Name": "Lester",
+    "Surname": "Rutherford",
+    "Email": "donn@example.org",
     "Returner": "No",
-    "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
-    "Degree subject": "Chemistry",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I have an equivalent qualification from another country",
     "Stage of Interest": "Primary",
-    "Grade 4 English and Maths": "Yes",
-    "Grade 4 Science": "Yes",
-    "Desired start": "2020",
-    "Date of Birth": "1987-02-16T00:00:00.000+00:00",
+    "Desired start": "2021",
+    "Date of Birth": "1991-01-17T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "Barbados",
-    "Telephone": "056 1930 5418",
+    "Country": "Australia",
+    "Telephone": "0962 451 1338",
+    "Prefered Time": "0000-00-00T00:00:00Z",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "19f4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Adrienne",
-    "lastName": "Huels",
-    "email": "dewey@example.net",
-    "degreeStatusId": 222750002,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
-    "hasGcseMathsAndEnglishId": 222750000,
-    "hasGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1987-02-16T00:00:00.000+00:00",
-    "telephone": "056 1930 5418",
-    "degreeTypeId": 222750000,
+    "firstName": "Lester",
+    "lastName": "Rutherford",
+    "email": "donn@example.org",
+    "degreeStatusId": 222750000,
+    "initialTeacherTrainingYearId": 22303,
+    "dateOfBirth": "1991-01-17T00:00:00.000+00:00",
+    "telephone": "0962 451 1338",
+    "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
+    "degreeTypeId": 222750005,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
     "planningToRetakeGcseMathsAndEnglishId": null,
     "planningToRetakeGcseScienceId": null
   },
@@ -93,7 +88,7 @@
       },
       {
         "Key": "dfe_eligibilityrulespassed",
-        "Value": "false"
+        "Value": "true"
       },
       {
         "Key": "donotbulkemail",
@@ -128,57 +123,35 @@
         "Value": true
       },
       {
-        "Key": "dfe_candidatestatus",
-        "Value": {
-          "Value": 222750001
-        }
-      },
-      {
-        "Key": "dfe_iscandidateeligibleforadviser",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_isadvisorrequiredos",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_waitingtobeassigneddate",
-        "Value": "0000-00-00T00:00:00.0000000Z"
-      },
-      {
         "Key": "firstname",
-        "Value": "Adrienne"
+        "Value": "Lester"
       },
       {
         "Key": "lastname",
-        "Value": "Huels"
+        "Value": "Rutherford"
       },
       {
         "Key": "emailaddress1",
-        "Value": "dewey@example.net"
+        "Value": "donn@example.org"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22302
+          "Value": 22303
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1987-02-16T00:00:00.000+00:00"
+        "Value": "1991-01-17T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "056 1930 5418"
+        "Value": "0962 451 1338"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "19f4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -187,67 +160,10 @@
         "Value": {
           "Value": 222750000
         }
-      },
-      {
-        "Key": "dfe_websitehasgcseenglish",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsemaths",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsescience",
-        "Value": {
-          "Value": 222750000
-        }
       }
     ],
     "EntityState": 1,
     "RelatedEntities": [
-      {
-        "Key": {
-          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
-        },
-        "Value": {
-          "Entities": [
-            {
-              "LogicalName": "dfe_candidatequalification",
-              "Id": "00000000-0000-0000-0000-000000000000",
-              "Attributes": [
-                {
-                  "Key": "dfe_type",
-                  "Value": {
-                    "Value": 222750000
-                  }
-                },
-                {
-                  "Key": "dfe_ukdegreegrade",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_degreestatus",
-                  "Value": {
-                    "Value": 222750002
-                  }
-                },
-                {
-                  "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
-                }
-              ],
-              "EntityState": 1
-            }
-          ],
-          "EntityName": "dfe_candidatequalification"
-        }
-      },
       {
         "Key": {
           "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
@@ -290,6 +206,59 @@
             }
           ],
           "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "0962 451 1338"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Lester Rutherford"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
         }
       }
     ]

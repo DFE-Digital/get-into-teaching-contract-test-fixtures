@@ -1,48 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Johnette",
-    "Surname": "Ortiz",
-    "Email": "columbus@example.org",
+    "Persona": "Overseas Final year student",
+    "First Name": "Ernest",
+    "Surname": "Bernier",
+    "Email": "noma@example.org",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
-    "Degree subject": "Chemistry",
-    "Degree class": "First class",
+    "Study year": "Final year",
+    "Degree subject": "Biology",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1974-10-23T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "4666 Fanny Creek",
-    "Address line 2": "Apt. 896",
-    "Town or city": "Port Staciaborough",
-    "Postcode": "US6V 3BW",
-    "Telephone": "0371 150 1057",
+    "Date of Birth": "1992-07-11T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Ghana",
+    "Telephone": "0800 531915",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Johnette",
-    "lastName": "Ortiz",
-    "email": "columbus@example.org",
-    "degreeStatusId": 222750002,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750001,
+    "firstName": "Ernest",
+    "lastName": "Bernier",
+    "email": "noma@example.org",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1974-10-23T00:00:00.000+00:00",
-    "addressLine1": "4666 Fanny Creek",
-    "addressLine2": "Apt. 896",
-    "addressCity": "Port Staciaborough",
-    "addressPostcode": "US6V 3BW",
-    "telephone": "0371 150 1057",
+    "dateOfBirth": "1992-07-11T00:00:00.000+00:00",
+    "telephone": "0800 531915",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -159,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Johnette"
+        "Value": "Ernest"
       },
       {
         "Key": "lastname",
-        "Value": "Ortiz"
+        "Value": "Bernier"
       },
       {
         "Key": "emailaddress1",
-        "Value": "columbus@example.org"
+        "Value": "noma@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,32 +170,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1974-10-23T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "4666 Fanny Creek"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Apt. 896"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Port Staciaborough"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "US6V 3BW"
+        "Value": "1992-07-11T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0371 150 1057"
+        "Value": "0800 531915"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -252,18 +229,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750001
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

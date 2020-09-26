@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Antonette",
-    "Surname": "Herzog",
-    "Email": "geraldo@example.net",
+    "Persona": "Student",
+    "First Name": "Jack",
+    "Surname": "Streich",
+    "Email": "jamison@example.com",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
+    "Degree subject": "Biology",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "Not sure",
-    "Date of Birth": "1975-06-26T00:00:00.000+00:00",
+    "Date of Birth": "1973-02-07T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "81440 Yost Curve",
-    "Address line 2": "Suite 765",
-    "Town or city": "North Shelli",
-    "Postcode": "N0B 1AF",
-    "Telephone": "0838 784 7388",
+    "Address line 1": "11906 Nicky Mount",
+    "Address line 2": "Apt. 861",
+    "Town or city": "Wymanville",
+    "Postcode": "T3 9RB",
+    "Telephone": "016977 9425",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Antonette",
-    "lastName": "Herzog",
-    "email": "geraldo@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Jack",
+    "lastName": "Streich",
+    "email": "jamison@example.com",
+    "degreeStatusId": 222750002,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1975-06-26T00:00:00.000+00:00",
-    "addressLine1": "81440 Yost Curve",
-    "addressLine2": "Suite 765",
-    "addressCity": "North Shelli",
-    "addressPostcode": "N0B 1AF",
-    "telephone": "0838 784 7388",
+    "dateOfBirth": "1973-02-07T00:00:00.000+00:00",
+    "addressLine1": "11906 Nicky Mount",
+    "addressLine2": "Apt. 861",
+    "addressCity": "Wymanville",
+    "addressPostcode": "T3 9RB",
+    "telephone": "016977 9425",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Antonette"
+        "Value": "Jack"
       },
       {
         "Key": "lastname",
-        "Value": "Herzog"
+        "Value": "Streich"
       },
       {
         "Key": "emailaddress1",
-        "Value": "geraldo@example.net"
+        "Value": "jamison@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1975-06-26T00:00:00.000+00:00"
+        "Value": "1973-02-07T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "81440 Yost Curve"
+        "Value": "11906 Nicky Mount"
       },
       {
         "Key": "address1_line2",
-        "Value": "Suite 765"
+        "Value": "Apt. 861"
       },
       {
         "Key": "address1_city",
-        "Value": "North Shelli"
+        "Value": "Wymanville"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "N0B 1AF"
+        "Value": "T3 9RB"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0838 784 7388"
+        "Value": "016977 9425"
       },
       {
         "Key": "dfe_country",
@@ -251,18 +252,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

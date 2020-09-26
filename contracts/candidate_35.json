@@ -2,46 +2,46 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Graduate",
-    "First Name": "Jewell",
-    "Surname": "Nicolas",
-    "Email": "billye@example.net",
+    "First Name": "Granville",
+    "Surname": "Barton",
+    "Email": "sharda@example.net",
     "Returner": "No",
     "Degree": "Yes",
     "Degree subject": "Chemistry",
-    "Degree class": "2:1",
+    "Degree class": "First class",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2023",
-    "Date of Birth": "1973-03-02T00:00:00.000+00:00",
+    "Date of Birth": "1976-03-21T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "6070 Douglas Center",
-    "Address line 2": "Apt. 745",
-    "Town or city": "Rufusland",
-    "Postcode": "KS2 3AL",
-    "Telephone": "01282 192642",
+    "Address line 1": "99937 Lester Divide",
+    "Address line 2": "Suite 222",
+    "Town or city": "North Kenmouth",
+    "Postcode": "S5A 0FB",
+    "Telephone": "0111 213 3990",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Jewell",
-    "lastName": "Nicolas",
-    "email": "billye@example.net",
+    "firstName": "Granville",
+    "lastName": "Barton",
+    "email": "sharda@example.net",
     "degreeStatusId": 222750000,
     "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750002,
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1973-03-02T00:00:00.000+00:00",
-    "addressLine1": "6070 Douglas Center",
-    "addressLine2": "Apt. 745",
-    "addressCity": "Rufusland",
-    "addressPostcode": "KS2 3AL",
-    "telephone": "01282 192642",
+    "dateOfBirth": "1976-03-21T00:00:00.000+00:00",
+    "addressLine1": "99937 Lester Divide",
+    "addressLine2": "Suite 222",
+    "addressCity": "North Kenmouth",
+    "addressPostcode": "S5A 0FB",
+    "telephone": "0111 213 3990",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -158,15 +158,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Jewell"
+        "Value": "Granville"
       },
       {
         "Key": "lastname",
-        "Value": "Nicolas"
+        "Value": "Barton"
       },
       {
         "Key": "emailaddress1",
-        "Value": "billye@example.net"
+        "Value": "sharda@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +176,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1973-03-02T00:00:00.000+00:00"
+        "Value": "1976-03-21T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "6070 Douglas Center"
+        "Value": "99937 Lester Divide"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 745"
+        "Value": "Suite 222"
       },
       {
         "Key": "address1_city",
-        "Value": "Rufusland"
+        "Value": "North Kenmouth"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "KS2 3AL"
+        "Value": "S5A 0FB"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01282 192642"
+        "Value": "0111 213 3990"
       },
       {
         "Key": "dfe_country",
@@ -251,7 +251,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {

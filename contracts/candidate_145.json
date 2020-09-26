@@ -1,40 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Graduate",
-    "First Name": "Myrle",
-    "Surname": "Watsica",
-    "Email": "connie.welch@example.com",
+    "Persona": "Overseas Student",
+    "First Name": "Otis",
+    "Surname": "Walter",
+    "Email": "lidia@example.org",
     "Returner": "No",
-    "Degree": "Yes",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
     "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
+    "Degree class": "2:2",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
-    "Interested subject": "Biology",
+    "Interested subject": "English",
     "Desired start": "2023",
-    "Date of Birth": "1985-04-13T00:00:00.000+00:00",
+    "Date of Birth": "2001-12-11T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "Australia",
-    "Telephone": "0800 457 6029",
+    "Country": "Barbados",
+    "Telephone": "019800 88134",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "19f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Myrle",
-    "lastName": "Watsica",
-    "email": "connie.welch@example.com",
-    "degreeStatusId": 222750000,
+    "firstName": "Otis",
+    "lastName": "Walter",
+    "email": "lidia@example.org",
+    "degreeStatusId": 222750005,
     "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "802655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "942655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1985-04-13T00:00:00.000+00:00",
-    "telephone": "0800 457 6029",
+    "dateOfBirth": "2001-12-11T00:00:00.000+00:00",
+    "telephone": "019800 88134",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -152,15 +153,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Myrle"
+        "Value": "Otis"
       },
       {
         "Key": "lastname",
-        "Value": "Watsica"
+        "Value": "Walter"
       },
       {
         "Key": "emailaddress1",
-        "Value": "connie.welch@example.com"
+        "Value": "lidia@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -170,23 +171,23 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1985-04-13T00:00:00.000+00:00"
+        "Value": "2001-12-11T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 457 6029"
+        "Value": "019800 88134"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "802655a1-2afa-e811-a981-000d3a276620",
+          "Id": "942655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "19f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -230,13 +231,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {

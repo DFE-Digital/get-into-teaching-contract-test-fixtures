@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Wynell",
-    "Surname": "Murray",
-    "Email": "lindsey_volkman@example.org",
+    "Persona": "Student",
+    "First Name": "Amiee",
+    "Surname": "West",
+    "Email": "lashandra@example.net",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Biology",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "First year",
+    "Degree subject": "Maths",
+    "Degree class": "2:2",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
-    "Interested subject": "Chemistry",
+    "Interested subject": "English",
     "Desired start": "2023",
-    "Date of Birth": "1973-03-21T00:00:00.000+00:00",
+    "Date of Birth": "1985-02-26T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "33428 Erdman Plain",
-    "Address line 2": "Suite 134",
-    "Town or city": "Tandyborough",
-    "Postcode": "YG9 6BA",
-    "Telephone": "056 7633 2822",
+    "Address line 1": "478 Turcotte Union",
+    "Address line 2": "Apt. 362",
+    "Town or city": "New Dennischester",
+    "Postcode": "SC7X 6EA",
+    "Telephone": "01476 56054",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Wynell",
-    "lastName": "Murray",
-    "email": "lindsey_volkman@example.org",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Amiee",
+    "lastName": "West",
+    "email": "lashandra@example.net",
+    "degreeStatusId": 222750003,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "842655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "942655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1973-03-21T00:00:00.000+00:00",
-    "addressLine1": "33428 Erdman Plain",
-    "addressLine2": "Suite 134",
-    "addressCity": "Tandyborough",
-    "addressPostcode": "YG9 6BA",
-    "telephone": "056 7633 2822",
+    "dateOfBirth": "1985-02-26T00:00:00.000+00:00",
+    "addressLine1": "478 Turcotte Union",
+    "addressLine2": "Apt. 362",
+    "addressCity": "New Dennischester",
+    "addressPostcode": "SC7X 6EA",
+    "telephone": "01476 56054",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -159,15 +160,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Wynell"
+        "Value": "Amiee"
       },
       {
         "Key": "lastname",
-        "Value": "Murray"
+        "Value": "West"
       },
       {
         "Key": "emailaddress1",
-        "Value": "lindsey_volkman@example.org"
+        "Value": "lashandra@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,32 +178,32 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1973-03-21T00:00:00.000+00:00"
+        "Value": "1985-02-26T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "33428 Erdman Plain"
+        "Value": "478 Turcotte Union"
       },
       {
         "Key": "address1_line2",
-        "Value": "Suite 134"
+        "Value": "Apt. 362"
       },
       {
         "Key": "address1_city",
-        "Value": "Tandyborough"
+        "Value": "New Dennischester"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "YG9 6BA"
+        "Value": "SC7X 6EA"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "056 7633 2822"
+        "Value": "01476 56054"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "842655a1-2afa-e811-a981-000d3a276620",
+          "Id": "942655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
@@ -253,18 +254,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

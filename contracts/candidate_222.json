@@ -1,41 +1,38 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Lyle",
-    "Surname": "Terry",
-    "Email": "victor@example.com",
+    "Persona": "Overseas Graduate with equivalent qualification",
+    "First Name": "Megan",
+    "Surname": "Kilback",
+    "Email": "herschel@example.net",
     "Returner": "No",
-    "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
-    "Stage of Interest": "Primary",
-    "Grade 4 English and Maths": "Yes",
-    "Grade 4 Science": "Yes",
-    "Desired start": "2023",
-    "Date of Birth": "1993-12-16T00:00:00.000+00:00",
+    "Degree": "I have an equivalent qualification from another country",
+    "Stage of Interest": "Secondary",
+    "Interested subject": "Maths",
+    "Desired start": "Not sure",
+    "Date of Birth": "1980-05-05T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "Germany",
-    "Telephone": "029 0244 3281",
+    "Country": "China",
+    "Telephone": "0814 209 6059",
+    "Prefered Time": "0000-00-00T00:00:00Z",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "83f4c2e6-74f9-e811-a97a-000d3a2760f2",
-    "preferredEducationPhaseId": 222750000,
-    "firstName": "Lyle",
-    "lastName": "Terry",
-    "email": "victor@example.com",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
-    "hasGcseMathsAndEnglishId": 222750000,
-    "hasGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1993-12-16T00:00:00.000+00:00",
-    "telephone": "029 0244 3281",
-    "degreeTypeId": 222750000,
+    "countryId": "47f4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "preferredEducationPhaseId": 222750001,
+    "firstName": "Megan",
+    "lastName": "Kilback",
+    "email": "herschel@example.net",
+    "degreeStatusId": 222750000,
+    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "initialTeacherTrainingYearId": 12917,
+    "dateOfBirth": "1980-05-05T00:00:00.000+00:00",
+    "telephone": "0814 209 6059",
+    "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
+    "degreeTypeId": 222750005,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
     "planningToRetakeGcseMathsAndEnglishId": null,
     "planningToRetakeGcseScienceId": null
   },
@@ -93,7 +90,7 @@
       },
       {
         "Key": "dfe_eligibilityrulespassed",
-        "Value": "false"
+        "Value": "true"
       },
       {
         "Key": "donotbulkemail",
@@ -128,126 +125,54 @@
         "Value": true
       },
       {
-        "Key": "dfe_candidatestatus",
-        "Value": {
-          "Value": 222750001
-        }
-      },
-      {
-        "Key": "dfe_iscandidateeligibleforadviser",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_isadvisorrequiredos",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_waitingtobeassigneddate",
-        "Value": "0000-00-00T00:00:00.0000000Z"
-      },
-      {
         "Key": "firstname",
-        "Value": "Lyle"
+        "Value": "Megan"
       },
       {
         "Key": "lastname",
-        "Value": "Terry"
+        "Value": "Kilback"
       },
       {
         "Key": "emailaddress1",
-        "Value": "victor@example.com"
+        "Value": "herschel@example.net"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22305
+          "Value": 12917
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1993-12-16T00:00:00.000+00:00"
+        "Value": "1980-05-05T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "029 0244 3281"
+        "Value": "0814 209 6059"
+      },
+      {
+        "Key": "dfe_preferredteachingsubject01",
+        "Value": {
+          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+          "LogicalName": "dfe_teachingsubjectlist"
+        }
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "83f4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "47f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
       {
         "Key": "dfe_preferrededucationphase01",
         "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcseenglish",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsemaths",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsescience",
-        "Value": {
-          "Value": 222750000
+          "Value": 222750001
         }
       }
     ],
     "EntityState": 1,
     "RelatedEntities": [
-      {
-        "Key": {
-          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
-        },
-        "Value": {
-          "Entities": [
-            {
-              "LogicalName": "dfe_candidatequalification",
-              "Id": "00000000-0000-0000-0000-000000000000",
-              "Attributes": [
-                {
-                  "Key": "dfe_type",
-                  "Value": {
-                    "Value": 222750000
-                  }
-                },
-                {
-                  "Key": "dfe_ukdegreegrade",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_degreestatus",
-                  "Value": {
-                    "Value": 222750003
-                  }
-                },
-                {
-                  "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
-                }
-              ],
-              "EntityState": 1
-            }
-          ],
-          "EntityName": "dfe_candidatequalification"
-        }
-      },
       {
         "Key": {
           "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
@@ -290,6 +215,59 @@
             }
           ],
           "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "0814 209 6059"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Megan Kilback"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
         }
       }
     ]

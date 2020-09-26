@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Marvin",
-    "Surname": "Will",
-    "Email": "christopher_fritsch@example.net",
+    "Persona": "Student",
+    "First Name": "Darell",
+    "Surname": "Wolff",
+    "Email": "talitha@example.com",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Maths",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "First year",
+    "Degree subject": "Biology",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1992-04-06T00:00:00.000+00:00",
+    "Date of Birth": "1976-05-11T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "626 Dominick Overpass",
-    "Address line 2": "Apt. 277",
-    "Town or city": "Lake Cherly",
-    "Postcode": "W5D 5QL",
-    "Telephone": "0800 712080",
+    "Address line 1": "32128 Bradtke Trafficway",
+    "Address line 2": "Apt. 994",
+    "Town or city": "South Reyesfurt",
+    "Postcode": "H2 7ZB",
+    "Telephone": "016977 5412",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Marvin",
-    "lastName": "Will",
-    "email": "christopher_fritsch@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Darell",
+    "lastName": "Wolff",
+    "email": "talitha@example.com",
+    "degreeStatusId": 222750003,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1992-04-06T00:00:00.000+00:00",
-    "addressLine1": "626 Dominick Overpass",
-    "addressLine2": "Apt. 277",
-    "addressCity": "Lake Cherly",
-    "addressPostcode": "W5D 5QL",
-    "telephone": "0800 712080",
+    "dateOfBirth": "1976-05-11T00:00:00.000+00:00",
+    "addressLine1": "32128 Bradtke Trafficway",
+    "addressLine2": "Apt. 994",
+    "addressCity": "South Reyesfurt",
+    "addressPostcode": "H2 7ZB",
+    "telephone": "016977 5412",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Marvin"
+        "Value": "Darell"
       },
       {
         "Key": "lastname",
-        "Value": "Will"
+        "Value": "Wolff"
       },
       {
         "Key": "emailaddress1",
-        "Value": "christopher_fritsch@example.net"
+        "Value": "talitha@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1992-04-06T00:00:00.000+00:00"
+        "Value": "1976-05-11T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "626 Dominick Overpass"
+        "Value": "32128 Bradtke Trafficway"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 277"
+        "Value": "Apt. 994"
       },
       {
         "Key": "address1_city",
-        "Value": "Lake Cherly"
+        "Value": "South Reyesfurt"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "W5D 5QL"
+        "Value": "H2 7ZB"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 712080"
+        "Value": "016977 5412"
       },
       {
         "Key": "dfe_country",
@@ -251,18 +252,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

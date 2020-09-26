@@ -1,41 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Carol",
-    "Surname": "Quitzon",
-    "Email": "gigi.krajcik@example.com",
+    "Persona": "Final year student",
+    "First Name": "Oscar",
+    "Surname": "Hartmann",
+    "Email": "kala@example.net",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "First year",
+    "Study year": "Final year",
     "Degree subject": "Maths",
-    "Degree class": "Not applicable",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
-    "Desired start": "2021",
-    "Date of Birth": "1984-06-25T00:00:00.000+00:00",
-    "Where live": "Overseas",
-    "Country": "Poland",
-    "Telephone": "0974 719 9662",
+    "Desired start": "2022",
+    "Date of Birth": "1987-05-18T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "540 Becker Village",
+    "Address line 2": "Apt. 205",
+    "Town or city": "Faheychester",
+    "Postcode": "W1 1ZZ",
+    "Telephone": "056 1002 7451",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "1cf5c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Carol",
-    "lastName": "Quitzon",
-    "email": "gigi.krajcik@example.com",
-    "degreeStatusId": 222750003,
+    "firstName": "Oscar",
+    "lastName": "Hartmann",
+    "email": "kala@example.net",
+    "degreeStatusId": 222750001,
     "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1984-06-25T00:00:00.000+00:00",
-    "telephone": "0974 719 9662",
+    "initialTeacherTrainingYearId": 22304,
+    "dateOfBirth": "1987-05-18T00:00:00.000+00:00",
+    "addressLine1": "540 Becker Village",
+    "addressLine2": "Apt. 205",
+    "addressCity": "Faheychester",
+    "addressPostcode": "W1 1ZZ",
+    "telephone": "056 1002 7451",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -152,34 +159,50 @@
       },
       {
         "Key": "firstname",
-        "Value": "Carol"
+        "Value": "Oscar"
       },
       {
         "Key": "lastname",
-        "Value": "Quitzon"
+        "Value": "Hartmann"
       },
       {
         "Key": "emailaddress1",
-        "Value": "gigi.krajcik@example.com"
+        "Value": "kala@example.net"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22303
+          "Value": 22304
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1984-06-25T00:00:00.000+00:00"
+        "Value": "1987-05-18T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "540 Becker Village"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 205"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Faheychester"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "W1 1ZZ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0974 719 9662"
+        "Value": "056 1002 7451"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "1cf5c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -229,13 +252,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {

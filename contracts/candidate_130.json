@@ -1,45 +1,46 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Vincent",
-    "Surname": "Schoen",
-    "Email": "almeta@example.com",
+    "Persona": "Student",
+    "First Name": "Merrilee",
+    "Surname": "Block",
+    "Email": "lawrence@example.org",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Chemistry",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "First year",
+    "Degree subject": "Biology",
+    "Degree class": "2:1",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "Yes",
     "Interested subject": "Biology",
     "Desired start": "2021",
-    "Date of Birth": "1981-01-26T00:00:00.000+00:00",
+    "Date of Birth": "1995-02-19T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "8883 Shin Center",
-    "Address line 2": "Apt. 638",
-    "Town or city": "Port Nolanchester",
-    "Postcode": "WU8 3SL",
-    "Telephone": "056 8887 0158",
+    "Address line 1": "4905 D'Amore Key",
+    "Address line 2": "Apt. 274",
+    "Town or city": "Janiseport",
+    "Postcode": "R3U 5QD",
+    "Telephone": "016977 9751",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Vincent",
-    "lastName": "Schoen",
-    "email": "almeta@example.com",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Merrilee",
+    "lastName": "Block",
+    "email": "lawrence@example.org",
+    "degreeStatusId": 222750003,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750000,
     "preferredTeachingSubjectId": "802655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1981-01-26T00:00:00.000+00:00",
-    "addressLine1": "8883 Shin Center",
-    "addressLine2": "Apt. 638",
-    "addressCity": "Port Nolanchester",
-    "addressPostcode": "WU8 3SL",
-    "telephone": "056 8887 0158",
+    "dateOfBirth": "1995-02-19T00:00:00.000+00:00",
+    "addressLine1": "4905 D'Amore Key",
+    "addressLine2": "Apt. 274",
+    "addressCity": "Janiseport",
+    "addressPostcode": "R3U 5QD",
+    "telephone": "016977 9751",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Vincent"
+        "Value": "Merrilee"
       },
       {
         "Key": "lastname",
-        "Value": "Schoen"
+        "Value": "Block"
       },
       {
         "Key": "emailaddress1",
-        "Value": "almeta@example.com"
+        "Value": "lawrence@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1981-01-26T00:00:00.000+00:00"
+        "Value": "1995-02-19T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "8883 Shin Center"
+        "Value": "4905 D'Amore Key"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 638"
+        "Value": "Apt. 274"
       },
       {
         "Key": "address1_city",
-        "Value": "Port Nolanchester"
+        "Value": "Janiseport"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "WU8 3SL"
+        "Value": "R3U 5QD"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "056 8887 0158"
+        "Value": "016977 9751"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
@@ -252,18 +253,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

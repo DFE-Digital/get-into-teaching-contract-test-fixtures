@@ -1,13 +1,13 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Arden",
-    "Surname": "Walker",
-    "Email": "joana@example.com",
+    "Persona": "Overseas Final year student",
+    "First Name": "Rossana",
+    "Surname": "Hahn",
+    "Email": "freddie_littel@example.net",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
+    "Study year": "Final year",
     "Degree subject": "Maths",
     "Degree class": "2:2",
     "Stage of Interest": "Primary",
@@ -15,34 +15,27 @@
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2023",
-    "Date of Birth": "1981-10-10T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "50126 Smith Glens",
-    "Address line 2": "Apt. 927",
-    "Town or city": "South Lakeesha",
-    "Postcode": "L5 8NA",
-    "Telephone": "01341 67131",
+    "Date of Birth": "1996-10-10T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Ghana",
+    "Telephone": "0500 772665",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Arden",
-    "lastName": "Walker",
-    "email": "joana@example.com",
-    "degreeStatusId": 222750002,
+    "firstName": "Rossana",
+    "lastName": "Hahn",
+    "email": "freddie_littel@example.net",
+    "degreeStatusId": 222750001,
     "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1981-10-10T00:00:00.000+00:00",
-    "addressLine1": "50126 Smith Glens",
-    "addressLine2": "Apt. 927",
-    "addressCity": "South Lakeesha",
-    "addressPostcode": "L5 8NA",
-    "telephone": "01341 67131",
+    "dateOfBirth": "1996-10-10T00:00:00.000+00:00",
+    "telephone": "0500 772665",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -159,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Arden"
+        "Value": "Rossana"
       },
       {
         "Key": "lastname",
-        "Value": "Walker"
+        "Value": "Hahn"
       },
       {
         "Key": "emailaddress1",
-        "Value": "joana@example.com"
+        "Value": "freddie_littel@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,32 +170,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1981-10-10T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "50126 Smith Glens"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Apt. 927"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "South Lakeesha"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "L5 8NA"
+        "Value": "1996-10-10T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01341 67131"
+        "Value": "0500 772665"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -258,7 +235,7 @@
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {

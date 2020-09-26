@@ -1,48 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Mauro",
-    "Surname": "Miller",
-    "Email": "soila@example.net",
+    "Persona": "Overseas Final year student",
+    "First Name": "Azzie",
+    "Surname": "Schulist",
+    "Email": "federico@example.org",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "Maths",
-    "Degree class": "Not applicable",
+    "Study year": "Final year",
+    "Degree subject": "English",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2020",
-    "Date of Birth": "2001-06-05T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "7088 Merlin Garden",
-    "Address line 2": "Apt. 346",
-    "Town or city": "South Eleonoretown",
-    "Postcode": "W2U 5LZ",
-    "Telephone": "055 1875 0839",
+    "Date of Birth": "1986-11-01T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Poland",
+    "Telephone": "01296 903544",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "1cf5c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Mauro",
-    "lastName": "Miller",
-    "email": "soila@example.net",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "firstName": "Azzie",
+    "lastName": "Schulist",
+    "email": "federico@example.org",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "2001-06-05T00:00:00.000+00:00",
-    "addressLine1": "7088 Merlin Garden",
-    "addressLine2": "Apt. 346",
-    "addressCity": "South Eleonoretown",
-    "addressPostcode": "W2U 5LZ",
-    "telephone": "055 1875 0839",
+    "dateOfBirth": "1986-11-01T00:00:00.000+00:00",
+    "telephone": "01296 903544",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -159,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Mauro"
+        "Value": "Azzie"
       },
       {
         "Key": "lastname",
-        "Value": "Miller"
+        "Value": "Schulist"
       },
       {
         "Key": "emailaddress1",
-        "Value": "soila@example.net"
+        "Value": "federico@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,32 +170,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "2001-06-05T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "7088 Merlin Garden"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Apt. 346"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "South Eleonoretown"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "W2U 5LZ"
+        "Value": "1986-11-01T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "055 1875 0839"
+        "Value": "01296 903544"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "1cf5c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -252,18 +229,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

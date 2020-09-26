@@ -2,46 +2,46 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Graduate",
-    "First Name": "Marc",
-    "Surname": "Howell",
-    "Email": "page@example.com",
+    "First Name": "Natalya",
+    "Surname": "Reinger",
+    "Email": "allegra.graham@example.net",
     "Returner": "No",
     "Degree": "Yes",
-    "Degree subject": "Chemistry",
-    "Degree class": "Not applicable",
+    "Degree subject": "English",
+    "Degree class": "2:2",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Interested subject": "Biology",
     "Desired start": "2023",
-    "Date of Birth": "1971-10-25T00:00:00.000+00:00",
+    "Date of Birth": "1978-07-31T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "685 Mary Pines",
-    "Address line 2": "Apt. 533",
-    "Town or city": "East Jonasville",
-    "Postcode": "YH6 0HL",
-    "Telephone": "016707 96516",
+    "Address line 1": "4542 Dare Wall",
+    "Address line 2": "Apt. 919",
+    "Town or city": "Ushahaven",
+    "Postcode": "H1W 4BE",
+    "Telephone": "01677 976613",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Marc",
-    "lastName": "Howell",
-    "email": "page@example.com",
+    "firstName": "Natalya",
+    "lastName": "Reinger",
+    "email": "allegra.graham@example.net",
     "degreeStatusId": 222750000,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "preferredTeachingSubjectId": "802655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1971-10-25T00:00:00.000+00:00",
-    "addressLine1": "685 Mary Pines",
-    "addressLine2": "Apt. 533",
-    "addressCity": "East Jonasville",
-    "addressPostcode": "YH6 0HL",
-    "telephone": "016707 96516",
+    "dateOfBirth": "1978-07-31T00:00:00.000+00:00",
+    "addressLine1": "4542 Dare Wall",
+    "addressLine2": "Apt. 919",
+    "addressCity": "Ushahaven",
+    "addressPostcode": "H1W 4BE",
+    "telephone": "01677 976613",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -159,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Marc"
+        "Value": "Natalya"
       },
       {
         "Key": "lastname",
-        "Value": "Howell"
+        "Value": "Reinger"
       },
       {
         "Key": "emailaddress1",
-        "Value": "page@example.com"
+        "Value": "allegra.graham@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1971-10-25T00:00:00.000+00:00"
+        "Value": "1978-07-31T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "685 Mary Pines"
+        "Value": "4542 Dare Wall"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 533"
+        "Value": "Apt. 919"
       },
       {
         "Key": "address1_city",
-        "Value": "East Jonasville"
+        "Value": "Ushahaven"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "YH6 0HL"
+        "Value": "H1W 4BE"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "016707 96516"
+        "Value": "01677 976613"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
@@ -253,7 +253,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
@@ -264,7 +264,7 @@
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

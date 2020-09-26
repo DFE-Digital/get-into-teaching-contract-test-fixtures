@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Vincenzo",
-    "Surname": "Adams",
-    "Email": "lucille_jacobs@example.org",
+    "Persona": "Student",
+    "First Name": "Noel",
+    "Surname": "Kunde",
+    "Email": "tod_pfannerstill@example.net",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Biology",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
+    "Degree subject": "Maths",
+    "Degree class": "Not applicable",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2020",
-    "Date of Birth": "1981-03-29T00:00:00.000+00:00",
+    "Date of Birth": "1982-08-21T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "18641 Filiberto Spur",
-    "Address line 2": "Apt. 464",
-    "Town or city": "East Donnieville",
-    "Postcode": "W7K 7ZL",
-    "Telephone": "0500 782819",
+    "Address line 1": "4338 Ciera Viaduct",
+    "Address line 2": "Suite 227",
+    "Town or city": "Port Rachel",
+    "Postcode": "O9 4FU",
+    "Telephone": "01566 20145",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Vincenzo",
-    "lastName": "Adams",
-    "email": "lucille_jacobs@example.org",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Noel",
+    "lastName": "Kunde",
+    "email": "tod_pfannerstill@example.net",
+    "degreeStatusId": 222750002,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1981-03-29T00:00:00.000+00:00",
-    "addressLine1": "18641 Filiberto Spur",
-    "addressLine2": "Apt. 464",
-    "addressCity": "East Donnieville",
-    "addressPostcode": "W7K 7ZL",
-    "telephone": "0500 782819",
+    "dateOfBirth": "1982-08-21T00:00:00.000+00:00",
+    "addressLine1": "4338 Ciera Viaduct",
+    "addressLine2": "Suite 227",
+    "addressCity": "Port Rachel",
+    "addressPostcode": "O9 4FU",
+    "telephone": "01566 20145",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Vincenzo"
+        "Value": "Noel"
       },
       {
         "Key": "lastname",
-        "Value": "Adams"
+        "Value": "Kunde"
       },
       {
         "Key": "emailaddress1",
-        "Value": "lucille_jacobs@example.org"
+        "Value": "tod_pfannerstill@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1981-03-29T00:00:00.000+00:00"
+        "Value": "1982-08-21T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "18641 Filiberto Spur"
+        "Value": "4338 Ciera Viaduct"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 464"
+        "Value": "Suite 227"
       },
       {
         "Key": "address1_city",
-        "Value": "East Donnieville"
+        "Value": "Port Rachel"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "W7K 7ZL"
+        "Value": "O9 4FU"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0500 782819"
+        "Value": "01566 20145"
       },
       {
         "Key": "dfe_country",
@@ -251,18 +252,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750000
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

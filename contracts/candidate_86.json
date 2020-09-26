@@ -1,38 +1,39 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Graduate",
-    "First Name": "Vicki",
-    "Surname": "Ankunding",
-    "Email": "luciano@example.com",
+    "Persona": "Overseas Student",
+    "First Name": "Fredrick",
+    "Surname": "Tillman",
+    "Email": "kris@example.org",
     "Returner": "No",
-    "Degree": "Yes",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
     "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2020",
-    "Date of Birth": "1991-01-03T00:00:00.000+00:00",
+    "Date of Birth": "1997-04-05T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "Australia",
-    "Telephone": "018835 41164",
+    "Country": "India",
+    "Telephone": "056 8984 6725",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "9ff4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Vicki",
-    "lastName": "Ankunding",
-    "email": "luciano@example.com",
-    "degreeStatusId": 222750000,
+    "firstName": "Fredrick",
+    "lastName": "Tillman",
+    "email": "kris@example.org",
+    "degreeStatusId": 222750002,
     "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1991-01-03T00:00:00.000+00:00",
-    "telephone": "018835 41164",
+    "dateOfBirth": "1997-04-05T00:00:00.000+00:00",
+    "telephone": "056 8984 6725",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null,
@@ -150,15 +151,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Vicki"
+        "Value": "Fredrick"
       },
       {
         "Key": "lastname",
-        "Value": "Ankunding"
+        "Value": "Tillman"
       },
       {
         "Key": "emailaddress1",
-        "Value": "luciano@example.com"
+        "Value": "kris@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -168,16 +169,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1991-01-03T00:00:00.000+00:00"
+        "Value": "1997-04-05T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "018835 41164"
+        "Value": "056 8984 6725"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "9ff4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -227,13 +228,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {

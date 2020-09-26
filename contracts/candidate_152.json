@@ -1,46 +1,39 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Lyle",
-    "Surname": "Davis",
-    "Email": "haley_connelly@example.org",
+    "Persona": "Overseas Final year student",
+    "First Name": "Twila",
+    "Surname": "Abernathy",
+    "Email": "jamika_raynor@example.net",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Other",
-    "Degree subject": "Maths",
-    "Degree class": "Not applicable",
+    "Study year": "Final year",
+    "Degree subject": "Biology",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2021",
-    "Date of Birth": "1978-12-22T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "5275 McGlynn Gardens",
-    "Address line 2": "Apt. 797",
-    "Town or city": "Wunschville",
-    "Postcode": "W0 9XA",
-    "Telephone": "0800 410350",
+    "Date of Birth": "1973-11-30T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Germany",
+    "Telephone": "021 0359 5693",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "83f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Lyle",
-    "lastName": "Davis",
-    "email": "haley_connelly@example.org",
-    "degreeStatusId": 222750005,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "firstName": "Twila",
+    "lastName": "Abernathy",
+    "email": "jamika_raynor@example.net",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1978-12-22T00:00:00.000+00:00",
-    "addressLine1": "5275 McGlynn Gardens",
-    "addressLine2": "Apt. 797",
-    "addressCity": "Wunschville",
-    "addressPostcode": "W0 9XA",
-    "telephone": "0800 410350",
+    "dateOfBirth": "1973-11-30T00:00:00.000+00:00",
+    "telephone": "021 0359 5693",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null,
@@ -158,15 +151,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Lyle"
+        "Value": "Twila"
       },
       {
         "Key": "lastname",
-        "Value": "Davis"
+        "Value": "Abernathy"
       },
       {
         "Key": "emailaddress1",
-        "Value": "haley_connelly@example.org"
+        "Value": "jamika_raynor@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,32 +169,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1978-12-22T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "5275 McGlynn Gardens"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Apt. 797"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Wunschville"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "W0 9XA"
+        "Value": "1973-11-30T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 410350"
+        "Value": "021 0359 5693"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "83f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -251,18 +228,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

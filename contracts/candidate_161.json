@@ -1,41 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Shondra",
-    "Surname": "Nitzsche",
-    "Email": "bernard@example.org",
+    "Persona": "Final year student",
+    "First Name": "Carson",
+    "Surname": "Cassin",
+    "Email": "marla@example.com",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Other",
+    "Study year": "Final year",
     "Degree subject": "Chemistry",
-    "Degree class": "First class",
+    "Degree class": "Not applicable",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
-    "Desired start": "2020",
-    "Date of Birth": "1979-02-23T00:00:00.000+00:00",
-    "Where live": "Overseas",
-    "Country": "Pakistan",
-    "Telephone": "0928 271 9770",
+    "Desired start": "2021",
+    "Date of Birth": "1983-09-16T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "3961 Ivey Flat",
+    "Address line 2": "Apt. 314",
+    "Town or city": "Lake Arturo",
+    "Postcode": "YD2 1TJ",
+    "Telephone": "0181 632 3769",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0cf5c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Shondra",
-    "lastName": "Nitzsche",
-    "email": "bernard@example.org",
-    "degreeStatusId": 222750005,
+    "firstName": "Carson",
+    "lastName": "Cassin",
+    "email": "marla@example.com",
+    "degreeStatusId": 222750001,
     "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750001,
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1979-02-23T00:00:00.000+00:00",
-    "telephone": "0928 271 9770",
+    "initialTeacherTrainingYearId": 22303,
+    "dateOfBirth": "1983-09-16T00:00:00.000+00:00",
+    "addressLine1": "3961 Ivey Flat",
+    "addressLine2": "Apt. 314",
+    "addressCity": "Lake Arturo",
+    "addressPostcode": "YD2 1TJ",
+    "telephone": "0181 632 3769",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -152,34 +159,50 @@
       },
       {
         "Key": "firstname",
-        "Value": "Shondra"
+        "Value": "Carson"
       },
       {
         "Key": "lastname",
-        "Value": "Nitzsche"
+        "Value": "Cassin"
       },
       {
         "Key": "emailaddress1",
-        "Value": "bernard@example.org"
+        "Value": "marla@example.com"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22302
+          "Value": 22303
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1979-02-23T00:00:00.000+00:00"
+        "Value": "1983-09-16T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "3961 Ivey Flat"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 314"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Lake Arturo"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "YD2 1TJ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0928 271 9770"
+        "Value": "0181 632 3769"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0cf5c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -229,13 +252,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750001
+                    "Value": 222750000
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {

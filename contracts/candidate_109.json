@@ -1,40 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Graduate",
-    "First Name": "Maragaret",
-    "Surname": "Romaguera",
-    "Email": "madalyn_johnson@example.net",
+    "Persona": "Overseas Student",
+    "First Name": "Lindsay",
+    "Surname": "Hirthe",
+    "Email": "eartha@example.net",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Maths",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
+    "Degree subject": "English",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2021",
-    "Date of Birth": "1987-06-12T00:00:00.000+00:00",
+    "Date of Birth": "1994-11-26T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "India",
-    "Telephone": "055 8091 7373",
+    "Country": "Barbados",
+    "Telephone": "0800 634161",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "9ff4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "19f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Maragaret",
-    "lastName": "Romaguera",
-    "email": "madalyn_johnson@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Lindsay",
+    "lastName": "Hirthe",
+    "email": "eartha@example.net",
+    "degreeStatusId": 222750002,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1987-06-12T00:00:00.000+00:00",
-    "telephone": "055 8091 7373",
+    "dateOfBirth": "1994-11-26T00:00:00.000+00:00",
+    "telephone": "0800 634161",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -151,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Maragaret"
+        "Value": "Lindsay"
       },
       {
         "Key": "lastname",
-        "Value": "Romaguera"
+        "Value": "Hirthe"
       },
       {
         "Key": "emailaddress1",
-        "Value": "madalyn_johnson@example.net"
+        "Value": "eartha@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -169,16 +170,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1987-06-12T00:00:00.000+00:00"
+        "Value": "1994-11-26T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "055 8091 7373"
+        "Value": "0800 634161"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "9ff4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "19f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -228,18 +229,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

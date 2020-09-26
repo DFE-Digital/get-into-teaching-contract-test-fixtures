@@ -1,46 +1,39 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Roderick",
-    "Surname": "Predovic",
-    "Email": "freddy@example.com",
+    "Persona": "Overseas Final year student",
+    "First Name": "Madge",
+    "Surname": "Rodriguez",
+    "Email": "armando@example.org",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "English",
-    "Degree class": "Not applicable",
+    "Study year": "Final year",
+    "Degree subject": "Biology",
+    "Degree class": "2:1",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "Yes",
-    "Interested subject": "English",
+    "Interested subject": "Physics",
     "Desired start": "2023",
-    "Date of Birth": "1998-08-31T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "4679 Lemke Expressway",
-    "Address line 2": "Suite 351",
-    "Town or city": "Port Tomi",
-    "Postcode": "TF1R 0XB",
-    "Telephone": "0911 091 2696",
+    "Date of Birth": "1972-08-28T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Denmark",
+    "Telephone": "0113 783 7691",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Roderick",
-    "lastName": "Predovic",
-    "email": "freddy@example.com",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "firstName": "Madge",
+    "lastName": "Rodriguez",
+    "email": "armando@example.org",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "942655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "ac2655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1998-08-31T00:00:00.000+00:00",
-    "addressLine1": "4679 Lemke Expressway",
-    "addressLine2": "Suite 351",
-    "addressCity": "Port Tomi",
-    "addressPostcode": "TF1R 0XB",
-    "telephone": "0911 091 2696",
+    "dateOfBirth": "1972-08-28T00:00:00.000+00:00",
+    "telephone": "0113 783 7691",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -159,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Roderick"
+        "Value": "Madge"
       },
       {
         "Key": "lastname",
-        "Value": "Predovic"
+        "Value": "Rodriguez"
       },
       {
         "Key": "emailaddress1",
-        "Value": "freddy@example.com"
+        "Value": "armando@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,39 +170,23 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1998-08-31T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "4679 Lemke Expressway"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Suite 351"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Port Tomi"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "TF1R 0XB"
+        "Value": "1972-08-28T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0911 091 2696"
+        "Value": "0113 783 7691"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "942655a1-2afa-e811-a981-000d3a276620",
+          "Id": "ac2655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -253,18 +230,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750003
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

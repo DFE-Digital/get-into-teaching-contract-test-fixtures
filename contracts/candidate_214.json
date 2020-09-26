@@ -1,41 +1,36 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Amada",
-    "Surname": "Conn",
-    "Email": "zenia_thompson@example.org",
+    "Persona": "Overseas Graduate with equivalent qualification",
+    "First Name": "Liana",
+    "Surname": "Heller",
+    "Email": "pamelia@example.com",
     "Returner": "No",
-    "Degree": "I'm studying for a degree",
-    "Study year": "Other",
-    "Degree subject": "Biology",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I have an equivalent qualification from another country",
     "Stage of Interest": "Primary",
-    "Grade 4 English and Maths": "Yes",
-    "Grade 4 Science": "Yes",
-    "Desired start": "Not sure",
-    "Date of Birth": "1976-08-17T00:00:00.000+00:00",
+    "Desired start": "2020",
+    "Date of Birth": "1984-10-05T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "China",
-    "Telephone": "0500 755812",
+    "Country": "Denmark",
+    "Telephone": "029 8387 0798",
+    "Prefered Time": "0000-00-00T00:00:00Z",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "47f4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Amada",
-    "lastName": "Conn",
-    "email": "zenia_thompson@example.org",
-    "degreeStatusId": 222750005,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
-    "hasGcseMathsAndEnglishId": 222750000,
-    "hasGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1976-08-17T00:00:00.000+00:00",
-    "telephone": "0500 755812",
-    "degreeTypeId": 222750000,
+    "firstName": "Liana",
+    "lastName": "Heller",
+    "email": "pamelia@example.com",
+    "degreeStatusId": 222750000,
+    "initialTeacherTrainingYearId": 22302,
+    "dateOfBirth": "1984-10-05T00:00:00.000+00:00",
+    "telephone": "029 8387 0798",
+    "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
+    "degreeTypeId": 222750005,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
     "planningToRetakeGcseMathsAndEnglishId": null,
     "planningToRetakeGcseScienceId": null
   },
@@ -93,7 +88,7 @@
       },
       {
         "Key": "dfe_eligibilityrulespassed",
-        "Value": "false"
+        "Value": "true"
       },
       {
         "Key": "donotbulkemail",
@@ -128,57 +123,35 @@
         "Value": true
       },
       {
-        "Key": "dfe_candidatestatus",
-        "Value": {
-          "Value": 222750001
-        }
-      },
-      {
-        "Key": "dfe_iscandidateeligibleforadviser",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_isadvisorrequiredos",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_waitingtobeassigneddate",
-        "Value": "0000-00-00T00:00:00.0000000Z"
-      },
-      {
         "Key": "firstname",
-        "Value": "Amada"
+        "Value": "Liana"
       },
       {
         "Key": "lastname",
-        "Value": "Conn"
+        "Value": "Heller"
       },
       {
         "Key": "emailaddress1",
-        "Value": "zenia_thompson@example.org"
+        "Value": "pamelia@example.com"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 12917
+          "Value": 22302
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1976-08-17T00:00:00.000+00:00"
+        "Value": "1984-10-05T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0500 755812"
+        "Value": "029 8387 0798"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "47f4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -187,67 +160,10 @@
         "Value": {
           "Value": 222750000
         }
-      },
-      {
-        "Key": "dfe_websitehasgcseenglish",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsemaths",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsescience",
-        "Value": {
-          "Value": 222750000
-        }
       }
     ],
     "EntityState": 1,
     "RelatedEntities": [
-      {
-        "Key": {
-          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
-        },
-        "Value": {
-          "Entities": [
-            {
-              "LogicalName": "dfe_candidatequalification",
-              "Id": "00000000-0000-0000-0000-000000000000",
-              "Attributes": [
-                {
-                  "Key": "dfe_type",
-                  "Value": {
-                    "Value": 222750000
-                  }
-                },
-                {
-                  "Key": "dfe_ukdegreegrade",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_degreestatus",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_subject",
-                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
-                }
-              ],
-              "EntityState": 1
-            }
-          ],
-          "EntityName": "dfe_candidatequalification"
-        }
-      },
       {
         "Key": {
           "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
@@ -290,6 +206,59 @@
             }
           ],
           "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "029 8387 0798"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Liana Heller"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
         }
       }
     ]

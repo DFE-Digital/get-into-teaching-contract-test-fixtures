@@ -1,41 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Shayla",
-    "Surname": "Stoltenberg",
-    "Email": "cary_kassulke@example.org",
+    "Persona": "Final year student",
+    "First Name": "Chin",
+    "Surname": "Bartoletti",
+    "Email": "gilda_bayer@example.net",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
-    "Degree subject": "Maths",
-    "Degree class": "2:1",
+    "Study year": "Final year",
+    "Degree subject": "Biology",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
-    "Desired start": "Not sure",
-    "Date of Birth": "1983-01-08T00:00:00.000+00:00",
-    "Where live": "Overseas",
-    "Country": "Australia",
-    "Telephone": "0800 517 8650",
+    "Desired start": "2020",
+    "Date of Birth": "1993-04-06T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "16139 Taylor Turnpike",
+    "Address line 2": "Suite 287",
+    "Town or city": "Danaton",
+    "Postcode": "W8 5AZ",
+    "Telephone": "0800 147246",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Shayla",
-    "lastName": "Stoltenberg",
-    "email": "cary_kassulke@example.org",
-    "degreeStatusId": 222750002,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750002,
+    "firstName": "Chin",
+    "lastName": "Bartoletti",
+    "email": "gilda_bayer@example.net",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1983-01-08T00:00:00.000+00:00",
-    "telephone": "0800 517 8650",
+    "initialTeacherTrainingYearId": 22302,
+    "dateOfBirth": "1993-04-06T00:00:00.000+00:00",
+    "addressLine1": "16139 Taylor Turnpike",
+    "addressLine2": "Suite 287",
+    "addressCity": "Danaton",
+    "addressPostcode": "W8 5AZ",
+    "telephone": "0800 147246",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -152,29 +159,45 @@
       },
       {
         "Key": "firstname",
-        "Value": "Shayla"
+        "Value": "Chin"
       },
       {
         "Key": "lastname",
-        "Value": "Stoltenberg"
+        "Value": "Bartoletti"
       },
       {
         "Key": "emailaddress1",
-        "Value": "cary_kassulke@example.org"
+        "Value": "gilda_bayer@example.net"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 12917
+          "Value": 22302
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1983-01-08T00:00:00.000+00:00"
+        "Value": "1993-04-06T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "16139 Taylor Turnpike"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Suite 287"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Danaton"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "W8 5AZ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 517 8650"
+        "Value": "0800 147246"
       },
       {
         "Key": "dfe_country",
@@ -229,18 +252,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

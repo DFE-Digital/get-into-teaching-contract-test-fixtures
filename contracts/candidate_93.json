@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Cherish",
-    "Surname": "Crona",
-    "Email": "shila.powlowski@example.net",
+    "Persona": "Student",
+    "First Name": "Orpha",
+    "Surname": "Paucek",
+    "Email": "shoshana@example.com",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
+    "Degree subject": "Maths",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "Not sure",
-    "Date of Birth": "1986-05-04T00:00:00.000+00:00",
+    "Date of Birth": "1996-02-18T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "5556 Zelda Rapids",
-    "Address line 2": "Apt. 858",
-    "Town or city": "Lake Lewis",
-    "Postcode": "ZR3P 3WA",
-    "Telephone": "0111 142 5343",
+    "Address line 1": "87539 Legros Junctions",
+    "Address line 2": "Apt. 256",
+    "Town or city": "South Shena",
+    "Postcode": "Y9S 9BP",
+    "Telephone": "056 2212 5151",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Cherish",
-    "lastName": "Crona",
-    "email": "shila.powlowski@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Orpha",
+    "lastName": "Paucek",
+    "email": "shoshana@example.com",
+    "degreeStatusId": 222750002,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1986-05-04T00:00:00.000+00:00",
-    "addressLine1": "5556 Zelda Rapids",
-    "addressLine2": "Apt. 858",
-    "addressCity": "Lake Lewis",
-    "addressPostcode": "ZR3P 3WA",
-    "telephone": "0111 142 5343",
+    "dateOfBirth": "1996-02-18T00:00:00.000+00:00",
+    "addressLine1": "87539 Legros Junctions",
+    "addressLine2": "Apt. 256",
+    "addressCity": "South Shena",
+    "addressPostcode": "Y9S 9BP",
+    "telephone": "056 2212 5151",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Cherish"
+        "Value": "Orpha"
       },
       {
         "Key": "lastname",
-        "Value": "Crona"
+        "Value": "Paucek"
       },
       {
         "Key": "emailaddress1",
-        "Value": "shila.powlowski@example.net"
+        "Value": "shoshana@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1986-05-04T00:00:00.000+00:00"
+        "Value": "1996-02-18T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "5556 Zelda Rapids"
+        "Value": "87539 Legros Junctions"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 858"
+        "Value": "Apt. 256"
       },
       {
         "Key": "address1_city",
-        "Value": "Lake Lewis"
+        "Value": "South Shena"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "ZR3P 3WA"
+        "Value": "Y9S 9BP"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0111 142 5343"
+        "Value": "056 2212 5151"
       },
       {
         "Key": "dfe_country",
@@ -251,18 +252,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

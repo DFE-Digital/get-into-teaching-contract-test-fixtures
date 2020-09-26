@@ -1,48 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Corinne",
-    "Surname": "Graham",
-    "Email": "orville_conn@example.com",
+    "Persona": "Overseas Final year student",
+    "First Name": "America",
+    "Surname": "Witting",
+    "Email": "karrie_ratke@example.org",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Other",
-    "Degree subject": "Maths",
+    "Study year": "Final year",
+    "Degree subject": "English",
     "Degree class": "2:1",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
-    "Interested subject": "Maths",
+    "Interested subject": "Physics",
     "Desired start": "2022",
-    "Date of Birth": "1995-07-21T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "376 Fisher Manor",
-    "Address line 2": "Suite 385",
-    "Town or city": "Lake Alvaburgh",
-    "Postcode": "T1 2PJ",
-    "Telephone": "018024 78146",
+    "Date of Birth": "1986-06-20T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Denmark",
+    "Telephone": "016977 8107",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Corinne",
-    "lastName": "Graham",
-    "email": "orville_conn@example.com",
-    "degreeStatusId": 222750005,
-    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
+    "firstName": "America",
+    "lastName": "Witting",
+    "email": "karrie_ratke@example.org",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "ac2655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1995-07-21T00:00:00.000+00:00",
-    "addressLine1": "376 Fisher Manor",
-    "addressLine2": "Suite 385",
-    "addressCity": "Lake Alvaburgh",
-    "addressPostcode": "T1 2PJ",
-    "telephone": "018024 78146",
+    "dateOfBirth": "1986-06-20T00:00:00.000+00:00",
+    "telephone": "016977 8107",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -160,15 +153,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Corinne"
+        "Value": "America"
       },
       {
         "Key": "lastname",
-        "Value": "Graham"
+        "Value": "Witting"
       },
       {
         "Key": "emailaddress1",
-        "Value": "orville_conn@example.com"
+        "Value": "karrie_ratke@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -178,39 +171,23 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1995-07-21T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "376 Fisher Manor"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Suite 385"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Lake Alvaburgh"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "T1 2PJ"
+        "Value": "1986-06-20T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "018024 78146"
+        "Value": "016977 8107"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+          "Id": "ac2655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -260,12 +237,12 @@
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

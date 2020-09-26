@@ -1,42 +1,43 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Graduate",
-    "First Name": "Hilario",
-    "Surname": "Little",
-    "Email": "nicky_champlin@example.net",
+    "Persona": "Overseas Student",
+    "First Name": "Ned",
+    "Surname": "Jones",
+    "Email": "bridget@example.net",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Chemistry",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
+    "Degree subject": "English",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1976-11-25T00:00:00.000+00:00",
+    "Date of Birth": "2000-10-08T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "Denmark",
-    "Telephone": "0800 796136",
+    "Country": "Poland",
+    "Telephone": "0181 557 6561",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "1cf5c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Hilario",
-    "lastName": "Little",
-    "email": "nicky_champlin@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Ned",
+    "lastName": "Jones",
+    "email": "bridget@example.net",
+    "degreeStatusId": 222750005,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1976-11-25T00:00:00.000+00:00",
-    "telephone": "0800 796136",
+    "dateOfBirth": "2000-10-08T00:00:00.000+00:00",
+    "telephone": "0181 557 6561",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -152,15 +153,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Hilario"
+        "Value": "Ned"
       },
       {
         "Key": "lastname",
-        "Value": "Little"
+        "Value": "Jones"
       },
       {
         "Key": "emailaddress1",
-        "Value": "nicky_champlin@example.net"
+        "Value": "bridget@example.net"
       },
       {
         "Key": "dfe_ittyear",
@@ -170,16 +171,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1976-11-25T00:00:00.000+00:00"
+        "Value": "2000-10-08T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 796136"
+        "Value": "0181 557 6561"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "1cf5c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -229,18 +230,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

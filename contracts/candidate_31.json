@@ -2,46 +2,46 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Graduate",
-    "First Name": "Francisco",
-    "Surname": "Dooley",
-    "Email": "elmira@example.net",
+    "First Name": "Alvin",
+    "Surname": "Rippin",
+    "Email": "londa.kunde@example.com",
     "Returner": "No",
     "Degree": "Yes",
     "Degree subject": "Maths",
-    "Degree class": "Not applicable",
+    "Degree class": "First class",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2021",
-    "Date of Birth": "1990-01-30T00:00:00.000+00:00",
+    "Date of Birth": "1980-08-12T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "88424 Jeff Mill",
-    "Address line 2": "Apt. 678",
-    "Town or city": "Jakubowskiberg",
-    "Postcode": "W5A 8BJ",
-    "Telephone": "0800 827755",
+    "Address line 1": "20011 Hamill Heights",
+    "Address line 2": "Apt. 782",
+    "Town or city": "Port Thomasine",
+    "Postcode": "BA4 9YG",
+    "Telephone": "0800 618 8881",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Francisco",
-    "lastName": "Dooley",
-    "email": "elmira@example.net",
+    "firstName": "Alvin",
+    "lastName": "Rippin",
+    "email": "londa.kunde@example.com",
     "degreeStatusId": 222750000,
     "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1990-01-30T00:00:00.000+00:00",
-    "addressLine1": "88424 Jeff Mill",
-    "addressLine2": "Apt. 678",
-    "addressCity": "Jakubowskiberg",
-    "addressPostcode": "W5A 8BJ",
-    "telephone": "0800 827755",
+    "dateOfBirth": "1980-08-12T00:00:00.000+00:00",
+    "addressLine1": "20011 Hamill Heights",
+    "addressLine2": "Apt. 782",
+    "addressCity": "Port Thomasine",
+    "addressPostcode": "BA4 9YG",
+    "telephone": "0800 618 8881",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -158,15 +158,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Francisco"
+        "Value": "Alvin"
       },
       {
         "Key": "lastname",
-        "Value": "Dooley"
+        "Value": "Rippin"
       },
       {
         "Key": "emailaddress1",
-        "Value": "elmira@example.net"
+        "Value": "londa.kunde@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +176,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1990-01-30T00:00:00.000+00:00"
+        "Value": "1980-08-12T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "88424 Jeff Mill"
+        "Value": "20011 Hamill Heights"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 678"
+        "Value": "Apt. 782"
       },
       {
         "Key": "address1_city",
-        "Value": "Jakubowskiberg"
+        "Value": "Port Thomasine"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "W5A 8BJ"
+        "Value": "BA4 9YG"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0800 827755"
+        "Value": "0800 618 8881"
       },
       {
         "Key": "dfe_country",
@@ -251,7 +251,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750001
                   }
                 },
                 {

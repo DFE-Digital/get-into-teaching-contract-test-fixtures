@@ -1,41 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Huey",
-    "Surname": "Keeling",
-    "Email": "dong@example.org",
+    "Persona": "Final year student",
+    "First Name": "Lane",
+    "Surname": "Padberg",
+    "Email": "nathanial@example.org",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
+    "Study year": "Final year",
     "Degree subject": "Maths",
-    "Degree class": "First class",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
-    "Desired start": "Not sure",
-    "Date of Birth": "1994-03-18T00:00:00.000+00:00",
-    "Where live": "Overseas",
-    "Country": "Australia",
-    "Telephone": "01280 03989",
+    "Desired start": "2020",
+    "Date of Birth": "1994-01-25T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "11559 Moore Courts",
+    "Address line 2": "Apt. 510",
+    "Town or city": "Port Jenae",
+    "Postcode": "W33 0JW",
+    "Telephone": "0800 732 1905",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Huey",
-    "lastName": "Keeling",
-    "email": "dong@example.org",
-    "degreeStatusId": 222750002,
+    "firstName": "Lane",
+    "lastName": "Padberg",
+    "email": "nathanial@example.org",
+    "degreeStatusId": 222750001,
     "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750001,
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1994-03-18T00:00:00.000+00:00",
-    "telephone": "01280 03989",
+    "initialTeacherTrainingYearId": 22302,
+    "dateOfBirth": "1994-01-25T00:00:00.000+00:00",
+    "addressLine1": "11559 Moore Courts",
+    "addressLine2": "Apt. 510",
+    "addressCity": "Port Jenae",
+    "addressPostcode": "W33 0JW",
+    "telephone": "0800 732 1905",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -152,29 +159,45 @@
       },
       {
         "Key": "firstname",
-        "Value": "Huey"
+        "Value": "Lane"
       },
       {
         "Key": "lastname",
-        "Value": "Keeling"
+        "Value": "Padberg"
       },
       {
         "Key": "emailaddress1",
-        "Value": "dong@example.org"
+        "Value": "nathanial@example.org"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 12917
+          "Value": 22302
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1994-03-18T00:00:00.000+00:00"
+        "Value": "1994-01-25T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "11559 Moore Courts"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 510"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "Port Jenae"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "W33 0JW"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01280 03989"
+        "Value": "0800 732 1905"
       },
       {
         "Key": "dfe_country",
@@ -229,13 +252,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750001
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {

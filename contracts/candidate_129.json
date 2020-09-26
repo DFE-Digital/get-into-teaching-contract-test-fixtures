@@ -1,38 +1,39 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Graduate",
-    "First Name": "Isabell",
-    "Surname": "Conn",
-    "Email": "damon.olson@example.net",
+    "Persona": "Overseas Student",
+    "First Name": "Juliana",
+    "Surname": "Dickinson",
+    "Email": "asha@example.org",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Biology",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "First year",
+    "Degree subject": "Chemistry",
+    "Degree class": "First class",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "Yes",
     "Interested subject": "English",
     "Desired start": "2020",
-    "Date of Birth": "1999-09-25T00:00:00.000+00:00",
+    "Date of Birth": "1973-06-10T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "Barbados",
-    "Telephone": "0843 499 2085",
+    "Country": "Denmark",
+    "Telephone": "0191 252 4644",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "19f4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Isabell",
-    "lastName": "Conn",
-    "email": "damon.olson@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Juliana",
+    "lastName": "Dickinson",
+    "email": "asha@example.org",
+    "degreeStatusId": 222750003,
+    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
     "preferredTeachingSubjectId": "942655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22302,
-    "dateOfBirth": "1999-09-25T00:00:00.000+00:00",
-    "telephone": "0843 499 2085",
+    "dateOfBirth": "1973-06-10T00:00:00.000+00:00",
+    "telephone": "0191 252 4644",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -151,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Isabell"
+        "Value": "Juliana"
       },
       {
         "Key": "lastname",
-        "Value": "Conn"
+        "Value": "Dickinson"
       },
       {
         "Key": "emailaddress1",
-        "Value": "damon.olson@example.net"
+        "Value": "asha@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -169,11 +170,11 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1999-09-25T00:00:00.000+00:00"
+        "Value": "1973-06-10T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0843 499 2085"
+        "Value": "0191 252 4644"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
@@ -185,7 +186,7 @@
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "19f4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -229,18 +230,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

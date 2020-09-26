@@ -1,38 +1,39 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Graduate",
-    "First Name": "Elizabet",
-    "Surname": "Hirthe",
-    "Email": "nestor@example.com",
+    "Persona": "Overseas Student",
+    "First Name": "Mary",
+    "Surname": "Waters",
+    "Email": "dusty@example.com",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Biology",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
+    "Degree subject": "English",
+    "Degree class": "Not applicable",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "Yes",
-    "Interested subject": "Biology",
+    "Interested subject": "Chemistry",
     "Desired start": "Not sure",
-    "Date of Birth": "1988-10-16T00:00:00.000+00:00",
+    "Date of Birth": "1990-08-22T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "Ghana",
-    "Telephone": "0865 767 6881",
+    "Country": "Australia",
+    "Telephone": "021 0151 0133",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Elizabet",
-    "lastName": "Hirthe",
-    "email": "nestor@example.com",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Mary",
+    "lastName": "Waters",
+    "email": "dusty@example.com",
+    "degreeStatusId": 222750002,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "802655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "842655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1988-10-16T00:00:00.000+00:00",
-    "telephone": "0865 767 6881",
+    "dateOfBirth": "1990-08-22T00:00:00.000+00:00",
+    "telephone": "021 0151 0133",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -151,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Elizabet"
+        "Value": "Mary"
       },
       {
         "Key": "lastname",
-        "Value": "Hirthe"
+        "Value": "Waters"
       },
       {
         "Key": "emailaddress1",
-        "Value": "nestor@example.com"
+        "Value": "dusty@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -169,23 +170,23 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1988-10-16T00:00:00.000+00:00"
+        "Value": "1990-08-22T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0865 767 6881"
+        "Value": "021 0151 0133"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "802655a1-2afa-e811-a981-000d3a276620",
+          "Id": "842655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -229,18 +230,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750000
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

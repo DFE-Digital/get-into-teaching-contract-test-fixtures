@@ -1,48 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Gilberto",
-    "Surname": "Beer",
-    "Email": "charley_bartoletti@example.com",
+    "Persona": "Overseas Final year student",
+    "First Name": "Rana",
+    "Surname": "Gleason",
+    "Email": "raul@example.com",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
-    "Degree subject": "English",
+    "Study year": "Final year",
+    "Degree subject": "Chemistry",
     "Degree class": "First class",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
-    "Interested subject": "Biology",
+    "Interested subject": "Maths",
     "Desired start": "2021",
-    "Date of Birth": "1985-02-13T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "73409 Stacie Wells",
-    "Address line 2": "Apt. 456",
-    "Town or city": "Caitlinburgh",
-    "Postcode": "Z7 5LL",
-    "Telephone": "0861 667 1075",
+    "Date of Birth": "1979-07-18T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Australia",
+    "Telephone": "0840 335 5523",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Gilberto",
-    "lastName": "Beer",
-    "email": "charley_bartoletti@example.com",
-    "degreeStatusId": 222750002,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "firstName": "Rana",
+    "lastName": "Gleason",
+    "email": "raul@example.com",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "802655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1985-02-13T00:00:00.000+00:00",
-    "addressLine1": "73409 Stacie Wells",
-    "addressLine2": "Apt. 456",
-    "addressCity": "Caitlinburgh",
-    "addressPostcode": "Z7 5LL",
-    "telephone": "0861 667 1075",
+    "dateOfBirth": "1979-07-18T00:00:00.000+00:00",
+    "telephone": "0840 335 5523",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -160,15 +153,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Gilberto"
+        "Value": "Rana"
       },
       {
         "Key": "lastname",
-        "Value": "Beer"
+        "Value": "Gleason"
       },
       {
         "Key": "emailaddress1",
-        "Value": "charley_bartoletti@example.com"
+        "Value": "raul@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -178,32 +171,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1985-02-13T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "73409 Stacie Wells"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Apt. 456"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Caitlinburgh"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "Z7 5LL"
+        "Value": "1979-07-18T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0861 667 1075"
+        "Value": "0840 335 5523"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "802655a1-2afa-e811-a981-000d3a276620",
+          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
@@ -260,12 +237,12 @@
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

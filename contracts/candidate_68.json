@@ -2,44 +2,44 @@
   "uiSignUp": {
     "Service": "Get TTA",
     "Persona": "Graduate",
-    "First Name": "Betty",
-    "Surname": "Purdy",
-    "Email": "darin_wisozk@example.com",
+    "First Name": "Renea",
+    "Surname": "Price",
+    "Email": "fredric_romaguera@example.org",
     "Returner": "No",
     "Degree": "Yes",
     "Degree subject": "English",
-    "Degree class": "Not applicable",
+    "Degree class": "2:2",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "Yes",
-    "Interested subject": "Maths",
+    "Interested subject": "Chemistry",
     "Desired start": "2023",
-    "Date of Birth": "1987-12-11T00:00:00.000+00:00",
+    "Date of Birth": "1986-02-17T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "933 Donna Avenue",
-    "Address line 2": "Apt. 494",
-    "Town or city": "West Hipolito",
-    "Postcode": "HA0Y 5BF",
-    "Telephone": "01792 761802",
+    "Address line 1": "4280 Jamar Trail",
+    "Address line 2": "Suite 533",
+    "Town or city": "Hammesshire",
+    "Postcode": "WF3Y 0JB",
+    "Telephone": "025 0766 8707",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Betty",
-    "lastName": "Purdy",
-    "email": "darin_wisozk@example.com",
+    "firstName": "Renea",
+    "lastName": "Price",
+    "email": "fredric_romaguera@example.org",
     "degreeStatusId": 222750000,
     "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "842655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1987-12-11T00:00:00.000+00:00",
-    "addressLine1": "933 Donna Avenue",
-    "addressLine2": "Apt. 494",
-    "addressCity": "West Hipolito",
-    "addressPostcode": "HA0Y 5BF",
-    "telephone": "01792 761802",
+    "dateOfBirth": "1986-02-17T00:00:00.000+00:00",
+    "addressLine1": "4280 Jamar Trail",
+    "addressLine2": "Suite 533",
+    "addressCity": "Hammesshire",
+    "addressPostcode": "WF3Y 0JB",
+    "telephone": "025 0766 8707",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -158,15 +158,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Betty"
+        "Value": "Renea"
       },
       {
         "Key": "lastname",
-        "Value": "Purdy"
+        "Value": "Price"
       },
       {
         "Key": "emailaddress1",
-        "Value": "darin_wisozk@example.com"
+        "Value": "fredric_romaguera@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,32 +176,32 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1987-12-11T00:00:00.000+00:00"
+        "Value": "1986-02-17T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "933 Donna Avenue"
+        "Value": "4280 Jamar Trail"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 494"
+        "Value": "Suite 533"
       },
       {
         "Key": "address1_city",
-        "Value": "West Hipolito"
+        "Value": "Hammesshire"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "HA0Y 5BF"
+        "Value": "WF3Y 0JB"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01792 761802"
+        "Value": "025 0766 8707"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+          "Id": "842655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
@@ -252,7 +252,7 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {

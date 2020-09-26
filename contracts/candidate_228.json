@@ -1,44 +1,40 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Oleta",
-    "Surname": "Quigley",
-    "Email": "brice.weissnat@example.net",
+    "Persona": "Overseas Graduate with equivalent qualification",
+    "First Name": "Darryl",
+    "Surname": "Daugherty",
+    "Email": "galen@example.org",
     "Returner": "No",
-    "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
-    "Stage of Interest": "Primary",
-    "Grade 4 English and Maths": "Yes",
-    "Grade 4 Science": "No",
-    "Retake science": "Yes",
-    "Desired start": "2021",
-    "Date of Birth": "1977-06-16T00:00:00.000+00:00",
+    "Degree": "I have an equivalent qualification from another country",
+    "Stage of Interest": "Secondary",
+    "Interested subject": "Maths",
+    "Desired start": "2022",
+    "Date of Birth": "1978-05-28T00:00:00.000+00:00",
     "Where live": "Overseas",
-    "Country": "Denmark",
-    "Telephone": "018816 05413",
+    "Country": "Pakistan",
+    "Telephone": "0800 201905",
+    "Prefered Time": "0000-00-00T00:00:00Z",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
-    "preferredEducationPhaseId": 222750000,
-    "firstName": "Oleta",
-    "lastName": "Quigley",
-    "email": "brice.weissnat@example.net",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
-    "hasGcseMathsAndEnglishId": 222750000,
-    "hasGcseScienceId": 222750001,
-    "planningToRetakeGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22303,
-    "dateOfBirth": "1977-06-16T00:00:00.000+00:00",
-    "telephone": "018816 05413",
-    "degreeTypeId": 222750000,
+    "countryId": "0cf5c2e6-74f9-e811-a97a-000d3a2760f2",
+    "preferredEducationPhaseId": 222750001,
+    "firstName": "Darryl",
+    "lastName": "Daugherty",
+    "email": "galen@example.org",
+    "degreeStatusId": 222750000,
+    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "initialTeacherTrainingYearId": 22304,
+    "dateOfBirth": "1978-05-28T00:00:00.000+00:00",
+    "telephone": "0800 201905",
+    "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
+    "degreeTypeId": 222750005,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
-    "planningToRetakeGcseMathsAndEnglishId": null
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
+    "planningToRetakeGcseMathsAndEnglishId": null,
+    "planningToRetakeGcseScienceId": null
   },
   "dynamicsContactEntity": {
     "LogicalName": "contact",
@@ -65,7 +61,7 @@
       {
         "Key": "dfe_websiteplanningretakesciencegcse",
         "Value": {
-          "Value": 222750000
+          "Value": 222750001
         }
       },
       {
@@ -94,7 +90,7 @@
       },
       {
         "Key": "dfe_eligibilityrulespassed",
-        "Value": "false"
+        "Value": "true"
       },
       {
         "Key": "donotbulkemail",
@@ -129,80 +125,47 @@
         "Value": true
       },
       {
-        "Key": "dfe_candidatestatus",
-        "Value": {
-          "Value": 222750001
-        }
-      },
-      {
-        "Key": "dfe_iscandidateeligibleforadviser",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_isadvisorrequiredos",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_waitingtobeassigneddate",
-        "Value": "0000-00-00T00:00:00.0000000Z"
-      },
-      {
         "Key": "firstname",
-        "Value": "Oleta"
+        "Value": "Darryl"
       },
       {
         "Key": "lastname",
-        "Value": "Quigley"
+        "Value": "Daugherty"
       },
       {
         "Key": "emailaddress1",
-        "Value": "brice.weissnat@example.net"
+        "Value": "galen@example.org"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22303
+          "Value": 22304
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1977-06-16T00:00:00.000+00:00"
+        "Value": "1978-05-28T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "018816 05413"
+        "Value": "0800 201905"
+      },
+      {
+        "Key": "dfe_preferredteachingsubject01",
+        "Value": {
+          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+          "LogicalName": "dfe_teachingsubjectlist"
+        }
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "0cf5c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
       {
         "Key": "dfe_preferrededucationphase01",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcseenglish",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsemaths",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsescience",
         "Value": {
           "Value": 222750001
         }
@@ -210,45 +173,6 @@
     ],
     "EntityState": 1,
     "RelatedEntities": [
-      {
-        "Key": {
-          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
-        },
-        "Value": {
-          "Entities": [
-            {
-              "LogicalName": "dfe_candidatequalification",
-              "Id": "00000000-0000-0000-0000-000000000000",
-              "Attributes": [
-                {
-                  "Key": "dfe_type",
-                  "Value": {
-                    "Value": 222750000
-                  }
-                },
-                {
-                  "Key": "dfe_ukdegreegrade",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_degreestatus",
-                  "Value": {
-                    "Value": 222750003
-                  }
-                },
-                {
-                  "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
-                }
-              ],
-              "EntityState": 1
-            }
-          ],
-          "EntityName": "dfe_candidatequalification"
-        }
-      },
       {
         "Key": {
           "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
@@ -291,6 +215,59 @@
             }
           ],
           "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "0800 201905"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Darryl Daugherty"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
         }
       }
     ]

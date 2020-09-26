@@ -1,48 +1,43 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Jere",
-    "Surname": "Fisher",
-    "Email": "tim@example.org",
+    "Persona": "Graduate with equivalent qualification",
+    "First Name": "Edison",
+    "Surname": "Hudson",
+    "Email": "gaylord@example.net",
     "Returner": "No",
-    "Degree": "I'm studying for a degree",
-    "Study year": "First year",
-    "Degree subject": "Chemistry",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I have an equivalent qualification from another country",
     "Stage of Interest": "Primary",
-    "Grade 4 English and Maths": "Yes",
-    "Grade 4 Science": "Yes",
-    "Desired start": "Not sure",
-    "Date of Birth": "1988-10-11T00:00:00.000+00:00",
+    "Desired start": "2020",
+    "Date of Birth": "1984-03-19T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "96587 Zora Highway",
-    "Address line 2": "Suite 238",
-    "Town or city": "Alexisport",
-    "Postcode": "W2 1WL",
-    "Telephone": "0114 742 7608",
+    "Address line 1": "937 Olevia Wall",
+    "Address line 2": "Apt. 181",
+    "Town or city": "Loretahaven",
+    "Postcode": "Z9 4WR",
+    "Telephone": "0863 742 7771",
+    "Prefered Time": "0000-00-00T00:00:00Z",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Jere",
-    "lastName": "Fisher",
-    "email": "tim@example.org",
-    "degreeStatusId": 222750003,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
-    "hasGcseMathsAndEnglishId": 222750000,
-    "hasGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1988-10-11T00:00:00.000+00:00",
-    "addressLine1": "96587 Zora Highway",
-    "addressLine2": "Suite 238",
-    "addressCity": "Alexisport",
-    "addressPostcode": "W2 1WL",
-    "telephone": "0114 742 7608",
-    "degreeTypeId": 222750000,
+    "firstName": "Edison",
+    "lastName": "Hudson",
+    "email": "gaylord@example.net",
+    "degreeStatusId": 222750000,
+    "initialTeacherTrainingYearId": 22302,
+    "dateOfBirth": "1984-03-19T00:00:00.000+00:00",
+    "addressLine1": "937 Olevia Wall",
+    "addressLine2": "Apt. 181",
+    "addressCity": "Loretahaven",
+    "addressPostcode": "Z9 4WR",
+    "telephone": "0863 742 7771",
+    "phoneCallScheduledAt": "0000-00-00T00:00:00Z",
+    "degreeTypeId": 222750005,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
+    "hasGcseMathsAndEnglishId": null,
+    "hasGcseScienceId": null,
     "planningToRetakeGcseMathsAndEnglishId": null,
     "planningToRetakeGcseScienceId": null
   },
@@ -100,7 +95,7 @@
       },
       {
         "Key": "dfe_eligibilityrulespassed",
-        "Value": "false"
+        "Value": "true"
       },
       {
         "Key": "donotbulkemail",
@@ -135,68 +130,46 @@
         "Value": true
       },
       {
-        "Key": "dfe_candidatestatus",
-        "Value": {
-          "Value": 222750001
-        }
-      },
-      {
-        "Key": "dfe_iscandidateeligibleforadviser",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_isadvisorrequiredos",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_waitingtobeassigneddate",
-        "Value": "0000-00-00T00:00:00.0000000Z"
-      },
-      {
         "Key": "firstname",
-        "Value": "Jere"
+        "Value": "Edison"
       },
       {
         "Key": "lastname",
-        "Value": "Fisher"
+        "Value": "Hudson"
       },
       {
         "Key": "emailaddress1",
-        "Value": "tim@example.org"
+        "Value": "gaylord@example.net"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 12917
+          "Value": 22302
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1988-10-11T00:00:00.000+00:00"
+        "Value": "1984-03-19T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "96587 Zora Highway"
+        "Value": "937 Olevia Wall"
       },
       {
         "Key": "address1_line2",
-        "Value": "Suite 238"
+        "Value": "Apt. 181"
       },
       {
         "Key": "address1_city",
-        "Value": "Alexisport"
+        "Value": "Loretahaven"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "W2 1WL"
+        "Value": "Z9 4WR"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0114 742 7608"
+        "Value": "0863 742 7771"
       },
       {
         "Key": "dfe_country",
@@ -210,67 +183,10 @@
         "Value": {
           "Value": 222750000
         }
-      },
-      {
-        "Key": "dfe_websitehasgcseenglish",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsemaths",
-        "Value": {
-          "Value": 222750000
-        }
-      },
-      {
-        "Key": "dfe_websitehasgcsescience",
-        "Value": {
-          "Value": 222750000
-        }
       }
     ],
     "EntityState": 1,
     "RelatedEntities": [
-      {
-        "Key": {
-          "SchemaName": "dfe_contact_dfe_candidatequalification_ContactId"
-        },
-        "Value": {
-          "Entities": [
-            {
-              "LogicalName": "dfe_candidatequalification",
-              "Id": "00000000-0000-0000-0000-000000000000",
-              "Attributes": [
-                {
-                  "Key": "dfe_type",
-                  "Value": {
-                    "Value": 222750000
-                  }
-                },
-                {
-                  "Key": "dfe_ukdegreegrade",
-                  "Value": {
-                    "Value": 222750005
-                  }
-                },
-                {
-                  "Key": "dfe_degreestatus",
-                  "Value": {
-                    "Value": 222750003
-                  }
-                },
-                {
-                  "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
-                }
-              ],
-              "EntityState": 1
-            }
-          ],
-          "EntityName": "dfe_candidatequalification"
-        }
-      },
       {
         "Key": {
           "SchemaName": "dfe_contact_dfe_candidateprivacypolicy_Candidate"
@@ -313,6 +229,59 @@
             }
           ],
           "EntityName": "dfe_candidateprivacypolicy"
+        }
+      },
+      {
+        "Key": {
+          "SchemaName": "dfe_contact_phonecall_contactid"
+        },
+        "Value": {
+          "Entities": [
+            {
+              "LogicalName": "phonecall",
+              "Id": "00000000-0000-0000-0000-000000000000",
+              "Attributes": [
+                {
+                  "Key": "dfe_channelcreation",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "dfe_destination",
+                  "Value": {
+                    "Value": 222750000
+                  }
+                },
+                {
+                  "Key": "scheduledstart",
+                  "Value": "0000-00-00T00:00:00Z"
+                },
+                {
+                  "Key": "phonenumber",
+                  "Value": "0863 742 7771"
+                },
+                {
+                  "Key": "subject",
+                  "Value": "Scheduled phone call requested by Edison Hudson"
+                },
+                {
+                  "Key": "dfe_appointmentflag",
+                  "Value": false
+                },
+                {
+                  "Key": "dfe_appointmentrequired",
+                  "Value": false
+                },
+                {
+                  "Key": "directioncode",
+                  "Value": true
+                }
+              ],
+              "EntityState": 1
+            }
+          ],
+          "EntityName": "phonecall"
         }
       }
     ]

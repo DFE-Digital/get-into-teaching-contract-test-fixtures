@@ -1,45 +1,46 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Kraig",
-    "Surname": "McKenzie",
-    "Email": "reanna_hammes@example.net",
+    "Persona": "Student",
+    "First Name": "Madge",
+    "Surname": "Davis",
+    "Email": "ivette_brakus@example.org",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Chemistry",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
+    "Degree subject": "Biology",
+    "Degree class": "First class",
     "Stage of Interest": "Secondary",
     "Grade 4 English and Maths": "Yes",
-    "Interested subject": "Maths",
+    "Interested subject": "Biology",
     "Desired start": "Not sure",
-    "Date of Birth": "1999-07-17T00:00:00.000+00:00",
+    "Date of Birth": "1973-08-02T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "88189 Refugia Knolls",
-    "Address line 2": "Apt. 839",
-    "Town or city": "Charleentown",
-    "Postcode": "US6 2ZL",
-    "Telephone": "01598 765610",
+    "Address line 1": "93181 Schroeder Fort",
+    "Address line 2": "Suite 125",
+    "Town or city": "New Suzie",
+    "Postcode": "ZK0 2AA",
+    "Telephone": "0171 127 1311",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750001,
-    "firstName": "Kraig",
-    "lastName": "McKenzie",
-    "email": "reanna_hammes@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Madge",
+    "lastName": "Davis",
+    "email": "ivette_brakus@example.org",
+    "degreeStatusId": 222750002,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
-    "preferredTeachingSubjectId": "a42655a1-2afa-e811-a981-000d3a276620",
+    "preferredTeachingSubjectId": "802655a1-2afa-e811-a981-000d3a276620",
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1999-07-17T00:00:00.000+00:00",
-    "addressLine1": "88189 Refugia Knolls",
-    "addressLine2": "Apt. 839",
-    "addressCity": "Charleentown",
-    "addressPostcode": "US6 2ZL",
-    "telephone": "01598 765610",
+    "dateOfBirth": "1973-08-02T00:00:00.000+00:00",
+    "addressLine1": "93181 Schroeder Fort",
+    "addressLine2": "Suite 125",
+    "addressCity": "New Suzie",
+    "addressPostcode": "ZK0 2AA",
+    "telephone": "0171 127 1311",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "hasGcseScienceId": null,
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Kraig"
+        "Value": "Madge"
       },
       {
         "Key": "lastname",
-        "Value": "McKenzie"
+        "Value": "Davis"
       },
       {
         "Key": "emailaddress1",
-        "Value": "reanna_hammes@example.net"
+        "Value": "ivette_brakus@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,32 +177,32 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1999-07-17T00:00:00.000+00:00"
+        "Value": "1973-08-02T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "88189 Refugia Knolls"
+        "Value": "93181 Schroeder Fort"
       },
       {
         "Key": "address1_line2",
-        "Value": "Apt. 839"
+        "Value": "Suite 125"
       },
       {
         "Key": "address1_city",
-        "Value": "Charleentown"
+        "Value": "New Suzie"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "US6 2ZL"
+        "Value": "ZK0 2AA"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01598 765610"
+        "Value": "0171 127 1311"
       },
       {
         "Key": "dfe_preferredteachingsubject01",
         "Value": {
-          "Id": "a42655a1-2afa-e811-a981-000d3a276620",
+          "Id": "802655a1-2afa-e811-a981-000d3a276620",
           "LogicalName": "dfe_teachingsubjectlist"
         }
       },
@@ -252,18 +253,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

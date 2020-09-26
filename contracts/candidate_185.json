@@ -1,50 +1,43 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Kristen",
-    "Surname": "Tromp",
-    "Email": "maddie@example.org",
+    "Persona": "Overseas Final year student",
+    "First Name": "Shelton",
+    "Surname": "Hayes",
+    "Email": "lester.toy@example.com",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
-    "Degree subject": "English",
-    "Degree class": "First class",
+    "Study year": "Final year",
+    "Degree subject": "Biology",
+    "Degree class": "Not applicable",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1992-10-06T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "625 Rice Greens",
-    "Address line 2": "Apt. 304",
-    "Town or city": "Port Agustina",
-    "Postcode": "JG7A 6FY",
-    "Telephone": "01457 866131",
+    "Date of Birth": "1993-08-27T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Ghana",
+    "Telephone": "056 6260 7986",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Kristen",
-    "lastName": "Tromp",
-    "email": "maddie@example.org",
-    "degreeStatusId": 222750002,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750001,
+    "firstName": "Shelton",
+    "lastName": "Hayes",
+    "email": "lester.toy@example.com",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750000,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1992-10-06T00:00:00.000+00:00",
-    "addressLine1": "625 Rice Greens",
-    "addressLine2": "Apt. 304",
-    "addressCity": "Port Agustina",
-    "addressPostcode": "JG7A 6FY",
-    "telephone": "01457 866131",
+    "dateOfBirth": "1993-08-27T00:00:00.000+00:00",
+    "telephone": "056 6260 7986",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -160,15 +153,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Kristen"
+        "Value": "Shelton"
       },
       {
         "Key": "lastname",
-        "Value": "Tromp"
+        "Value": "Hayes"
       },
       {
         "Key": "emailaddress1",
-        "Value": "maddie@example.org"
+        "Value": "lester.toy@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -178,32 +171,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1992-10-06T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "625 Rice Greens"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Apt. 304"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Port Agustina"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "JG7A 6FY"
+        "Value": "1993-08-27T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01457 866131"
+        "Value": "056 6260 7986"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "85f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -253,18 +230,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750001
+                    "Value": 222750000
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

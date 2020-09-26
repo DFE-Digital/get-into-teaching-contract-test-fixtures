@@ -1,45 +1,46 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Tracy",
-    "Surname": "Kovacek",
-    "Email": "les@example.net",
+    "Persona": "Student",
+    "First Name": "Genevie",
+    "Surname": "Abernathy",
+    "Email": "ardelle@example.com",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "Biology",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Second year",
+    "Degree subject": "Chemistry",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1984-05-12T00:00:00.000+00:00",
+    "Date of Birth": "1974-11-13T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "914 Tremblay Cliffs",
-    "Address line 2": "Suite 392",
-    "Town or city": "Stantonland",
-    "Postcode": "W3 7AB",
-    "Telephone": "0181 068 7112",
+    "Address line 1": "69156 Rohan Parks",
+    "Address line 2": "Apt. 326",
+    "Town or city": "Raphaelstad",
+    "Postcode": "IB7V 6LB",
+    "Telephone": "027 3499 2472",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Tracy",
-    "lastName": "Kovacek",
-    "email": "les@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Genevie",
+    "lastName": "Abernathy",
+    "email": "ardelle@example.com",
+    "degreeStatusId": 222750002,
+    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1984-05-12T00:00:00.000+00:00",
-    "addressLine1": "914 Tremblay Cliffs",
-    "addressLine2": "Suite 392",
-    "addressCity": "Stantonland",
-    "addressPostcode": "W3 7AB",
-    "telephone": "0181 068 7112",
+    "dateOfBirth": "1974-11-13T00:00:00.000+00:00",
+    "addressLine1": "69156 Rohan Parks",
+    "addressLine2": "Apt. 326",
+    "addressCity": "Raphaelstad",
+    "addressPostcode": "IB7V 6LB",
+    "telephone": "027 3499 2472",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null,
@@ -157,15 +158,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Tracy"
+        "Value": "Genevie"
       },
       {
         "Key": "lastname",
-        "Value": "Kovacek"
+        "Value": "Abernathy"
       },
       {
         "Key": "emailaddress1",
-        "Value": "les@example.net"
+        "Value": "ardelle@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -175,27 +176,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1984-05-12T00:00:00.000+00:00"
+        "Value": "1974-11-13T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "914 Tremblay Cliffs"
+        "Value": "69156 Rohan Parks"
       },
       {
         "Key": "address1_line2",
-        "Value": "Suite 392"
+        "Value": "Apt. 326"
       },
       {
         "Key": "address1_city",
-        "Value": "Stantonland"
+        "Value": "Raphaelstad"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "W3 7AB"
+        "Value": "IB7V 6LB"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0181 068 7112"
+        "Value": "027 3499 2472"
       },
       {
         "Key": "dfe_country",
@@ -250,18 +251,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

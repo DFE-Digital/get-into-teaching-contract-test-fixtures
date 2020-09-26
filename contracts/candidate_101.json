@@ -1,47 +1,48 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Graduate",
-    "First Name": "Numbers",
-    "Surname": "Reilly",
-    "Email": "mikel_bauch@example.net",
+    "Persona": "Student",
+    "First Name": "Mervin",
+    "Surname": "Block",
+    "Email": "stephen.wuckert@example.com",
     "Returner": "No",
-    "Degree": "Yes",
-    "Degree subject": "English",
-    "Degree class": "Pass (grade unknown)",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
+    "Degree subject": "Biology",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
     "Desired start": "2023",
-    "Date of Birth": "1993-02-21T00:00:00.000+00:00",
+    "Date of Birth": "1984-02-09T00:00:00.000+00:00",
     "Where live": "UK",
-    "Address line 1": "5793 Jerlene Mountains",
-    "Address line 2": "Suite 907",
-    "Town or city": "North Richburgh",
-    "Postcode": "ZY7P 2DG",
-    "Telephone": "01888 023772",
+    "Address line 1": "583 Tarah Falls",
+    "Address line 2": "Apt. 702",
+    "Town or city": "South Manuelfort",
+    "Postcode": "W4U 6NQ",
+    "Telephone": "0800 274929",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Numbers",
-    "lastName": "Reilly",
-    "email": "mikel_bauch@example.net",
-    "degreeStatusId": 222750000,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "firstName": "Mervin",
+    "lastName": "Block",
+    "email": "stephen.wuckert@example.com",
+    "degreeStatusId": 222750005,
+    "degreeSubject": "802655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22305,
-    "dateOfBirth": "1993-02-21T00:00:00.000+00:00",
-    "addressLine1": "5793 Jerlene Mountains",
-    "addressLine2": "Suite 907",
-    "addressCity": "North Richburgh",
-    "addressPostcode": "ZY7P 2DG",
-    "telephone": "01888 023772",
+    "dateOfBirth": "1984-02-09T00:00:00.000+00:00",
+    "addressLine1": "583 Tarah Falls",
+    "addressLine2": "Apt. 702",
+    "addressCity": "South Manuelfort",
+    "addressPostcode": "W4U 6NQ",
+    "telephone": "0800 274929",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null
@@ -158,15 +159,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Numbers"
+        "Value": "Mervin"
       },
       {
         "Key": "lastname",
-        "Value": "Reilly"
+        "Value": "Block"
       },
       {
         "Key": "emailaddress1",
-        "Value": "mikel_bauch@example.net"
+        "Value": "stephen.wuckert@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,27 +177,27 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1993-02-21T00:00:00.000+00:00"
+        "Value": "1984-02-09T00:00:00.000+00:00"
       },
       {
         "Key": "address1_line1",
-        "Value": "5793 Jerlene Mountains"
+        "Value": "583 Tarah Falls"
       },
       {
         "Key": "address1_line2",
-        "Value": "Suite 907"
+        "Value": "Apt. 702"
       },
       {
         "Key": "address1_city",
-        "Value": "North Richburgh"
+        "Value": "South Manuelfort"
       },
       {
         "Key": "address1_postalcode",
-        "Value": "ZY7P 2DG"
+        "Value": "W4U 6NQ"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "01888 023772"
+        "Value": "0800 274929"
       },
       {
         "Key": "dfe_country",
@@ -251,18 +252,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "802655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

@@ -1,48 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Max",
-    "Surname": "Yundt",
-    "Email": "siu.koss@example.org",
+    "Persona": "Overseas Final year student",
+    "First Name": "Lahoma",
+    "Surname": "Langosh",
+    "Email": "shelby@example.org",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
-    "Degree subject": "Chemistry",
-    "Degree class": "First class",
+    "Study year": "Final year",
+    "Degree subject": "English",
+    "Degree class": "2:1",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1996-05-30T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "977 Harber Terrace",
-    "Address line 2": "Suite 196",
-    "Town or city": "Thompsonfurt",
-    "Postcode": "R4 2QL",
-    "Telephone": "028 5804 2697",
+    "Date of Birth": "1974-02-14T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Denmark",
+    "Telephone": "0800 462819",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Max",
-    "lastName": "Yundt",
-    "email": "siu.koss@example.org",
-    "degreeStatusId": 222750002,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750001,
+    "firstName": "Lahoma",
+    "lastName": "Langosh",
+    "email": "shelby@example.org",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750002,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1996-05-30T00:00:00.000+00:00",
-    "addressLine1": "977 Harber Terrace",
-    "addressLine2": "Suite 196",
-    "addressCity": "Thompsonfurt",
-    "addressPostcode": "R4 2QL",
-    "telephone": "028 5804 2697",
+    "dateOfBirth": "1974-02-14T00:00:00.000+00:00",
+    "telephone": "0800 462819",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -159,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Max"
+        "Value": "Lahoma"
       },
       {
         "Key": "lastname",
-        "Value": "Yundt"
+        "Value": "Langosh"
       },
       {
         "Key": "emailaddress1",
-        "Value": "siu.koss@example.org"
+        "Value": "shelby@example.org"
       },
       {
         "Key": "dfe_ittyear",
@@ -177,32 +170,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1996-05-30T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "977 Harber Terrace"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Suite 196"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "Thompsonfurt"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "R4 2QL"
+        "Value": "1974-02-14T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "028 5804 2697"
+        "Value": "0800 462819"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "5df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -252,18 +229,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750001
+                    "Value": 222750002
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

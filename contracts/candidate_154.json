@@ -1,46 +1,39 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Student",
-    "First Name": "Charita",
-    "Surname": "Feest",
-    "Email": "dona@example.org",
+    "Persona": "Overseas Final year student",
+    "First Name": "Jimmy",
+    "Surname": "Kulas",
+    "Email": "odell.schaefer@example.com",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Second year",
-    "Degree subject": "Chemistry",
+    "Study year": "Final year",
+    "Degree subject": "Maths",
     "Degree class": "First class",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "2022",
-    "Date of Birth": "1977-08-21T00:00:00.000+00:00",
-    "Where live": "UK",
-    "Address line 1": "6206 Christa Forest",
-    "Address line 2": "Suite 507",
-    "Town or city": "East Longhaven",
-    "Postcode": "YC1 2BU",
-    "Telephone": "0883 308 7745",
+    "Date of Birth": "1981-11-28T00:00:00.000+00:00",
+    "Where live": "Overseas",
+    "Country": "Germany",
+    "Telephone": "027 1589 8838",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "83f4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Charita",
-    "lastName": "Feest",
-    "email": "dona@example.org",
-    "degreeStatusId": 222750002,
-    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
+    "firstName": "Jimmy",
+    "lastName": "Kulas",
+    "email": "odell.schaefer@example.com",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "a42655a1-2afa-e811-a981-000d3a276620",
     "ukDegreeGradeId": 222750001,
     "hasGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1977-08-21T00:00:00.000+00:00",
-    "addressLine1": "6206 Christa Forest",
-    "addressLine2": "Suite 507",
-    "addressCity": "East Longhaven",
-    "addressPostcode": "YC1 2BU",
-    "telephone": "0883 308 7745",
+    "dateOfBirth": "1981-11-28T00:00:00.000+00:00",
+    "telephone": "027 1589 8838",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseMathsAndEnglishId": null,
@@ -158,15 +151,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Charita"
+        "Value": "Jimmy"
       },
       {
         "Key": "lastname",
-        "Value": "Feest"
+        "Value": "Kulas"
       },
       {
         "Key": "emailaddress1",
-        "Value": "dona@example.org"
+        "Value": "odell.schaefer@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -176,32 +169,16 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1977-08-21T00:00:00.000+00:00"
-      },
-      {
-        "Key": "address1_line1",
-        "Value": "6206 Christa Forest"
-      },
-      {
-        "Key": "address1_line2",
-        "Value": "Suite 507"
-      },
-      {
-        "Key": "address1_city",
-        "Value": "East Longhaven"
-      },
-      {
-        "Key": "address1_postalcode",
-        "Value": "YC1 2BU"
+        "Value": "1981-11-28T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0883 308 7745"
+        "Value": "027 1589 8838"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "83f4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -257,12 +234,12 @@
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750002
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "a42655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

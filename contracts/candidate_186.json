@@ -1,43 +1,50 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Student",
-    "First Name": "Lorette",
-    "Surname": "Romaguera",
-    "Email": "mauro@example.org",
+    "Persona": "Final year student",
+    "First Name": "Brynn",
+    "Surname": "Cassin",
+    "Email": "tandra@example.com",
     "Returner": "No",
     "Degree": "I'm studying for a degree",
-    "Study year": "Other",
-    "Degree subject": "English",
-    "Degree class": "Not applicable",
+    "Study year": "Final year",
+    "Degree subject": "Chemistry",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "No",
     "Retake science": "Yes",
-    "Desired start": "2022",
-    "Date of Birth": "1980-08-08T00:00:00.000+00:00",
-    "Where live": "Overseas",
-    "Country": "Pakistan",
-    "Telephone": "0858 082 9600",
+    "Desired start": "2023",
+    "Date of Birth": "1988-07-29T00:00:00.000+00:00",
+    "Where live": "UK",
+    "Address line 1": "8444 Tillie Village",
+    "Address line 2": "Apt. 976",
+    "Town or city": "South Bernardo",
+    "Postcode": "ZQ8 6FS",
+    "Telephone": "0500 227264",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
-    "countryId": "0cf5c2e6-74f9-e811-a97a-000d3a2760f2",
+    "countryId": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Lorette",
-    "lastName": "Romaguera",
-    "email": "mauro@example.org",
-    "degreeStatusId": 222750005,
-    "degreeSubject": "942655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750000,
+    "firstName": "Brynn",
+    "lastName": "Cassin",
+    "email": "tandra@example.com",
+    "degreeStatusId": 222750001,
+    "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750001,
     "planningToRetakeGcseScienceId": 222750000,
-    "initialTeacherTrainingYearId": 22304,
-    "dateOfBirth": "1980-08-08T00:00:00.000+00:00",
-    "telephone": "0858 082 9600",
+    "initialTeacherTrainingYearId": 22305,
+    "dateOfBirth": "1988-07-29T00:00:00.000+00:00",
+    "addressLine1": "8444 Tillie Village",
+    "addressLine2": "Apt. 976",
+    "addressCity": "South Bernardo",
+    "addressPostcode": "ZQ8 6FS",
+    "telephone": "0500 227264",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9"
   },
@@ -153,34 +160,50 @@
       },
       {
         "Key": "firstname",
-        "Value": "Lorette"
+        "Value": "Brynn"
       },
       {
         "Key": "lastname",
-        "Value": "Romaguera"
+        "Value": "Cassin"
       },
       {
         "Key": "emailaddress1",
-        "Value": "mauro@example.org"
+        "Value": "tandra@example.com"
       },
       {
         "Key": "dfe_ittyear",
         "Value": {
-          "Value": 22304
+          "Value": 22305
         }
       },
       {
         "Key": "birthdate",
-        "Value": "1980-08-08T00:00:00.000+00:00"
+        "Value": "1988-07-29T00:00:00.000+00:00"
+      },
+      {
+        "Key": "address1_line1",
+        "Value": "8444 Tillie Village"
+      },
+      {
+        "Key": "address1_line2",
+        "Value": "Apt. 976"
+      },
+      {
+        "Key": "address1_city",
+        "Value": "South Bernardo"
+      },
+      {
+        "Key": "address1_postalcode",
+        "Value": "ZQ8 6FS"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "0858 082 9600"
+        "Value": "0500 227264"
       },
       {
         "Key": "dfe_country",
         "Value": {
-          "Id": "0cf5c2e6-74f9-e811-a97a-000d3a2760f2",
+          "Id": "0df4c2e6-74f9-e811-a97a-000d3a2760f2",
           "LogicalName": "dfe_country"
         }
       },
@@ -230,18 +253,18 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750001
                   }
                 },
                 {
                   "Key": "dfe_subject",
-                  "Value": "942655a1-2afa-e811-a981-000d3a276620"
+                  "Value": "842655a1-2afa-e811-a981-000d3a276620"
                 }
               ],
               "EntityState": 1

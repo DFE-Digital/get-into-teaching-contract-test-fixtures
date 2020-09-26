@@ -1,40 +1,41 @@
 {
   "uiSignUp": {
     "Service": "Get TTA",
-    "Persona": "Overseas Graduate",
-    "First Name": "Albert",
-    "Surname": "McClure",
-    "Email": "holli_renner@example.org",
+    "Persona": "Overseas Student",
+    "First Name": "Maynard",
+    "Surname": "Miller",
+    "Email": "ferdinand@example.com",
     "Returner": "No",
-    "Degree": "Yes",
+    "Degree": "I'm studying for a degree",
+    "Study year": "Other",
     "Degree subject": "Chemistry",
-    "Degree class": "Pass (grade unknown)",
+    "Degree class": "2:2",
     "Stage of Interest": "Primary",
     "Grade 4 English and Maths": "No",
     "Retake maths or english": "Yes",
     "Grade 4 Science": "Yes",
     "Desired start": "Not sure",
-    "Date of Birth": "1992-01-12T00:00:00.000+00:00",
+    "Date of Birth": "1975-06-29T00:00:00.000+00:00",
     "Where live": "Overseas",
     "Country": "Pakistan",
-    "Telephone": "056 8785 8696",
+    "Telephone": "0800 851 5037",
     "Final Journey Status": "COMPLETE"
   },
   "apiSubmission": {
     "countryId": "0cf5c2e6-74f9-e811-a97a-000d3a2760f2",
     "preferredEducationPhaseId": 222750000,
-    "firstName": "Albert",
-    "lastName": "McClure",
-    "email": "holli_renner@example.org",
-    "degreeStatusId": 222750000,
+    "firstName": "Maynard",
+    "lastName": "Miller",
+    "email": "ferdinand@example.com",
+    "degreeStatusId": 222750005,
     "degreeSubject": "842655a1-2afa-e811-a981-000d3a276620",
-    "ukDegreeGradeId": 222750005,
+    "ukDegreeGradeId": 222750003,
     "hasGcseMathsAndEnglishId": 222750001,
     "planningToRetakeGcseMathsAndEnglishId": 222750000,
     "hasGcseScienceId": 222750000,
     "initialTeacherTrainingYearId": 12917,
-    "dateOfBirth": "1992-01-12T00:00:00.000+00:00",
-    "telephone": "056 8785 8696",
+    "dateOfBirth": "1975-06-29T00:00:00.000+00:00",
+    "telephone": "0800 851 5037",
     "degreeTypeId": 222750000,
     "acceptedPolicyId": "0a203956-e935-ea11-a813-000d3a44a8e9",
     "planningToRetakeGcseScienceId": null
@@ -151,15 +152,15 @@
       },
       {
         "Key": "firstname",
-        "Value": "Albert"
+        "Value": "Maynard"
       },
       {
         "Key": "lastname",
-        "Value": "McClure"
+        "Value": "Miller"
       },
       {
         "Key": "emailaddress1",
-        "Value": "holli_renner@example.org"
+        "Value": "ferdinand@example.com"
       },
       {
         "Key": "dfe_ittyear",
@@ -169,11 +170,11 @@
       },
       {
         "Key": "birthdate",
-        "Value": "1992-01-12T00:00:00.000+00:00"
+        "Value": "1975-06-29T00:00:00.000+00:00"
       },
       {
         "Key": "address1_telephone1",
-        "Value": "056 8785 8696"
+        "Value": "0800 851 5037"
       },
       {
         "Key": "dfe_country",
@@ -228,13 +229,13 @@
                 {
                   "Key": "dfe_ukdegreegrade",
                   "Value": {
-                    "Value": 222750005
+                    "Value": 222750003
                   }
                 },
                 {
                   "Key": "dfe_degreestatus",
                   "Value": {
-                    "Value": 222750000
+                    "Value": 222750005
                   }
                 },
                 {
